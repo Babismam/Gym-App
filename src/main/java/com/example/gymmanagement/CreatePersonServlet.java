@@ -19,9 +19,21 @@ public class CreatePersonServlet extends HttpServlet {
 
         try {
             tx = session.beginTransaction();
-            User person = new User("Μπάμπης Μαμουζέλλος", "babis@example.com", "admin");
+
+            User person = new User(
+                    "Μπάμπης",               // firstName
+                    "Μαμουζέλλος",           // lastName
+                    "babis@example.com",     // email
+                    "6900000000",            // phone
+                    "mypassword",            // password
+                    "babis",                 // username
+                    "admin",                 // role
+                    null                     // trainerId (ή π.χ. 1L)
+            );
+
             session.persist(person);
             tx.commit();
+
             resp.setContentType("text/html");
             resp.getWriter().write("<h1>Ο χρήστης προστέθηκε με επιτυχία!</h1>");
         } catch (Exception e) {
@@ -31,4 +43,6 @@ public class CreatePersonServlet extends HttpServlet {
             session.close();
         }
     }
+
 }
+

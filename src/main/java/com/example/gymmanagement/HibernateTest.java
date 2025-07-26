@@ -15,8 +15,16 @@ public class HibernateTest {
         try {
             tx = session.beginTransaction();
 
-
-            User person = new User("Test User", "testuser@example.com", "member");
+            User person = new User(
+                    "Test",              // firstName
+                    "User",              // lastName
+                    "testuser@example.com", // email
+                    "6900000000",        // phone
+                    "test1234",          // password
+                    "testuser",          // username
+                    "member",            // role
+                    null                 // trainerId (ή Long π.χ. 1 L)
+            );
 
             session.save(person);
 
