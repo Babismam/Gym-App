@@ -8,34 +8,22 @@ import org.hibernate.Transaction;
 public class HibernateTest {
     public static void main(String[] args) {
 
-        // Άνοιγμα Hibernate session
-        Session session = HibernateUtil.getSessionFactory().openSession();
-        Transaction tx = null;
+        try (Session session = HibernateUtil.getSessionFactory().openSession()) {
+            Transaction tx = session.beginTransaction();
 
-        try {
-            tx = session.beginTransaction();
+            User person = new User();
+            person.setFirstName("Test");
+            person.setLastName("User");
+            person.setEmail("testuser@example.com");
+            person.setRole("member");
 
-            User person = new User(
-                    "Test",              // firstName
-                    "User",              // lastName
-                    "testuser@example.com", // email
-                    "6900000000",        // phone
-                    "test1234",          // password
-                    "testuser",          // username
-                    "member",            // role
-                    null                 // trainerId (ή Long π.χ. 1 L)
-            );
-
-            session.save(person);
+            session.persist(person); // Αντικατάσταση του deprecated save()
 
             tx.commit();
             System.out.println("Εισαγωγή επιτυχής! ID: " + person.getId());
         } catch (Exception e) {
-            if (tx != null) tx.rollback();
-            e.printStackTrace();
-            System.out.println("Απέτυχε η εισαγωγή.");
+            System.err.println("Απέτυχε η εισαγωγή: " + e.getMessage());
         } finally {
-            session.close();
             HibernateUtil.shutdown();
         }
     }

@@ -1,4 +1,4 @@
-package com.example.gymmanagement.rest;
+package com.example.gymmanagement.api;
 
 import jakarta.ws.rs.GET;
 import jakarta.ws.rs.Path;

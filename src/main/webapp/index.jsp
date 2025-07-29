@@ -1,10 +1,11 @@
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<!DOCTYPE html>
 <html>
 <head>
+  <meta charset="UTF-8">
   <title>Gym App</title>
 </head>
 <body>
 <h2>Καλώς ήρθες!</h2>
-<a href="hello">Hello Servlet</a>
+<a href="api/hello">Hello Endpoint</a>
 </body>
 </html>

@@ -2,6 +2,7 @@ package com.example.gymmanagement.entities;
 
 import jakarta.persistence.*;
 
+@SuppressWarnings("unused")
 @Entity
 @Table(name = "app_user")
 public class User {

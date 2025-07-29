@@ -14,35 +14,24 @@ public class CreatePersonServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException {
-        Session session = HibernateUtil.getSessionFactory().openSession();
-        Transaction tx = null;
+        try (Session session = HibernateUtil.getSessionFactory().openSession()) {
+            Transaction tx = session.beginTransaction();
 
-        try {
-            tx = session.beginTransaction();
-
-            User person = new User(
-                    "Μπάμπης",               // firstName
-                    "Μαμουζέλλος",           // lastName
-                    "babis@example.com",     // email
-                    "6900000000",            // phone
-                    "mypassword",            // password
-                    "babis",                 // username
-                    "admin",                 // role
-                    null                     // trainerId (ή π.χ. 1L)
-            );
+            User person = new User();
+            person.setFirstName("Μπάμπης");
+            person.setLastName("Μαμουζέλλος");
+            person.setEmail("babis@example.com");
+            person.setRole("admin");
 
             session.persist(person);
+
             tx.commit();
 
-            resp.setContentType("text/html");
+            resp.setContentType("text/html; charset=UTF-8");
             resp.getWriter().write("<h1>Ο χρήστης προστέθηκε με επιτυχία!</h1>");
         } catch (Exception e) {
-            if (tx != null) tx.rollback();
+            resp.setContentType("text/html; charset=UTF-8");
             resp.getWriter().write("<h1>Σφάλμα: " + e.getMessage() + "</h1>");
-        } finally {
-            session.close();
         }
     }
-
 }
-
