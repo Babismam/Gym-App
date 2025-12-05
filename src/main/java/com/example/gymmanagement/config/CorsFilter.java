@@ -21,7 +21,7 @@ public class CorsFilter implements Filter {
         HttpServletRequest httpRequest = (HttpServletRequest) request;
         HttpServletResponse httpResponse = (HttpServletResponse) response;
 
-        httpResponse.setHeader("Access-Control-Allow-Origin", "http://localhost:3000");
+        httpResponse.setHeader("Access-Control-Allow-Origin", "https://6932ca2bb50cdeeaa0927836--exquisite-daifuku-fa4724.netlify.app/");
         httpResponse.setHeader("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS, PATCH");
         httpResponse.setHeader("Access-Control-Allow-Headers",
                 "Content-Type, Authorization, X-Requested-With, Accept");
