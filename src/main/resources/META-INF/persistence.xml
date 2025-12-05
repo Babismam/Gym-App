@@ -19,11 +19,11 @@
             <property name="jakarta.persistence.schema-generation.database.action" value="update"/>
             <property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQLDialect"/>
 
-            <!-- Ρυθμίσεις Σύνδεσης για το Supabase -->
+
             <property name="jakarta.persistence.jdbc.driver" value="org.postgresql.Driver"/>
-            <property name="jakarta.persistence.jdbc.url" value="jdbc:postgresql://db.nnorgltvpygoyybggocp.supabase.co:5432/postgres"/>
-            <property name="jakarta.persistence.jdbc.user" value="postgres"/>
-            <property name="jakarta.persistence.jdbc.password" value="Mamouzellos1993!"/>
+            <property name="jakarta.persistence.jdbc.url" value="${env.DB_URL}"/>
+            <property name="jakarta.persistence.jdbc.user" value="${env.DB_USER}"/>
+            <property name="jakarta.persistence.jdbc.password" value="${env.DB_PASSWORD}"/>
 
             <property name="hibernate.show_sql" value="true"/>
             <property name="hibernate.format_sql" value="true"/>
