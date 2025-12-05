@@ -6,39 +6,43 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebFilter(urlPatterns = "/*")
+@WebFilter("/*")
 public class CorsFilter implements Filter {
 
     @Override
-    public void init(FilterConfig filterConfig) throws ServletException {
-        System.out.println("✅ CORS Filter initialized");
+    public void init(FilterConfig filterConfig) {
+
     }
 
     @Override
     public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain)
             throws IOException, ServletException {
 
-        HttpServletRequest httpRequest = (HttpServletRequest) request;
-        HttpServletResponse httpResponse = (HttpServletResponse) response;
+        HttpServletRequest req = (HttpServletRequest) request;
+        HttpServletResponse res = (HttpServletResponse) response;
 
-        httpResponse.setHeader("Access-Control-Allow-Origin", "https://6932ca2bb50cdeeaa0927836--exquisite-daifuku-fa4724.netlify.app/");
-        httpResponse.setHeader("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS, PATCH");
-        httpResponse.setHeader("Access-Control-Allow-Headers",
-                "Content-Type, Authorization, X-Requested-With, Accept");
-        httpResponse.setHeader("Access-Control-Allow-Credentials", "true");
-        httpResponse.setHeader("Access-Control-Max-Age", "3600");
-        httpResponse.setHeader("Access-Control-Expose-Headers", "Authorization");
 
-        if ("OPTIONS".equalsIgnoreCase(httpRequest.getMethod())) {
-            httpResponse.setStatus(HttpServletResponse.SC_OK);
-            return;
+        res.setHeader("Access-Control-Allow-Origin", "https://6932ca2bb50cdeeaa0927836--exquisite-daifuku-fa4724.netlify.app");
+
+
+        res.setHeader("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS");
+
+
+        res.setHeader("Access-Control-Allow-Headers", "Content-Type, Authorization");
+
+
+        res.setHeader("Access-Control-Allow-Credentials", "true");
+
+
+        if ("OPTIONS".equalsIgnoreCase(req.getMethod())) {
+            res.setStatus(HttpServletResponse.SC_OK);
+        } else {
+            chain.doFilter(request, response);
         }
-
-        chain.doFilter(request, response);
     }
 
     @Override
     public void destroy() {
-        System.out.println("❌ CORS Filter destroyed");
+
     }
 }
