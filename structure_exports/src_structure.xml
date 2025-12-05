@@ -1,0 +1,2747 @@
+<XmlStructure>
+  <XmlProjectInfo>
+    <name>src</name>
+    <path>C:\Users\Babis\Desktop\Java Lessons\IntelliJ_Projects\gym-management-backend\src</path>
+    <generated_at>2025-11-04T20:51:37.2460743</generated_at>
+    <total_files>34</total_files>
+    <total_size>57039</total_size>
+  </XmlProjectInfo>
+  <XmlNode>
+    <XmlDirectory>
+      <name>main</name>
+      <XmlNode>
+        <XmlDirectory>
+          <name>java</name>
+          <XmlNode>
+            <XmlDirectory>
+              <name>com</name>
+              <XmlNode>
+                <XmlDirectory>
+                  <name>example</name>
+                  <XmlNode>
+                    <XmlDirectory>
+                      <name>gymmanagement</name>
+                      <XmlNode>
+                        <XmlDirectory>
+                          <name>api</name>
+                          <XmlNode>
+                            <XmlFileEntry>
+                              <name>ApplicationConfig.java</name>
+                              <type>file</type>
+                              <XmlFileInfo>
+                                <size>204</size>
+                                <modified></modified>
+                                <mime_type>text/x-java-source</mime_type>
+                                <extension>.java</extension>
+                              </XmlFileInfo>
+                            </XmlFileEntry>
+                            <XmlFileEntry>
+                              <name>LoginResource.java</name>
+                              <type>file</type>
+                              <XmlFileInfo>
+                                <size>1478</size>
+                                <modified></modified>
+                                <mime_type>text/x-java-source</mime_type>
+                                <extension>.java</extension>
+                              </XmlFileInfo>
+                            </XmlFileEntry>
+                            <XmlFileEntry>
+                              <name>MessageResponse.java</name>
+                              <type>file</type>
+                              <XmlFileInfo>
+                                <size>385</size>
+                                <modified></modified>
+                                <mime_type>text/x-java-source</mime_type>
+                                <extension>.java</extension>
+                              </XmlFileInfo>
+                            </XmlFileEntry>
+                            <XmlFileEntry>
+                              <name>UserResource.java</name>
+                              <type>file</type>
+                              <XmlFileInfo>
+                                <size>5213</size>
+                                <modified></modified>
+                                <mime_type>text/x-java-source</mime_type>
+                                <extension>.java</extension>
+                              </XmlFileInfo>
+                            </XmlFileEntry>
+                          </XmlNode>
+                        </XmlDirectory>
+                        <XmlDirectory>
+                          <name>config</name>
+                          <XmlNode/>
+                        </XmlDirectory>
+                        <XmlDirectory>
+                          <name>controllers</name>
+                          <XmlNode>
+                            <XmlFileEntry>
+                              <name>UserController.java</name>
+                              <type>file</type>
+                              <XmlFileInfo>
+                                <size>1187</size>
+                                <modified></modified>
+                                <mime_type>text/x-java-source</mime_type>
+                                <extension>.java</extension>
+                              </XmlFileInfo>
+                            </XmlFileEntry>
+                          </XmlNode>
+                        </XmlDirectory>
+                        <XmlDirectory>
+                          <name>dao</name>
+                          <XmlNode>
+                            <XmlFileEntry>
+                              <name>AppUserDAO.java</name>
+                              <type>file</type>
+                              <XmlFileInfo>
+                                <size>1752</size>
+                                <modified></modified>
+                                <mime_type>text/x-java-source</mime_type>
+                                <extension>.java</extension>
+                              </XmlFileInfo>
+                            </XmlFileEntry>
+                          </XmlNode>
+                        </XmlDirectory>
+                        <XmlDirectory>
+                          <name>dto</name>
+                          <XmlNode>
+                            <XmlFileEntry>
+                              <name>CreateUserDTO.java</name>
+                              <type>file</type>
+                              <XmlFileInfo>
+                                <size>1146</size>
+                                <modified></modified>
+                                <mime_type>text/x-java-source</mime_type>
+                                <extension>.java</extension>
+                              </XmlFileInfo>
+                            </XmlFileEntry>
+                            <XmlFileEntry>
+                              <name>LoginDTO.java</name>
+                              <type>file</type>
+                              <XmlFileInfo>
+                                <size>558</size>
+                                <modified></modified>
+                                <mime_type>text/x-java-source</mime_type>
+                                <extension>.java</extension>
+                              </XmlFileInfo>
+                            </XmlFileEntry>
+                          </XmlNode>
+                        </XmlDirectory>
+                        <XmlDirectory>
+                          <name>entities</name>
+                          <XmlNode>
+                            <XmlFileEntry>
+                              <name>Attendance.java</name>
+                              <type>file</type>
+                              <XmlFileInfo>
+                                <size>2341</size>
+                                <modified></modified>
+                                <mime_type>text/x-java-source</mime_type>
+                                <extension>.java</extension>
+                              </XmlFileInfo>
+                            </XmlFileEntry>
+                            <XmlFileEntry>
+                              <name>MemberFullInfo.java</name>
+                              <type>file</type>
+                              <XmlFileInfo>
+                                <size>2204</size>
+                                <modified></modified>
+                                <mime_type>text/x-java-source</mime_type>
+                                <extension>.java</extension>
+                              </XmlFileInfo>
+                            </XmlFileEntry>
+                            <XmlFileEntry>
+                              <name>MemberProgram.java</name>
+                              <type>file</type>
+                              <XmlFileInfo>
+                                <size>2180</size>
+                                <modified></modified>
+                                <mime_type>text/x-java-source</mime_type>
+                                <extension>.java</extension>
+                              </XmlFileInfo>
+                            </XmlFileEntry>
+                            <XmlFileEntry>
+                              <name>Program.java</name>
+                              <type>file</type>
+                              <XmlFileInfo>
+                                <size>2590</size>
+                                <modified></modified>
+                                <mime_type>text/x-java-source</mime_type>
+                                <extension>.java</extension>
+                              </XmlFileInfo>
+                            </XmlFileEntry>
+                            <XmlFileEntry>
+                              <name>RolePermission.java</name>
+                              <type>file</type>
+                              <XmlFileInfo>
+                                <size>1498</size>
+                                <modified></modified>
+                                <mime_type>text/x-java-source</mime_type>
+                                <extension>.java</extension>
+                              </XmlFileInfo>
+                            </XmlFileEntry>
+                            <XmlFileEntry>
+                              <name>Schedule.java</name>
+                              <type>file</type>
+                              <XmlFileInfo>
+                                <size>3402</size>
+                                <modified></modified>
+                                <mime_type>text/x-java-source</mime_type>
+                                <extension>.java</extension>
+                              </XmlFileInfo>
+                            </XmlFileEntry>
+                            <XmlFileEntry>
+                              <name>TrainerSchedule.java</name>
+                              <type>file</type>
+                              <XmlFileInfo>
+                                <size>2016</size>
+                                <modified></modified>
+                                <mime_type>text/x-java-source</mime_type>
+                                <extension>.java</extension>
+                              </XmlFileInfo>
+                            </XmlFileEntry>
+                            <XmlFileEntry>
+                              <name>User.java</name>
+                              <type>file</type>
+                              <XmlFileInfo>
+                                <size>8745</size>
+                                <modified></modified>
+                                <mime_type>text/x-java-source</mime_type>
+                                <extension>.java</extension>
+                              </XmlFileInfo>
+                            </XmlFileEntry>
+                            <XmlFileEntry>
+                              <name>UserPermission.java</name>
+                              <type>file</type>
+                              <XmlFileInfo>
+                                <size>1534</size>
+                                <modified></modified>
+                                <mime_type>text/x-java-source</mime_type>
+                                <extension>.java</extension>
+                              </XmlFileInfo>
+                            </XmlFileEntry>
+                          </XmlNode>
+                        </XmlDirectory>
+                        <XmlDirectory>
+                          <name>exceptions</name>
+                          <XmlNode>
+                            <XmlFileEntry>
+                              <name>ResponseWriteException.java</name>
+                              <type>file</type>
+                              <XmlFileInfo>
+                                <size>218</size>
+                                <modified></modified>
+                                <mime_type>text/x-java-source</mime_type>
+                                <extension>.java</extension>
+                              </XmlFileInfo>
+                            </XmlFileEntry>
+                          </XmlNode>
+                        </XmlDirectory>
+                        <XmlDirectory>
+                          <name>filters</name>
+                          <XmlNode>
+                            <XmlFileEntry>
+                              <name>CorsFilter.java</name>
+                              <type>file</type>
+                              <XmlFileInfo>
+                                <size>1694</size>
+                                <modified></modified>
+                                <mime_type>text/x-java-source</mime_type>
+                                <extension>.java</extension>
+                              </XmlFileInfo>
+                            </XmlFileEntry>
+                          </XmlNode>
+                        </XmlDirectory>
+                        <XmlDirectory>
+                          <name>model</name>
+                          <XmlNode>
+                            <XmlFileEntry>
+                              <name>AppUser.java</name>
+                              <type>file</type>
+                              <XmlFileInfo>
+                                <size>1891</size>
+                                <modified></modified>
+                                <mime_type>text/x-java-source</mime_type>
+                                <extension>.java</extension>
+                              </XmlFileInfo>
+                            </XmlFileEntry>
+                          </XmlNode>
+                        </XmlDirectory>
+                        <XmlDirectory>
+                          <name>repositories</name>
+                          <XmlNode>
+                            <XmlFileEntry>
+                              <name>UserRepository.java</name>
+                              <type>file</type>
+                              <XmlFileInfo>
+                                <size>492</size>
+                                <modified></modified>
+                                <mime_type>text/x-java-source</mime_type>
+                                <extension>.java</extension>
+                              </XmlFileInfo>
+                            </XmlFileEntry>
+                          </XmlNode>
+                        </XmlDirectory>
+                        <XmlDirectory>
+                          <name>rest</name>
+                          <XmlNode/>
+                        </XmlDirectory>
+                        <XmlDirectory>
+                          <name>services</name>
+                          <XmlNode>
+                            <XmlFileEntry>
+                              <name>UserService.java</name>
+                              <type>file</type>
+                              <XmlFileInfo>
+                                <size>1019</size>
+                                <modified></modified>
+                                <mime_type>text/x-java-source</mime_type>
+                                <extension>.java</extension>
+                              </XmlFileInfo>
+                            </XmlFileEntry>
+                          </XmlNode>
+                        </XmlDirectory>
+                        <XmlDirectory>
+                          <name>servlets</name>
+                          <XmlNode>
+                            <XmlFileEntry>
+                              <name>CreateUserServlet.java</name>
+                              <type>file</type>
+                              <XmlFileInfo>
+                                <size>2705</size>
+                                <modified></modified>
+                                <mime_type>text/x-java-source</mime_type>
+                                <extension>.java</extension>
+                              </XmlFileInfo>
+                            </XmlFileEntry>
+                            <XmlFileEntry>
+                              <name>TestServlet.java</name>
+                              <type>file</type>
+                              <XmlFileInfo>
+                                <size>1655</size>
+                                <modified></modified>
+                                <mime_type>text/html</mime_type>
+                                <extension>.java</extension>
+                              </XmlFileInfo>
+                            </XmlFileEntry>
+                          </XmlNode>
+                        </XmlDirectory>
+                        <XmlDirectory>
+                          <name>utils</name>
+                          <XmlNode>
+                            <XmlFileEntry>
+                              <name>HibernateUtil.java</name>
+                              <type>file</type>
+                              <XmlFileInfo>
+                                <size>732</size>
+                                <modified></modified>
+                                <mime_type>text/x-java-source</mime_type>
+                                <extension>.java</extension>
+                              </XmlFileInfo>
+                            </XmlFileEntry>
+                            <XmlFileEntry>
+                              <name>JwtUtil.java</name>
+                              <type>file</type>
+                              <XmlFileInfo>
+                                <size>883</size>
+                                <modified></modified>
+                                <mime_type>text/x-java-source</mime_type>
+                                <extension>.java</extension>
+                              </XmlFileInfo>
+                            </XmlFileEntry>
+                          </XmlNode>
+                        </XmlDirectory>
+                        <XmlFileEntry>
+                          <name>HelloServlet.java</name>
+                          <type>file</type>
+                          <XmlFileInfo>
+                            <size>2305</size>
+                            <modified></modified>
+                            <mime_type>text/html</mime_type>
+                            <extension>.java</extension>
+                          </XmlFileInfo>
+                        </XmlFileEntry>
+                      </XmlNode>
+                    </XmlDirectory>
+                  </XmlNode>
+                </XmlDirectory>
+              </XmlNode>
+            </XmlDirectory>
+          </XmlNode>
+        </XmlDirectory>
+        <XmlDirectory>
+          <name>resources</name>
+          <XmlNode>
+            <XmlDirectory>
+              <name>META-INF</name>
+              <XmlNode>
+                <XmlFileEntry>
+                  <name>persistence.xml</name>
+                  <type>file</type>
+                  <XmlFileInfo>
+                    <size>940</size>
+                    <modified></modified>
+                    <mime_type>application/xml</mime_type>
+                    <extension>.xml</extension>
+                  </XmlFileInfo>
+                </XmlFileEntry>
+              </XmlNode>
+            </XmlDirectory>
+            <XmlFileEntry>
+              <name>application.properties</name>
+              <type>file</type>
+              <XmlFileInfo>
+                <size>437</size>
+                <modified></modified>
+                <mime_type>text/x-java-properties</mime_type>
+                <extension>.properties</extension>
+              </XmlFileInfo>
+            </XmlFileEntry>
+          </XmlNode>
+        </XmlDirectory>
+        <XmlDirectory>
+          <name>webapp</name>
+          <XmlNode>
+            <XmlDirectory>
+              <name>WEB-INF</name>
+              <XmlNode>
+                <XmlFileEntry>
+                  <name>beans.xml</name>
+                  <type>file</type>
+                  <XmlFileInfo>
+                    <size>314</size>
+                    <modified></modified>
+                    <mime_type>application/xml</mime_type>
+                    <extension>.xml</extension>
+                  </XmlFileInfo>
+                </XmlFileEntry>
+                <XmlFileEntry>
+                  <name>jboss-web.xml</name>
+                  <type>file</type>
+                  <XmlFileInfo>
+                    <size>223</size>
+                    <modified></modified>
+                    <mime_type>application/xml</mime_type>
+                    <extension>.xml</extension>
+                  </XmlFileInfo>
+                </XmlFileEntry>
+                <XmlFileEntry>
+                  <name>web.xml</name>
+                  <type>file</type>
+                  <XmlFileInfo>
+                    <size>863</size>
+                    <modified></modified>
+                    <mime_type>application/xml</mime_type>
+                    <extension>.xml</extension>
+                  </XmlFileInfo>
+                </XmlFileEntry>
+              </XmlNode>
+            </XmlDirectory>
+            <XmlFileEntry>
+              <name>index.html</name>
+              <type>file</type>
+              <XmlFileInfo>
+                <size>941</size>
+                <modified></modified>
+                <mime_type>text/html</mime_type>
+                <extension>.html</extension>
+              </XmlFileInfo>
+            </XmlFileEntry>
+            <XmlFileEntry>
+              <name>index.jsp</name>
+              <type>file</type>
+              <XmlFileInfo>
+                <size>1294</size>
+                <modified></modified>
+                <mime_type>text/x-jsp</mime_type>
+                <extension>.jsp</extension>
+              </XmlFileInfo>
+            </XmlFileEntry>
+          </XmlNode>
+        </XmlDirectory>
+      </XmlNode>
+    </XmlDirectory>
+    <XmlDirectory>
+      <name>test</name>
+      <XmlNode>
+        <XmlDirectory>
+          <name>java</name>
+          <XmlNode/>
+        </XmlDirectory>
+        <XmlDirectory>
+          <name>resources</name>
+          <XmlNode/>
+        </XmlDirectory>
+      </XmlNode>
+    </XmlDirectory>
+  </XmlNode>
+  <XmlFiles>
+    <XmlFileContent>
+      <path>main\java\com\example\gymmanagement\api\ApplicationConfig.java</path>
+      <content>package com.example.gymmanagement.api;&#xd;
+&#xd;
+import jakarta.ws.rs.ApplicationPath;&#xd;
+import jakarta.ws.rs.core.Application;&#xd;
+&#xd;
+@ApplicationPath("/api")&#xd;
+public class ApplicationConfig extends Application {&#xd;
+}</content>
+      <XmlFileInfo>
+        <size>204</size>
+        <modified></modified>
+        <mime_type>text/x-java-source</mime_type>
+        <extension>.java</extension>
+      </XmlFileInfo>
+    </XmlFileContent>
+    <XmlFileContent>
+      <path>main\java\com\example\gymmanagement\api\LoginResource.java</path>
+      <content>package com.example.gymmanagement.api;&#xd;
+&#xd;
+import com.example.gymmanagement.dao.AppUserDAO;&#xd;
+import com.example.gymmanagement.dto.LoginDTO;&#xd;
+import com.example.gymmanagement.entities.User;&#xd;
+import com.example.gymmanagement.utils.JwtUtil;&#xd;
+import jakarta.inject.Inject;&#xd;
+import jakarta.transaction.Transactional;&#xd;
+import jakarta.ws.rs.*;&#xd;
+import jakarta.ws.rs.core.MediaType;&#xd;
+import jakarta.ws.rs.core.Response;&#xd;
+&#xd;
+import java.util.HashMap;&#xd;
+import java.util.Map;&#xd;
+&#xd;
+@Path("/login")&#xd;
+@Produces(MediaType.APPLICATION_JSON)&#xd;
+@Consumes(MediaType.APPLICATION_JSON)&#xd;
+@Transactional&#xd;
+public class LoginResource {&#xd;
+&#xd;
+    @Inject&#xd;
+    private AppUserDAO userDAO; // CDI-managed DAO με JTA EntityManager&#xd;
+&#xd;
+    public LoginResource() {}&#xd;
+&#xd;
+    @POST&#xd;
+    public Response login(LoginDTO request) {&#xd;
+        User user = userDAO.findByUsername(request.getUsername());&#xd;
+&#xd;
+        if (user == null || !user.verifyPassword(request.getPassword())) {&#xd;
+            return Response.status(Response.Status.UNAUTHORIZED)&#xd;
+                    .entity(Map.of("error", "Invalid credentials"))&#xd;
+                    .build();&#xd;
+        }&#xd;
+&#xd;
+        // Δημιουργία JWT token&#xd;
+        String token = JwtUtil.generateToken(user.getUsername(), user.getRole());&#xd;
+        Map&lt;String, Object> resp = new HashMap&lt;>();&#xd;
+        resp.put("token", token);&#xd;
+        resp.put("username", user.getUsername());&#xd;
+        resp.put("role", user.getRole());&#xd;
+&#xd;
+        return Response.ok(resp).build();&#xd;
+    }&#xd;
+}&#xd;
+</content>
+      <XmlFileInfo>
+        <size>1478</size>
+        <modified></modified>
+        <mime_type>text/x-java-source</mime_type>
+        <extension>.java</extension>
+      </XmlFileInfo>
+    </XmlFileContent>
+    <XmlFileContent>
+      <path>main\java\com\example\gymmanagement\api\MessageResponse.java</path>
+      <content>package com.example.gymmanagement.api;&#xd;
+&#xd;
+public class MessageResponse {&#xd;
+    private String message;&#xd;
+&#xd;
+    public MessageResponse() {}&#xd;
+&#xd;
+    public MessageResponse(String message) {&#xd;
+        this.message = message;&#xd;
+    }&#xd;
+&#xd;
+    public String getMessage() {&#xd;
+        return message;&#xd;
+    }&#xd;
+&#xd;
+    public void setMessage(String message) {&#xd;
+        this.message = message;&#xd;
+    }&#xd;
+}&#xd;
+</content>
+      <XmlFileInfo>
+        <size>385</size>
+        <modified></modified>
+        <mime_type>text/x-java-source</mime_type>
+        <extension>.java</extension>
+      </XmlFileInfo>
+    </XmlFileContent>
+    <XmlFileContent>
+      <path>main\java\com\example\gymmanagement\api\UserResource.java</path>
+      <content>package com.example.gymmanagement.api;&#xd;
+&#xd;
+import com.example.gymmanagement.dao.AppUserDAO;&#xd;
+import com.example.gymmanagement.dto.CreateUserDTO;&#xd;
+import com.example.gymmanagement.dto.LoginDTO;&#xd;
+import com.example.gymmanagement.entities.User;&#xd;
+import com.example.gymmanagement.utils.JwtUtil;&#xd;
+import jakarta.inject.Inject;&#xd;
+import jakarta.transaction.Transactional;&#xd;
+import jakarta.ws.rs.*;&#xd;
+import jakarta.ws.rs.core.MediaType;&#xd;
+import jakarta.ws.rs.core.Response;&#xd;
+&#xd;
+import java.util.HashMap;&#xd;
+import java.util.List;&#xd;
+import java.util.Map;&#xd;
+&#xd;
+@Path("/users")&#xd;
+@Produces(MediaType.APPLICATION_JSON)&#xd;
+@Consumes(MediaType.APPLICATION_JSON)&#xd;
+@Transactional&#xd;
+public class UserResource {&#xd;
+&#xd;
+    @Inject&#xd;
+    private AppUserDAO userDAO;&#xd;
+&#xd;
+    public UserResource() {}&#xd;
+&#xd;
+    @POST&#xd;
+    @Path("/login")&#xd;
+    public Response login(LoginDTO loginDTO) {&#xd;
+        User user = userDAO.findByUsername(loginDTO.getUsername());&#xd;
+        if (user == null || !user.verifyPassword(loginDTO.getPassword())) {&#xd;
+            return Response.status(Response.Status.UNAUTHORIZED).entity("Invalid credentials").build();&#xd;
+        }&#xd;
+        return buildAuthResponse(user);&#xd;
+    }&#xd;
+&#xd;
+    @POST&#xd;
+    @Path("/register")&#xd;
+    public Response register(CreateUserDTO dto) {&#xd;
+        if (userDAO.usernameExists(dto.getUsername()) || userDAO.emailExists(dto.getEmail())) {&#xd;
+            return Response.status(Response.Status.CONFLICT).entity("User already exists").build();&#xd;
+        }&#xd;
+        User newUser = new User();&#xd;
+        newUser.setUsername(dto.getUsername());&#xd;
+        newUser.setPassword(dto.getPassword());&#xd;
+        newUser.setEmail(dto.getEmail());&#xd;
+        newUser.setFirstName(dto.getFirstName());&#xd;
+        newUser.setLastName(dto.getLastName());&#xd;
+        newUser.setPhone(dto.getPhone());&#xd;
+        newUser.setRole(dto.getRole());&#xd;
+        userDAO.saveUser(newUser);&#xd;
+        return buildAuthResponse(newUser);&#xd;
+    }&#xd;
+&#xd;
+    @GET&#xd;
+    public List&lt;User> getAllUsers() {&#xd;
+        return userDAO.getAllUsers();&#xd;
+    }&#xd;
+&#xd;
+    @GET&#xd;
+    @Path("/{id}")&#xd;
+    public User getUserById(@PathParam("id") Long id) {&#xd;
+        return userDAO.getUserById(id);&#xd;
+    }&#xd;
+&#xd;
+    @PUT&#xd;
+    @Path("/{id}")&#xd;
+    public Response updateUser(@PathParam("id") Long id, CreateUserDTO dto) {&#xd;
+        User existing = userDAO.getUserById(id);&#xd;
+        if (existing == null) return Response.status(Response.Status.NOT_FOUND).build();&#xd;
+&#xd;
+        existing.setUsername(dto.getUsername());&#xd;
+        existing.setPassword(dto.getPassword());&#xd;
+        existing.setEmail(dto.getEmail());&#xd;
+        existing.setRole(dto.getRole());&#xd;
+        userDAO.saveUser(existing);&#xd;
+&#xd;
+        return Response.ok(existing).build();&#xd;
+    }&#xd;
+&#xd;
+    @DELETE&#xd;
+    @Path("/{id}")&#xd;
+    public Response deleteUser(@PathParam("id") Long id) {&#xd;
+        userDAO.deleteUser(id);&#xd;
+        return Response.noContent().build();&#xd;
+    }&#xd;
+&#xd;
+    // === MEMBER/TRAINER ENDPOINTS ===&#xd;
+    @GET&#xd;
+    @Path("/members")&#xd;
+    public Response getAllMembers() {&#xd;
+        List&lt;User> members = userDAO.getAllUsers().stream()&#xd;
+                .filter(User::isMember)&#xd;
+                .toList();&#xd;
+        return Response.ok(members).build();&#xd;
+    }&#xd;
+&#xd;
+    @GET&#xd;
+    @Path("/members/active")&#xd;
+    public Response getActiveMembers() {&#xd;
+        List&lt;User> activeMembers = userDAO.getAllUsers().stream()&#xd;
+                .filter(User::isMember)&#xd;
+                .filter(User::isMembershipActive)&#xd;
+                .toList();&#xd;
+        return Response.ok(activeMembers).build();&#xd;
+    }&#xd;
+&#xd;
+    @GET&#xd;
+    @Path("/members/expiring")&#xd;
+    public Response getExpiringMembers() {&#xd;
+        List&lt;User> expiringMembers = userDAO.getAllUsers().stream()&#xd;
+                .filter(User::isMember)&#xd;
+                .filter(User::isMembershipExpiring)&#xd;
+                .toList();&#xd;
+        return Response.ok(expiringMembers).build();&#xd;
+    }&#xd;
+&#xd;
+    @GET&#xd;
+    @Path("/trainers")&#xd;
+    public Response getAllTrainers() {&#xd;
+        List&lt;User> trainers = userDAO.getAllUsers().stream()&#xd;
+                .filter(User::isTrainer)&#xd;
+                .toList();&#xd;
+        return Response.ok(trainers).build();&#xd;
+    }&#xd;
+&#xd;
+    @PATCH&#xd;
+    @Path("/{id}/deactivate")&#xd;
+    public Response deactivateUser(@PathParam("id") Long id) {&#xd;
+        User user = userDAO.getUserById(id);&#xd;
+        if (user == null) return Response.status(Response.Status.NOT_FOUND).build();&#xd;
+&#xd;
+        user.setIsActive(false);&#xd;
+        userDAO.saveUser(user);&#xd;
+        return Response.ok(user).build();&#xd;
+    }&#xd;
+&#xd;
+    @PATCH&#xd;
+    @Path("/{id}/activate")&#xd;
+    public Response activateUser(@PathParam("id") Long id) {&#xd;
+        User user = userDAO.getUserById(id);&#xd;
+        if (user == null) return Response.status(Response.Status.NOT_FOUND).build();&#xd;
+&#xd;
+        user.setIsActive(true);&#xd;
+        userDAO.saveUser(user);&#xd;
+        return Response.ok(user).build();&#xd;
+    }&#xd;
+&#xd;
+    // === JWT Utility ===&#xd;
+    private Response buildAuthResponse(User user) {&#xd;
+        String token = JwtUtil.generateToken(user.getUsername(), user.getRole());&#xd;
+        Map&lt;String, Object> response = new HashMap&lt;>();&#xd;
+        response.put("token", token);&#xd;
+        response.put("username", user.getUsername());&#xd;
+        response.put("role", user.getRole());&#xd;
+        return Response.ok(response).build();&#xd;
+    }&#xd;
+}&#xd;
+</content>
+      <XmlFileInfo>
+        <size>5213</size>
+        <modified></modified>
+        <mime_type>text/x-java-source</mime_type>
+        <extension>.java</extension>
+      </XmlFileInfo>
+    </XmlFileContent>
+    <XmlFileContent>
+      <path>main\java\com\example\gymmanagement\controllers\UserController.java</path>
+      <content>package com.example.gymmanagement.controllers;&#xd;
+&#xd;
+import com.example.gymmanagement.entities.User;&#xd;
+import com.example.gymmanagement.services.UserService;&#xd;
+import org.springframework.web.bind.annotation.*;&#xd;
+&#xd;
+import java.util.List;&#xd;
+&#xd;
+@RestController&#xd;
+@RequestMapping("/api/users")&#xd;
+@CrossOrigin(origins = "http://localhost:3000") // React frontend&#xd;
+public class UserController {&#xd;
+    private final UserService userService;&#xd;
+&#xd;
+    public UserController(UserService userService) {&#xd;
+        this.userService = userService;&#xd;
+    }&#xd;
+&#xd;
+    @GetMapping("/members")&#xd;
+    public List&lt;User> getAllMembers() {&#xd;
+        return userService.getAllMembers();&#xd;
+    }&#xd;
+&#xd;
+    @GetMapping("/members/active")&#xd;
+    public List&lt;User> getActiveMembers() {&#xd;
+        return userService.getActiveMembers();&#xd;
+    }&#xd;
+&#xd;
+    @GetMapping("/trainers")&#xd;
+    public List&lt;User> getAllTrainers() {&#xd;
+        return userService.getAllTrainers();&#xd;
+    }&#xd;
+&#xd;
+    @PostMapping("/register")&#xd;
+    public User createUser(@RequestBody User user) {&#xd;
+        return userService.createUser(user);&#xd;
+    }&#xd;
+&#xd;
+    @DeleteMapping("/{id}")&#xd;
+    public void deleteUser(@PathVariable Long id) {&#xd;
+        userService.deleteUser(id);&#xd;
+    }&#xd;
+}&#xd;
+</content>
+      <XmlFileInfo>
+        <size>1187</size>
+        <modified></modified>
+        <mime_type>text/x-java-source</mime_type>
+        <extension>.java</extension>
+      </XmlFileInfo>
+    </XmlFileContent>
+    <XmlFileContent>
+      <path>main\java\com\example\gymmanagement\dao\AppUserDAO.java</path>
+      <content>package com.example.gymmanagement.dao;&#xd;
+&#xd;
+import com.example.gymmanagement.entities.User;&#xd;
+import jakarta.enterprise.context.ApplicationScoped;&#xd;
+import jakarta.persistence.EntityManager;&#xd;
+import jakarta.persistence.PersistenceContext;&#xd;
+import java.util.List;&#xd;
+&#xd;
+@ApplicationScoped&#xd;
+public class AppUserDAO {&#xd;
+&#xd;
+    @PersistenceContext(unitName = "GymPU-JTA")&#xd;
+    private EntityManager em;&#xd;
+&#xd;
+    public User findByUsername(String username) {&#xd;
+        return em.createQuery("SELECT u FROM User u WHERE u.username = :username", User.class)&#xd;
+                .setParameter("username", username)&#xd;
+                .getResultStream()&#xd;
+                .findFirst()&#xd;
+                .orElse(null);&#xd;
+    }&#xd;
+&#xd;
+    public boolean usernameExists(String username) {&#xd;
+        Long count = em.createQuery("SELECT COUNT(u) FROM User u WHERE u.username = :username", Long.class)&#xd;
+                .setParameter("username", username)&#xd;
+                .getSingleResult();&#xd;
+        return count > 0;&#xd;
+    }&#xd;
+&#xd;
+    public boolean emailExists(String email) {&#xd;
+        Long count = em.createQuery("SELECT COUNT(u) FROM User u WHERE u.email = :email", Long.class)&#xd;
+                .setParameter("email", email)&#xd;
+                .getSingleResult();&#xd;
+        return count > 0;&#xd;
+    }&#xd;
+&#xd;
+    public void saveUser(User user) {&#xd;
+        if (user.getId() == null) em.persist(user);&#xd;
+        else em.merge(user);&#xd;
+    }&#xd;
+&#xd;
+    public List&lt;User> getAllUsers() {&#xd;
+        return em.createQuery("SELECT u FROM User u", User.class).getResultList();&#xd;
+    }&#xd;
+&#xd;
+    public User getUserById(Long id) {&#xd;
+        return em.find(User.class, id);&#xd;
+    }&#xd;
+&#xd;
+    public void deleteUser(Long id) {&#xd;
+        User user = em.find(User.class, id);&#xd;
+        if (user != null) em.remove(user);&#xd;
+    }&#xd;
+}&#xd;
+</content>
+      <XmlFileInfo>
+        <size>1752</size>
+        <modified></modified>
+        <mime_type>text/x-java-source</mime_type>
+        <extension>.java</extension>
+      </XmlFileInfo>
+    </XmlFileContent>
+    <XmlFileContent>
+      <path>main\java\com\example\gymmanagement\dto\CreateUserDTO.java</path>
+      <content>package com.example.gymmanagement.dto;&#xd;
+&#xd;
+public class CreateUserDTO {&#xd;
+    private String username;&#xd;
+    private String password;&#xd;
+    private String email;&#xd;
+    private String role;&#xd;
+    private String firstName;&#xd;
+    private String lastName;&#xd;
+    private String phone;&#xd;
+&#xd;
+    public String getUsername() { return username; }&#xd;
+    public void setUsername(String username) { this.username = username; }&#xd;
+&#xd;
+    public String getPassword() { return password; }&#xd;
+    public void setPassword(String password) { this.password = password; }&#xd;
+&#xd;
+    public String getEmail() { return email; }&#xd;
+    public void setEmail(String email) { this.email = email; }&#xd;
+&#xd;
+    public String getRole() { return role; }&#xd;
+    public void setRole(String role) { this.role = role; }&#xd;
+&#xd;
+    public String getFirstName() { return firstName; }&#xd;
+    public void setFirstName(String firstName) { this.firstName = firstName; }&#xd;
+&#xd;
+    public String getLastName() { return lastName; }&#xd;
+    public void setLastName(String lastName) { this.lastName = lastName; }&#xd;
+&#xd;
+    public String getPhone() { return phone; }&#xd;
+    public void setPhone(String phone) { this.phone = phone; }&#xd;
+}&#xd;
+</content>
+      <XmlFileInfo>
+        <size>1146</size>
+        <modified></modified>
+        <mime_type>text/x-java-source</mime_type>
+        <extension>.java</extension>
+      </XmlFileInfo>
+    </XmlFileContent>
+    <XmlFileContent>
+      <path>main\java\com\example\gymmanagement\dto\LoginDTO.java</path>
+      <content>package com.example.gymmanagement.dto;&#xd;
+&#xd;
+public class LoginDTO {&#xd;
+    private String username;&#xd;
+    private String password;&#xd;
+&#xd;
+    public LoginDTO() {}&#xd;
+&#xd;
+    public LoginDTO(String username, String password) {&#xd;
+        this.username = username;&#xd;
+        this.password = password;&#xd;
+    }&#xd;
+&#xd;
+    public String getUsername() { return username; }&#xd;
+    public void setUsername(String username) { this.username = username; }&#xd;
+&#xd;
+    public String getPassword() { return password; }&#xd;
+    public void setPassword(String password) { this.password = password; }&#xd;
+}&#xd;
+</content>
+      <XmlFileInfo>
+        <size>558</size>
+        <modified></modified>
+        <mime_type>text/x-java-source</mime_type>
+        <extension>.java</extension>
+      </XmlFileInfo>
+    </XmlFileContent>
+    <XmlFileContent>
+      <path>main\java\com\example\gymmanagement\entities\Attendance.java</path>
+      <content>package com.example.gymmanagement.entities;&#xd;
+&#xd;
+import com.example.gymmanagement.model.AppUser;&#xd;
+import jakarta.persistence.*;&#xd;
+import jakarta.validation.constraints.NotNull;&#xd;
+import jakarta.validation.constraints.Size;&#xd;
+import org.hibernate.annotations.ColumnDefault;&#xd;
+import org.hibernate.annotations.OnDelete;&#xd;
+import org.hibernate.annotations.OnDeleteAction;&#xd;
+&#xd;
+import java.time.Instant;&#xd;
+&#xd;
+@Entity&#xd;
+@Table(name = "attendance")&#xd;
+public class Attendance {&#xd;
+    @Id&#xd;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)&#xd;
+    @Column(name = "id", nullable = false)&#xd;
+    private Integer id;&#xd;
+&#xd;
+    @NotNull&#xd;
+    @ManyToOne(fetch = FetchType.LAZY, optional = false)&#xd;
+    @OnDelete(action = OnDeleteAction.CASCADE)&#xd;
+    @JoinColumn(name = "member_id", nullable = false)&#xd;
+    private AppUser member;&#xd;
+&#xd;
+    @NotNull&#xd;
+    @ManyToOne(fetch = FetchType.LAZY, optional = false)&#xd;
+    @OnDelete(action = OnDeleteAction.CASCADE)&#xd;
+    @JoinColumn(name = "program_id", nullable = false)&#xd;
+    private Program program;&#xd;
+&#xd;
+    @ManyToOne(fetch = FetchType.LAZY)&#xd;
+    @OnDelete(action = OnDeleteAction.SET_NULL)&#xd;
+    @JoinColumn(name = "schedule_id")&#xd;
+    private Schedule schedule;&#xd;
+&#xd;
+    @ColumnDefault("CURRENT_TIMESTAMP")&#xd;
+    @Column(name = "attended_on")&#xd;
+    private Instant attendedOn;&#xd;
+&#xd;
+    @Size(max = 20)&#xd;
+    @ColumnDefault("'present'")&#xd;
+    @Column(name = "status", length = 20)&#xd;
+    private String status;&#xd;
+&#xd;
+    public Integer getId() {&#xd;
+        return id;&#xd;
+    }&#xd;
+&#xd;
+    public void setId(Integer id) {&#xd;
+        this.id = id;&#xd;
+    }&#xd;
+&#xd;
+    public AppUser getMember() {&#xd;
+        return member;&#xd;
+    }&#xd;
+&#xd;
+    public void setMember(AppUser member) {&#xd;
+        this.member = member;&#xd;
+    }&#xd;
+&#xd;
+    public Program getProgram() {&#xd;
+        return program;&#xd;
+    }&#xd;
+&#xd;
+    public void setProgram(Program program) {&#xd;
+        this.program = program;&#xd;
+    }&#xd;
+&#xd;
+    public Schedule getSchedule() {&#xd;
+        return schedule;&#xd;
+    }&#xd;
+&#xd;
+    public void setSchedule(Schedule schedule) {&#xd;
+        this.schedule = schedule;&#xd;
+    }&#xd;
+&#xd;
+    public Instant getAttendedOn() {&#xd;
+        return attendedOn;&#xd;
+    }&#xd;
+&#xd;
+    public void setAttendedOn(Instant attendedOn) {&#xd;
+        this.attendedOn = attendedOn;&#xd;
+    }&#xd;
+&#xd;
+    public String getStatus() {&#xd;
+        return status;&#xd;
+    }&#xd;
+&#xd;
+    public void setStatus(String status) {&#xd;
+        this.status = status;&#xd;
+    }&#xd;
+&#xd;
+}</content>
+      <XmlFileInfo>
+        <size>2341</size>
+        <modified></modified>
+        <mime_type>text/x-java-source</mime_type>
+        <extension>.java</extension>
+      </XmlFileInfo>
+    </XmlFileContent>
+    <XmlFileContent>
+      <path>main\java\com\example\gymmanagement\entities\MemberFullInfo.java</path>
+      <content>package com.example.gymmanagement.entities;&#xd;
+&#xd;
+import jakarta.persistence.*;&#xd;
+import jakarta.validation.constraints.Size;&#xd;
+import org.hibernate.annotations.Immutable;&#xd;
+&#xd;
+import java.math.BigDecimal;&#xd;
+&#xd;
+/**&#xd;
+ * Mapping for DB view&#xd;
+ */&#xd;
+@Entity&#xd;
+@Immutable&#xd;
+@Table(name = "member_full_info")&#xd;
+public class MemberFullInfo {&#xd;
+    @Id&#xd;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)&#xd;
+    @Column(name = "user_id")&#xd;
+    private Integer userId;&#xd;
+&#xd;
+    @Size(max = 100)&#xd;
+    @Column(name = "first_name", length = 100)&#xd;
+    private String firstName;&#xd;
+&#xd;
+    @Size(max = 100)&#xd;
+    @Column(name = "last_name", length = 100)&#xd;
+    private String lastName;&#xd;
+&#xd;
+    @Size(max = 100)&#xd;
+    @Column(name = "email", length = 100)&#xd;
+    private String email;&#xd;
+&#xd;
+    @Size(max = 20)&#xd;
+    @Column(name = "phone", length = 20)&#xd;
+    private String phone;&#xd;
+&#xd;
+    @Size(max = 50)&#xd;
+    @Column(name = "username", length = 50)&#xd;
+    private String username;&#xd;
+&#xd;
+    @Size(max = 20)&#xd;
+    @Column(name = "role", length = 20)&#xd;
+    private String role;&#xd;
+&#xd;
+    @Column(name = "enrolled_programs")&#xd;
+    private Long enrolledPrograms;&#xd;
+&#xd;
+    @Column(name = "total_sessions")&#xd;
+    private Long totalSessions;&#xd;
+&#xd;
+    @Column(name = "present_sessions")&#xd;
+    private Long presentSessions;&#xd;
+&#xd;
+    @Column(name = "attendance_percentage")&#xd;
+    private BigDecimal attendancePercentage;&#xd;
+&#xd;
+    public Integer getUserId() {&#xd;
+        return userId;&#xd;
+    }&#xd;
+&#xd;
+    public String getFirstName() {&#xd;
+        return firstName;&#xd;
+    }&#xd;
+&#xd;
+    public String getLastName() {&#xd;
+        return lastName;&#xd;
+    }&#xd;
+&#xd;
+    public String getEmail() {&#xd;
+        return email;&#xd;
+    }&#xd;
+&#xd;
+    public String getPhone() {&#xd;
+        return phone;&#xd;
+    }&#xd;
+&#xd;
+    public String getUsername() {&#xd;
+        return username;&#xd;
+    }&#xd;
+&#xd;
+    public String getRole() {&#xd;
+        return role;&#xd;
+    }&#xd;
+&#xd;
+    public Long getEnrolledPrograms() {&#xd;
+        return enrolledPrograms;&#xd;
+    }&#xd;
+&#xd;
+    public Long getTotalSessions() {&#xd;
+        return totalSessions;&#xd;
+    }&#xd;
+&#xd;
+    public Long getPresentSessions() {&#xd;
+        return presentSessions;&#xd;
+    }&#xd;
+&#xd;
+    public BigDecimal getAttendancePercentage() {&#xd;
+        return attendancePercentage;&#xd;
+    }&#xd;
+&#xd;
+    protected MemberFullInfo() {&#xd;
+    }&#xd;
+}</content>
+      <XmlFileInfo>
+        <size>2204</size>
+        <modified></modified>
+        <mime_type>text/x-java-source</mime_type>
+        <extension>.java</extension>
+      </XmlFileInfo>
+    </XmlFileContent>
+    <XmlFileContent>
+      <path>main\java\com\example\gymmanagement\entities\MemberProgram.java</path>
+      <content>package com.example.gymmanagement.entities;&#xd;
+&#xd;
+import com.example.gymmanagement.model.AppUser;&#xd;
+import jakarta.persistence.*;&#xd;
+import jakarta.validation.constraints.NotNull;&#xd;
+import jakarta.validation.constraints.Size;&#xd;
+import org.hibernate.annotations.ColumnDefault;&#xd;
+import org.hibernate.annotations.OnDelete;&#xd;
+import org.hibernate.annotations.OnDeleteAction;&#xd;
+&#xd;
+import java.time.LocalDate;&#xd;
+&#xd;
+@Entity&#xd;
+@Table(name = "member_program", uniqueConstraints = {&#xd;
+        @UniqueConstraint(name = "member_program_user_id_program_id_key", columnNames = {"user_id", "program_id"})&#xd;
+})&#xd;
+public class MemberProgram {&#xd;
+    @Id&#xd;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)&#xd;
+    @Column(name = "id", nullable = false)&#xd;
+    private Integer id;&#xd;
+&#xd;
+    @NotNull&#xd;
+    @ManyToOne(fetch = FetchType.LAZY, optional = false)&#xd;
+    @OnDelete(action = OnDeleteAction.CASCADE)&#xd;
+    @JoinColumn(name = "user_id", nullable = false)&#xd;
+    private AppUser user;&#xd;
+&#xd;
+    @NotNull&#xd;
+    @ManyToOne(fetch = FetchType.LAZY, optional = false)&#xd;
+    @OnDelete(action = OnDeleteAction.CASCADE)&#xd;
+    @JoinColumn(name = "program_id", nullable = false)&#xd;
+    private Program program;&#xd;
+&#xd;
+    @ColumnDefault("CURRENT_DATE")&#xd;
+    @Column(name = "enrollment_date")&#xd;
+    private LocalDate enrollmentDate;&#xd;
+&#xd;
+    @Size(max = 20)&#xd;
+    @ColumnDefault("'active'")&#xd;
+    @Column(name = "status", length = 20)&#xd;
+    private String status;&#xd;
+&#xd;
+    public Integer getId() {&#xd;
+        return id;&#xd;
+    }&#xd;
+&#xd;
+    public void setId(Integer id) {&#xd;
+        this.id = id;&#xd;
+    }&#xd;
+&#xd;
+    public AppUser getUser() {&#xd;
+        return user;&#xd;
+    }&#xd;
+&#xd;
+    public void setUser(AppUser user) {&#xd;
+        this.user = user;&#xd;
+    }&#xd;
+&#xd;
+    public Program getProgram() {&#xd;
+        return program;&#xd;
+    }&#xd;
+&#xd;
+    public void setProgram(Program program) {&#xd;
+        this.program = program;&#xd;
+    }&#xd;
+&#xd;
+    public LocalDate getEnrollmentDate() {&#xd;
+        return enrollmentDate;&#xd;
+    }&#xd;
+&#xd;
+    public void setEnrollmentDate(LocalDate enrollmentDate) {&#xd;
+        this.enrollmentDate = enrollmentDate;&#xd;
+    }&#xd;
+&#xd;
+    public String getStatus() {&#xd;
+        return status;&#xd;
+    }&#xd;
+&#xd;
+    public void setStatus(String status) {&#xd;
+        this.status = status;&#xd;
+    }&#xd;
+&#xd;
+}</content>
+      <XmlFileInfo>
+        <size>2180</size>
+        <modified></modified>
+        <mime_type>text/x-java-source</mime_type>
+        <extension>.java</extension>
+      </XmlFileInfo>
+    </XmlFileContent>
+    <XmlFileContent>
+      <path>main\java\com\example\gymmanagement\entities\Program.java</path>
+      <content>package com.example.gymmanagement.entities;&#xd;
+&#xd;
+import jakarta.persistence.*;&#xd;
+import jakarta.validation.constraints.NotNull;&#xd;
+import jakarta.validation.constraints.Size;&#xd;
+&#xd;
+import java.util.LinkedHashSet;&#xd;
+import java.util.Set;&#xd;
+&#xd;
+@Entity&#xd;
+@Table(name = "program")&#xd;
+public class Program {&#xd;
+    @Id&#xd;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)&#xd;
+    @Column(name = "id", nullable = false)&#xd;
+    private Integer id;&#xd;
+&#xd;
+    @Size(max = 100)&#xd;
+    @NotNull&#xd;
+    @Column(name = "name", nullable = false, length = 100)&#xd;
+    private String name;&#xd;
+&#xd;
+    @Column(name = "description", length = Integer.MAX_VALUE)&#xd;
+    private String description;&#xd;
+&#xd;
+    @Column(name = "duration_minutes")&#xd;
+    private Integer durationMinutes;&#xd;
+&#xd;
+    @Column(name = "max_participants")&#xd;
+    private Integer maxParticipants;&#xd;
+&#xd;
+    @OneToMany(mappedBy = "program")&#xd;
+    private Set&lt;Attendance> attendances = new LinkedHashSet&lt;>();&#xd;
+&#xd;
+    @OneToMany(mappedBy = "program")&#xd;
+    private Set&lt;MemberProgram> memberPrograms = new LinkedHashSet&lt;>();&#xd;
+&#xd;
+    @OneToMany(mappedBy = "program")&#xd;
+    private Set&lt;Schedule> schedules = new LinkedHashSet&lt;>();&#xd;
+&#xd;
+    public Integer getId() {&#xd;
+        return id;&#xd;
+    }&#xd;
+&#xd;
+    public void setId(Integer id) {&#xd;
+        this.id = id;&#xd;
+    }&#xd;
+&#xd;
+    public String getName() {&#xd;
+        return name;&#xd;
+    }&#xd;
+&#xd;
+    public void setName(String name) {&#xd;
+        this.name = name;&#xd;
+    }&#xd;
+&#xd;
+    public String getDescription() {&#xd;
+        return description;&#xd;
+    }&#xd;
+&#xd;
+    public void setDescription(String description) {&#xd;
+        this.description = description;&#xd;
+    }&#xd;
+&#xd;
+    public Integer getDurationMinutes() {&#xd;
+        return durationMinutes;&#xd;
+    }&#xd;
+&#xd;
+    public void setDurationMinutes(Integer durationMinutes) {&#xd;
+        this.durationMinutes = durationMinutes;&#xd;
+    }&#xd;
+&#xd;
+    public Integer getMaxParticipants() {&#xd;
+        return maxParticipants;&#xd;
+    }&#xd;
+&#xd;
+    public void setMaxParticipants(Integer maxParticipants) {&#xd;
+        this.maxParticipants = maxParticipants;&#xd;
+    }&#xd;
+&#xd;
+    public Set&lt;Attendance> getAttendances() {&#xd;
+        return attendances;&#xd;
+    }&#xd;
+&#xd;
+    public void setAttendances(Set&lt;Attendance> attendances) {&#xd;
+        this.attendances = attendances;&#xd;
+    }&#xd;
+&#xd;
+    public Set&lt;MemberProgram> getMemberPrograms() {&#xd;
+        return memberPrograms;&#xd;
+    }&#xd;
+&#xd;
+    public void setMemberPrograms(Set&lt;MemberProgram> memberPrograms) {&#xd;
+        this.memberPrograms = memberPrograms;&#xd;
+    }&#xd;
+&#xd;
+    public Set&lt;Schedule> getSchedules() {&#xd;
+        return schedules;&#xd;
+    }&#xd;
+&#xd;
+    public void setSchedules(Set&lt;Schedule> schedules) {&#xd;
+        this.schedules = schedules;&#xd;
+    }&#xd;
+&#xd;
+}</content>
+      <XmlFileInfo>
+        <size>2590</size>
+        <modified></modified>
+        <mime_type>text/x-java-source</mime_type>
+        <extension>.java</extension>
+      </XmlFileInfo>
+    </XmlFileContent>
+    <XmlFileContent>
+      <path>main\java\com\example\gymmanagement\entities\RolePermission.java</path>
+      <content>package com.example.gymmanagement.entities;&#xd;
+&#xd;
+import jakarta.persistence.*;&#xd;
+import jakarta.validation.constraints.NotNull;&#xd;
+import jakarta.validation.constraints.Size;&#xd;
+&#xd;
+@Entity&#xd;
+@Table(name = "role_permissions", uniqueConstraints = {&#xd;
+        @UniqueConstraint(name = "role_permissions_role_permission_key", columnNames = {"role", "permission"})&#xd;
+})&#xd;
+public class RolePermission {&#xd;
+    @Id&#xd;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)&#xd;
+    @Column(name = "id", nullable = false)&#xd;
+    private Integer id;&#xd;
+&#xd;
+    @Size(max = 20)&#xd;
+    @NotNull&#xd;
+    @Column(name = "role", nullable = false, length = 20)&#xd;
+    private String role;&#xd;
+&#xd;
+    @Size(max = 50)&#xd;
+    @NotNull&#xd;
+    @Column(name = "permission", nullable = false, length = 50)&#xd;
+    private String permission;&#xd;
+&#xd;
+    @Column(name = "description", length = Integer.MAX_VALUE)&#xd;
+    private String description;&#xd;
+&#xd;
+    public Integer getId() {&#xd;
+        return id;&#xd;
+    }&#xd;
+&#xd;
+    public void setId(Integer id) {&#xd;
+        this.id = id;&#xd;
+    }&#xd;
+&#xd;
+    public String getRole() {&#xd;
+        return role;&#xd;
+    }&#xd;
+&#xd;
+    public void setRole(String role) {&#xd;
+        this.role = role;&#xd;
+    }&#xd;
+&#xd;
+    public String getPermission() {&#xd;
+        return permission;&#xd;
+    }&#xd;
+&#xd;
+    public void setPermission(String permission) {&#xd;
+        this.permission = permission;&#xd;
+    }&#xd;
+&#xd;
+    public String getDescription() {&#xd;
+        return description;&#xd;
+    }&#xd;
+&#xd;
+    public void setDescription(String description) {&#xd;
+        this.description = description;&#xd;
+    }&#xd;
+&#xd;
+}</content>
+      <XmlFileInfo>
+        <size>1498</size>
+        <modified></modified>
+        <mime_type>text/x-java-source</mime_type>
+        <extension>.java</extension>
+      </XmlFileInfo>
+    </XmlFileContent>
+    <XmlFileContent>
+      <path>main\java\com\example\gymmanagement\entities\Schedule.java</path>
+      <content>package com.example.gymmanagement.entities;&#xd;
+&#xd;
+import com.example.gymmanagement.model.AppUser;&#xd;
+import jakarta.persistence.*;&#xd;
+import jakarta.validation.constraints.NotNull;&#xd;
+import jakarta.validation.constraints.Size;&#xd;
+import org.hibernate.annotations.ColumnDefault;&#xd;
+import org.hibernate.annotations.OnDelete;&#xd;
+import org.hibernate.annotations.OnDeleteAction;&#xd;
+&#xd;
+import java.time.LocalTime;&#xd;
+import java.util.LinkedHashSet;&#xd;
+import java.util.Set;&#xd;
+&#xd;
+@Entity&#xd;
+@Table(name = "schedule")&#xd;
+public class Schedule {&#xd;
+    @Id&#xd;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)&#xd;
+    @Column(name = "id", nullable = false)&#xd;
+    private Integer id;&#xd;
+&#xd;
+    @NotNull&#xd;
+    @ManyToOne(fetch = FetchType.LAZY, optional = false)&#xd;
+    @OnDelete(action = OnDeleteAction.CASCADE)&#xd;
+    @JoinColumn(name = "program_id", nullable = false)&#xd;
+    private Program program;&#xd;
+&#xd;
+    @Size(max = 20)&#xd;
+    @NotNull&#xd;
+    @Column(name = "day_of_week", nullable = false, length = 20)&#xd;
+    private String dayOfWeek;&#xd;
+&#xd;
+    @NotNull&#xd;
+    @Column(name = "start_time", nullable = false)&#xd;
+    private LocalTime startTime;&#xd;
+&#xd;
+    @NotNull&#xd;
+    @Column(name = "end_time", nullable = false)&#xd;
+    private LocalTime endTime;&#xd;
+&#xd;
+    @Size(max = 100)&#xd;
+    @Column(name = "trainer_name", length = 100)&#xd;
+    private String trainerName;&#xd;
+&#xd;
+    @Size(max = 50)&#xd;
+    @Column(name = "room", length = 50)&#xd;
+    private String room;&#xd;
+&#xd;
+    @ColumnDefault("true")&#xd;
+    @Column(name = "is_active")&#xd;
+    private Boolean isActive;&#xd;
+&#xd;
+    @ManyToOne(fetch = FetchType.LAZY)&#xd;
+    @OnDelete(action = OnDeleteAction.SET_NULL)&#xd;
+    @JoinColumn(name = "instructor_id")&#xd;
+    private AppUser instructor;&#xd;
+&#xd;
+    @OneToMany(mappedBy = "schedule")&#xd;
+    private Set&lt;Attendance> attendances = new LinkedHashSet&lt;>();&#xd;
+&#xd;
+    public Integer getId() {&#xd;
+        return id;&#xd;
+    }&#xd;
+&#xd;
+    public void setId(Integer id) {&#xd;
+        this.id = id;&#xd;
+    }&#xd;
+&#xd;
+    public Program getProgram() {&#xd;
+        return program;&#xd;
+    }&#xd;
+&#xd;
+    public void setProgram(Program program) {&#xd;
+        this.program = program;&#xd;
+    }&#xd;
+&#xd;
+    public String getDayOfWeek() {&#xd;
+        return dayOfWeek;&#xd;
+    }&#xd;
+&#xd;
+    public void setDayOfWeek(String dayOfWeek) {&#xd;
+        this.dayOfWeek = dayOfWeek;&#xd;
+    }&#xd;
+&#xd;
+    public LocalTime getStartTime() {&#xd;
+        return startTime;&#xd;
+    }&#xd;
+&#xd;
+    public void setStartTime(LocalTime startTime) {&#xd;
+        this.startTime = startTime;&#xd;
+    }&#xd;
+&#xd;
+    public LocalTime getEndTime() {&#xd;
+        return endTime;&#xd;
+    }&#xd;
+&#xd;
+    public void setEndTime(LocalTime endTime) {&#xd;
+        this.endTime = endTime;&#xd;
+    }&#xd;
+&#xd;
+    public String getTrainerName() {&#xd;
+        return trainerName;&#xd;
+    }&#xd;
+&#xd;
+    public void setTrainerName(String trainerName) {&#xd;
+        this.trainerName = trainerName;&#xd;
+    }&#xd;
+&#xd;
+    public String getRoom() {&#xd;
+        return room;&#xd;
+    }&#xd;
+&#xd;
+    public void setRoom(String room) {&#xd;
+        this.room = room;&#xd;
+    }&#xd;
+&#xd;
+    public Boolean getIsActive() {&#xd;
+        return isActive;&#xd;
+    }&#xd;
+&#xd;
+    public void setIsActive(Boolean isActive) {&#xd;
+        this.isActive = isActive;&#xd;
+    }&#xd;
+&#xd;
+    public AppUser getInstructor() {&#xd;
+        return instructor;&#xd;
+    }&#xd;
+&#xd;
+    public void setInstructor(AppUser instructor) {&#xd;
+        this.instructor = instructor;&#xd;
+    }&#xd;
+&#xd;
+    public Set&lt;Attendance> getAttendances() {&#xd;
+        return attendances;&#xd;
+    }&#xd;
+&#xd;
+    public void setAttendances(Set&lt;Attendance> attendances) {&#xd;
+        this.attendances = attendances;&#xd;
+    }&#xd;
+&#xd;
+}</content>
+      <XmlFileInfo>
+        <size>3402</size>
+        <modified></modified>
+        <mime_type>text/x-java-source</mime_type>
+        <extension>.java</extension>
+      </XmlFileInfo>
+    </XmlFileContent>
+    <XmlFileContent>
+      <path>main\java\com\example\gymmanagement\entities\TrainerSchedule.java</path>
+      <content>package com.example.gymmanagement.entities;&#xd;
+&#xd;
+import jakarta.persistence.*;&#xd;
+import jakarta.validation.constraints.Size;&#xd;
+import org.hibernate.annotations.Immutable;&#xd;
+&#xd;
+import java.time.LocalTime;&#xd;
+&#xd;
+/**&#xd;
+ * Mapping for DB view&#xd;
+ */&#xd;
+@Entity&#xd;
+@Immutable&#xd;
+@Table(name = "trainer_schedule")&#xd;
+public class TrainerSchedule {&#xd;
+    @Id&#xd;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)&#xd;
+    @Column(name = "trainer_id")&#xd;
+    private Integer trainerId;&#xd;
+&#xd;
+    @Column(name = "trainer_name", length = Integer.MAX_VALUE)&#xd;
+    private String trainerName;&#xd;
+&#xd;
+    @Size(max = 100)&#xd;
+    @Column(name = "email", length = 100)&#xd;
+    private String email;&#xd;
+&#xd;
+    @Size(max = 20)&#xd;
+    @Column(name = "phone", length = 20)&#xd;
+    private String phone;&#xd;
+&#xd;
+    @Size(max = 100)&#xd;
+    @Column(name = "program_name", length = 100)&#xd;
+    private String programName;&#xd;
+&#xd;
+    @Size(max = 20)&#xd;
+    @Column(name = "day_of_week", length = 20)&#xd;
+    private String dayOfWeek;&#xd;
+&#xd;
+    @Column(name = "start_time")&#xd;
+    private LocalTime startTime;&#xd;
+&#xd;
+    @Column(name = "end_time")&#xd;
+    private LocalTime endTime;&#xd;
+&#xd;
+    @Size(max = 50)&#xd;
+    @Column(name = "room", length = 50)&#xd;
+    private String room;&#xd;
+&#xd;
+    @Column(name = "enrolled_students")&#xd;
+    private Long enrolledStudents;&#xd;
+&#xd;
+    public Integer getTrainerId() {&#xd;
+        return trainerId;&#xd;
+    }&#xd;
+&#xd;
+    public String getTrainerName() {&#xd;
+        return trainerName;&#xd;
+    }&#xd;
+&#xd;
+    public String getEmail() {&#xd;
+        return email;&#xd;
+    }&#xd;
+&#xd;
+    public String getPhone() {&#xd;
+        return phone;&#xd;
+    }&#xd;
+&#xd;
+    public String getProgramName() {&#xd;
+        return programName;&#xd;
+    }&#xd;
+&#xd;
+    public String getDayOfWeek() {&#xd;
+        return dayOfWeek;&#xd;
+    }&#xd;
+&#xd;
+    public LocalTime getStartTime() {&#xd;
+        return startTime;&#xd;
+    }&#xd;
+&#xd;
+    public LocalTime getEndTime() {&#xd;
+        return endTime;&#xd;
+    }&#xd;
+&#xd;
+    public String getRoom() {&#xd;
+        return room;&#xd;
+    }&#xd;
+&#xd;
+    public Long getEnrolledStudents() {&#xd;
+        return enrolledStudents;&#xd;
+    }&#xd;
+&#xd;
+    protected TrainerSchedule() {&#xd;
+    }&#xd;
+}</content>
+      <XmlFileInfo>
+        <size>2016</size>
+        <modified></modified>
+        <mime_type>text/x-java-source</mime_type>
+        <extension>.java</extension>
+      </XmlFileInfo>
+    </XmlFileContent>
+    <XmlFileContent>
+      <path>main\java\com\example\gymmanagement\entities\User.java</path>
+      <content>package com.example.gymmanagement.entities;&#xd;
+&#xd;
+import jakarta.persistence.*;&#xd;
+import jakarta.validation.constraints.Email;&#xd;
+import jakarta.validation.constraints.NotBlank;&#xd;
+import jakarta.validation.constraints.Size;&#xd;
+import com.fasterxml.jackson.annotation.JsonIgnore;&#xd;
+import com.fasterxml.jackson.annotation.JsonFormat;&#xd;
+import java.time.LocalDate;&#xd;
+&#xd;
+@Entity&#xd;
+@Table(name = "app_user")&#xd;
+public class User {&#xd;
+&#xd;
+    @Id&#xd;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)&#xd;
+    @Column(name = "id")&#xd;
+    private Long id;&#xd;
+&#xd;
+    @NotBlank(message = "Το όνομα είναι υποχρεωτικό")&#xd;
+    @Size(min = 2, max = 50, message = "Το όνομα πρέπει να έχει 2-50 χαρακτήρες")&#xd;
+    @Column(name = "first_name", nullable = false)&#xd;
+    private String firstName;&#xd;
+&#xd;
+    @NotBlank(message = "Το επώνυμο είναι υποχρεωτικό")&#xd;
+    @Size(min = 2, max = 50, message = "Το επώνυμο πρέπει να έχει 2-50 χαρακτήρες")&#xd;
+    @Column(name = "last_name", nullable = false)&#xd;
+    private String lastName;&#xd;
+&#xd;
+    @Email(message = "Παρακαλώ εισάγετε έγκυρο email")&#xd;
+    @NotBlank(message = "Το email είναι υποχρεωτικό")&#xd;
+    @Column(name = "email", unique = true, nullable = false)&#xd;
+    private String email;&#xd;
+&#xd;
+    @Column(name = "phone", length = 15)&#xd;
+    private String phone;&#xd;
+&#xd;
+    @JsonIgnore&#xd;
+    @NotBlank(message = "Ο κωδικός είναι υποχρεωτικός")&#xd;
+    @Size(min = 8, message = "Ο κωδικός πρέπει να έχει τουλάχιστον 8 χαρακτήρες")&#xd;
+    @Column(name = "password", nullable = false)&#xd;
+    private String password;&#xd;
+&#xd;
+    @NotBlank(message = "Το username είναι υποχρεωτικό")&#xd;
+    @Size(min = 3, max = 30, message = "Το username πρέπει να έχει 3-30 χαρακτήρες")&#xd;
+    @Column(name = "username", unique = true, nullable = false)&#xd;
+    private String username;&#xd;
+&#xd;
+    @NotBlank(message = "Ο ρόλος είναι υποχρεωτικός")&#xd;
+    @Column(name = "role", nullable = false)&#xd;
+    private String role; // ADMIN, TRAINER, MEMBER&#xd;
+&#xd;
+    // === MEMBERSHIP FIELDS (για MEMBER role) ===&#xd;
+&#xd;
+    @JsonFormat(pattern = "yyyy-MM-dd")&#xd;
+    @Column(name = "date_of_birth")&#xd;
+    private LocalDate dateOfBirth;&#xd;
+&#xd;
+    @Column(name = "membership_type")&#xd;
+    private String membershipType; // BASIC, PREMIUM, VIP&#xd;
+&#xd;
+    @JsonFormat(pattern = "yyyy-MM-dd")&#xd;
+    @Column(name = "membership_start_date")&#xd;
+    private LocalDate membershipStartDate;&#xd;
+&#xd;
+    @JsonFormat(pattern = "yyyy-MM-dd")&#xd;
+    @Column(name = "membership_end_date")&#xd;
+    private LocalDate membershipEndDate;&#xd;
+&#xd;
+    @Column(name = "is_active")&#xd;
+    private Boolean isActive = true;&#xd;
+&#xd;
+    @Column(name = "notes", length = 500)&#xd;
+    private String notes;&#xd;
+&#xd;
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")&#xd;
+    @Column(name = "created_at", updatable = false)&#xd;
+    private LocalDate createdAt;&#xd;
+&#xd;
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")&#xd;
+    @Column(name = "updated_at")&#xd;
+    private LocalDate updatedAt;&#xd;
+&#xd;
+    // Constructors&#xd;
+    public User() { }&#xd;
+&#xd;
+    public User(String firstName, String lastName, String email,&#xd;
+                String phone, String password, String username, String role) {&#xd;
+        this.firstName = firstName;&#xd;
+        this.lastName  = lastName;&#xd;
+        this.email     = email;&#xd;
+        this.phone     = phone;&#xd;
+        setPassword(password);&#xd;
+        this.username  = username;&#xd;
+        this.role      = role;&#xd;
+        this.isActive  = true;&#xd;
+        this.createdAt = LocalDate.now();&#xd;
+    }&#xd;
+&#xd;
+    @PrePersist&#xd;
+    protected void onCreate() {&#xd;
+        createdAt = LocalDate.now();&#xd;
+        updatedAt = LocalDate.now();&#xd;
+        if (isActive == null) {&#xd;
+            isActive = true;&#xd;
+        }&#xd;
+    }&#xd;
+&#xd;
+    @PreUpdate&#xd;
+    protected void onUpdate() {&#xd;
+        updatedAt = LocalDate.now();&#xd;
+    }&#xd;
+&#xd;
+    // Basic Getters and Setters&#xd;
+    public Long getId() { return id; }&#xd;
+    public void setId(Long id) { this.id = id; }&#xd;
+&#xd;
+    public String getFirstName() { return firstName; }&#xd;
+    public void setFirstName(String firstName) { this.firstName = firstName; }&#xd;
+&#xd;
+    public String getLastName() { return lastName; }&#xd;
+    public void setLastName(String lastName) { this.lastName = lastName; }&#xd;
+&#xd;
+    public String getEmail() { return email; }&#xd;
+    public void setEmail(String email) { this.email = email; }&#xd;
+&#xd;
+    public String getPhone() { return phone; }&#xd;
+    public void setPhone(String phone) { this.phone = phone; }&#xd;
+&#xd;
+    public String getUsername() { return username; }&#xd;
+    public void setUsername(String username) { this.username = username; }&#xd;
+&#xd;
+    public String getRole() { return role; }&#xd;
+    public void setRole(String role) { this.role = role; }&#xd;
+&#xd;
+    public String getPassword() { return password; }&#xd;
+&#xd;
+    public void setPassword(String rawPassword) {&#xd;
+        if (rawPassword != null &amp;&amp; !rawPassword.trim().isEmpty()) {&#xd;
+            this.password = hashPassword(rawPassword);&#xd;
+        }&#xd;
+    }&#xd;
+&#xd;
+    // Membership Getters and Setters&#xd;
+    public LocalDate getDateOfBirth() { return dateOfBirth; }&#xd;
+    public void setDateOfBirth(LocalDate dateOfBirth) { this.dateOfBirth = dateOfBirth; }&#xd;
+&#xd;
+    public String getMembershipType() { return membershipType; }&#xd;
+    public void setMembershipType(String membershipType) { this.membershipType = membershipType; }&#xd;
+&#xd;
+    public LocalDate getMembershipStartDate() { return membershipStartDate; }&#xd;
+    public void setMembershipStartDate(LocalDate membershipStartDate) {&#xd;
+        this.membershipStartDate = membershipStartDate;&#xd;
+    }&#xd;
+&#xd;
+    public LocalDate getMembershipEndDate() { return membershipEndDate; }&#xd;
+    public void setMembershipEndDate(LocalDate membershipEndDate) {&#xd;
+        this.membershipEndDate = membershipEndDate;&#xd;
+    }&#xd;
+&#xd;
+    public Boolean getIsActive() { return isActive; }&#xd;
+    public void setIsActive(Boolean isActive) { this.isActive = isActive; }&#xd;
+&#xd;
+    public String getNotes() { return notes; }&#xd;
+    public void setNotes(String notes) { this.notes = notes; }&#xd;
+&#xd;
+    public LocalDate getCreatedAt() { return createdAt; }&#xd;
+    public void setCreatedAt(LocalDate createdAt) { this.createdAt = createdAt; }&#xd;
+&#xd;
+    public LocalDate getUpdatedAt() { return updatedAt; }&#xd;
+    public void setUpdatedAt(LocalDate updatedAt) { this.updatedAt = updatedAt; }&#xd;
+&#xd;
+    // Password methods&#xd;
+    public boolean verifyPassword(String rawPassword) {&#xd;
+        if (rawPassword == null || password == null) return false;&#xd;
+        return org.mindrot.jbcrypt.BCrypt.checkpw(rawPassword, password);&#xd;
+    }&#xd;
+&#xd;
+    private String hashPassword(String rawPassword) {&#xd;
+        return org.mindrot.jbcrypt.BCrypt.hashpw(&#xd;
+                rawPassword,&#xd;
+                org.mindrot.jbcrypt.BCrypt.gensalt(12)&#xd;
+        );&#xd;
+    }&#xd;
+&#xd;
+    // Helper methods&#xd;
+    public String getFullName() {&#xd;
+        return firstName + " " + lastName;&#xd;
+    }&#xd;
+&#xd;
+    public boolean isTrainer() { return "TRAINER".equalsIgnoreCase(role); }&#xd;
+    public boolean isAdmin()   { return "ADMIN".equalsIgnoreCase(role); }&#xd;
+    public boolean isMember()  { return "MEMBER".equalsIgnoreCase(role); }&#xd;
+&#xd;
+    public boolean isMembershipActive() {&#xd;
+        if (!isActive) return false;&#xd;
+        if (!isMember()) return true; // Admins and Trainers are always "active"&#xd;
+        if (membershipEndDate == null) return true;&#xd;
+        return !LocalDate.now().isAfter(membershipEndDate);&#xd;
+    }&#xd;
+&#xd;
+    public long getDaysUntilMembershipExpiry() {&#xd;
+        if (membershipEndDate == null) return -1;&#xd;
+        return java.time.temporal.ChronoUnit.DAYS.between(LocalDate.now(), membershipEndDate);&#xd;
+    }&#xd;
+&#xd;
+    public boolean isMembershipExpiring() {&#xd;
+        // Check if membership expires in less than 7 days&#xd;
+        long daysLeft = getDaysUntilMembershipExpiry();&#xd;
+        return daysLeft >= 0 &amp;&amp; daysLeft &lt;= 7;&#xd;
+    }&#xd;
+&#xd;
+    @Override&#xd;
+    public String toString() {&#xd;
+        return "User{" +&#xd;
+                "id=" + id +&#xd;
+                ", firstName='" + firstName + '\'' +&#xd;
+                ", lastName='" + lastName + '\'' +&#xd;
+                ", email='" + email + '\'' +&#xd;
+                ", phone='" + phone + '\'' +&#xd;
+                ", username='" + username + '\'' +&#xd;
+                ", role='" + role + '\'' +&#xd;
+                ", membershipType='" + membershipType + '\'' +&#xd;
+                ", isActive=" + isActive +&#xd;
+                '}';&#xd;
+    }&#xd;
+&#xd;
+    @Override&#xd;
+    public boolean equals(Object o) {&#xd;
+        if (this == o) return true;&#xd;
+        if (o == null || getClass() != o.getClass()) return false;&#xd;
+        User user = (User) o;&#xd;
+        return id != null &amp;&amp; id.equals(user.id);&#xd;
+    }&#xd;
+&#xd;
+    @Override&#xd;
+    public int hashCode() {&#xd;
+        return id != null ? id.hashCode() : 0;&#xd;
+    }&#xd;
+}</content>
+      <XmlFileInfo>
+        <size>8745</size>
+        <modified></modified>
+        <mime_type>text/x-java-source</mime_type>
+        <extension>.java</extension>
+      </XmlFileInfo>
+    </XmlFileContent>
+    <XmlFileContent>
+      <path>main\java\com\example\gymmanagement\entities\UserPermission.java</path>
+      <content>package com.example.gymmanagement.entities;&#xd;
+&#xd;
+import jakarta.persistence.*;&#xd;
+import jakarta.validation.constraints.Size;&#xd;
+import org.hibernate.annotations.Immutable;&#xd;
+&#xd;
+/**&#xd;
+ * Mapping for DB view&#xd;
+ */&#xd;
+@Entity&#xd;
+@Immutable&#xd;
+@Table(name = "user_permissions")&#xd;
+public class UserPermission {&#xd;
+    @Id&#xd;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)&#xd;
+    @Column(name = "user_id")&#xd;
+    private Integer userId;&#xd;
+&#xd;
+    @Size(max = 100)&#xd;
+    @Column(name = "first_name", length = 100)&#xd;
+    private String firstName;&#xd;
+&#xd;
+    @Size(max = 100)&#xd;
+    @Column(name = "last_name", length = 100)&#xd;
+    private String lastName;&#xd;
+&#xd;
+    @Size(max = 100)&#xd;
+    @Column(name = "email", length = 100)&#xd;
+    private String email;&#xd;
+&#xd;
+    @Size(max = 20)&#xd;
+    @Column(name = "role", length = 20)&#xd;
+    private String role;&#xd;
+&#xd;
+    @Size(max = 50)&#xd;
+    @Column(name = "permission", length = 50)&#xd;
+    private String permission;&#xd;
+&#xd;
+    @Column(name = "description", length = Integer.MAX_VALUE)&#xd;
+    private String description;&#xd;
+&#xd;
+    public Integer getUserId() {&#xd;
+        return userId;&#xd;
+    }&#xd;
+&#xd;
+    public String getFirstName() {&#xd;
+        return firstName;&#xd;
+    }&#xd;
+&#xd;
+    public String getLastName() {&#xd;
+        return lastName;&#xd;
+    }&#xd;
+&#xd;
+    public String getEmail() {&#xd;
+        return email;&#xd;
+    }&#xd;
+&#xd;
+    public String getRole() {&#xd;
+        return role;&#xd;
+    }&#xd;
+&#xd;
+    public String getPermission() {&#xd;
+        return permission;&#xd;
+    }&#xd;
+&#xd;
+    public String getDescription() {&#xd;
+        return description;&#xd;
+    }&#xd;
+&#xd;
+    protected UserPermission() {&#xd;
+    }&#xd;
+}</content>
+      <XmlFileInfo>
+        <size>1534</size>
+        <modified></modified>
+        <mime_type>text/x-java-source</mime_type>
+        <extension>.java</extension>
+      </XmlFileInfo>
+    </XmlFileContent>
+    <XmlFileContent>
+      <path>main\java\com\example\gymmanagement\exceptions\ResponseWriteException.java</path>
+      <content>package com.example.gymmanagement.exceptions;&#xd;
+&#xd;
+public class ResponseWriteException extends Exception {&#xd;
+    public ResponseWriteException(String message, Throwable cause) {&#xd;
+        super(message, cause);&#xd;
+    }&#xd;
+}&#xd;
+</content>
+      <XmlFileInfo>
+        <size>218</size>
+        <modified></modified>
+        <mime_type>text/x-java-source</mime_type>
+        <extension>.java</extension>
+      </XmlFileInfo>
+    </XmlFileContent>
+    <XmlFileContent>
+      <path>main\java\com\example\gymmanagement\filters\CorsFilter.java</path>
+      <content>package com.example.gymmanagement.filters;&#xd;
+&#xd;
+import jakarta.servlet.*;&#xd;
+import jakarta.servlet.annotation.WebFilter;&#xd;
+import jakarta.servlet.http.HttpServletRequest;&#xd;
+import jakarta.servlet.http.HttpServletResponse;&#xd;
+import java.io.IOException;&#xd;
+&#xd;
+@WebFilter(urlPatterns = "/*")&#xd;
+public class CorsFilter implements Filter {&#xd;
+&#xd;
+    @Override&#xd;
+    public void init(FilterConfig filterConfig) throws ServletException {&#xd;
+        System.out.println("✅ CORS Filter initialized");&#xd;
+    }&#xd;
+&#xd;
+    @Override&#xd;
+    public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain)&#xd;
+            throws IOException, ServletException {&#xd;
+&#xd;
+        HttpServletRequest httpRequest = (HttpServletRequest) request;&#xd;
+        HttpServletResponse httpResponse = (HttpServletResponse) response;&#xd;
+&#xd;
+        httpResponse.setHeader("Access-Control-Allow-Origin", "http://localhost:3000");&#xd;
+        httpResponse.setHeader("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS, PATCH");&#xd;
+        httpResponse.setHeader("Access-Control-Allow-Headers",&#xd;
+                "Content-Type, Authorization, X-Requested-With, Accept");&#xd;
+        httpResponse.setHeader("Access-Control-Allow-Credentials", "true");&#xd;
+        httpResponse.setHeader("Access-Control-Max-Age", "3600");&#xd;
+        httpResponse.setHeader("Access-Control-Expose-Headers", "Authorization");&#xd;
+&#xd;
+        if ("OPTIONS".equalsIgnoreCase(httpRequest.getMethod())) {&#xd;
+            httpResponse.setStatus(HttpServletResponse.SC_OK);&#xd;
+            return;&#xd;
+        }&#xd;
+&#xd;
+        chain.doFilter(request, response);&#xd;
+    }&#xd;
+&#xd;
+    @Override&#xd;
+    public void destroy() {&#xd;
+        System.out.println("❌ CORS Filter destroyed");&#xd;
+    }&#xd;
+}</content>
+      <XmlFileInfo>
+        <size>1694</size>
+        <modified></modified>
+        <mime_type>text/x-java-source</mime_type>
+        <extension>.java</extension>
+      </XmlFileInfo>
+    </XmlFileContent>
+    <XmlFileContent>
+      <path>main\java\com\example\gymmanagement\HelloServlet.java</path>
+      <content>package com.example.gymmanagement;
+
+import com.example.gymmanagement.exceptions.ResponseWriteException;
+import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+@WebServlet(name = "helloServlet", value = "/hello-servlet")
+public class HelloServlet extends HttpServlet {
+    private String message;
+
+    @Override
+    public void init() {
+        message = "Το όνομά μου είναι Μπάμπης!";
+    }
+
+    @Override
+    public void doGet(HttpServletRequest request, HttpServletResponse response) {
+        response.setContentType("text/html; charset=UTF-8");
+
+        try {
+            writeResponse(response);
+        } catch (ResponseWriteException e) {
+            log("Σφάλμα κατά την εγγραφή της απόκρισης:", e);
+            // ✅ Κλήση της μεθόδου που υπάρχει στην ίδια κλάση
+            sendJsonErrorResponse(response, e.getMessage());
+        }
+    }
+
+    private void writeResponse(HttpServletResponse response) throws ResponseWriteException {
+        try (PrintWriter out = response.getWriter()) {
+            out.println("&lt;html>&lt;body>");
+            out.printf("&lt;h1>%s&lt;/h1>%n", message);
+            out.println("&lt;/body>&lt;/html>");
+        } catch (IOException e) {
+            throw new ResponseWriteException("Αποτυχία εγγραφής στην απόκριση.", e);
+        }
+    }
+
+    // ✅ Η μέθοδος υπάρχει εδώ μέσα στην κλάση
+    private void sendJsonErrorResponse(HttpServletResponse response, String errorMessage) {
+        response.setContentType("application/json; charset=UTF-8");
+        response.setStatus(HttpServletResponse.SC_INTERNAL_SERVER_ERROR);
+
+        try (PrintWriter out = response.getWriter()) {
+            out.printf("{\"error\": \"%s\"}", errorMessage.replace("\"", "\\\""));
+        } catch (IOException ioException) {
+            log("Αποτυχία αποστολής JSON απόκρισης.", ioException);
+        }
+    }
+
+    @Override
+    public void destroy() {
+        // Δεν απαιτείται καθαρισμός πόρων
+    }
+}
+</content>
+      <XmlFileInfo>
+        <size>2305</size>
+        <modified></modified>
+        <mime_type>text/html</mime_type>
+        <extension>.java</extension>
+      </XmlFileInfo>
+    </XmlFileContent>
+    <XmlFileContent>
+      <path>main\java\com\example\gymmanagement\model\AppUser.java</path>
+      <content>package com.example.gymmanagement.model;&#xd;
+&#xd;
+import jakarta.persistence.*;&#xd;
+&#xd;
+@Entity&#xd;
+@Table(name = "app_user")&#xd;
+public class AppUser {&#xd;
+&#xd;
+    @Id&#xd;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)&#xd;
+    private Long id;&#xd;
+&#xd;
+    @Column(nullable = false, unique = true)&#xd;
+    private String username;&#xd;
+&#xd;
+    @Column(nullable = false)&#xd;
+    private String password;&#xd;
+&#xd;
+    private String email;&#xd;
+    private String role;&#xd;
+    private String firstName;&#xd;
+    private String lastName;&#xd;
+    private String phone;&#xd;
+&#xd;
+    public AppUser() {}&#xd;
+&#xd;
+    public AppUser(String username, String password, String email, String role,&#xd;
+                   String firstName, String lastName, String phone) {&#xd;
+        this.username = username;&#xd;
+        this.password = password;&#xd;
+        this.email = email;&#xd;
+        this.role = role;&#xd;
+        this.firstName = firstName;&#xd;
+        this.lastName = lastName;&#xd;
+        this.phone = phone;&#xd;
+    }&#xd;
+&#xd;
+    public Long getId() { return id; }&#xd;
+    public void setId(Long id) { this.id = id; }&#xd;
+&#xd;
+    public String getUsername() { return username; }&#xd;
+    public void setUsername(String username) { this.username = username; }&#xd;
+&#xd;
+    public String getPassword() { return password; }&#xd;
+    public void setPassword(String password) { this.password = password; }&#xd;
+&#xd;
+    public String getEmail() { return email; }&#xd;
+    public void setEmail(String email) { this.email = email; }&#xd;
+&#xd;
+    public String getRole() { return role; }&#xd;
+    public void setRole(String role) { this.role = role; }&#xd;
+&#xd;
+    public String getFirstName() { return firstName; }&#xd;
+    public void setFirstName(String firstName) { this.firstName = firstName; }&#xd;
+&#xd;
+    public String getLastName() { return lastName; }&#xd;
+    public void setLastName(String lastName) { this.lastName = lastName; }&#xd;
+&#xd;
+    public String getPhone() { return phone; }&#xd;
+    public void setPhone(String phone) { this.phone = phone; }&#xd;
+}&#xd;
+</content>
+      <XmlFileInfo>
+        <size>1891</size>
+        <modified></modified>
+        <mime_type>text/x-java-source</mime_type>
+        <extension>.java</extension>
+      </XmlFileInfo>
+    </XmlFileContent>
+    <XmlFileContent>
+      <path>main\java\com\example\gymmanagement\repositories\UserRepository.java</path>
+      <content>package com.example.gymmanagement.repositories;&#xd;
+&#xd;
+import com.example.gymmanagement.entities.User;&#xd;
+import org.springframework.data.jpa.repository.JpaRepository;&#xd;
+import java.util.List;&#xd;
+import java.util.Optional;&#xd;
+&#xd;
+public interface UserRepository extends JpaRepository&lt;User, Long> {&#xd;
+    Optional&lt;User> findByUsername(String username);&#xd;
+    List&lt;User> findByRole(String role); // για MEMBERS, TRAINERS&#xd;
+    List&lt;User> findByRoleAndIsActiveTrue(String role); // ενεργά μέλη&#xd;
+}&#xd;
+</content>
+      <XmlFileInfo>
+        <size>492</size>
+        <modified></modified>
+        <mime_type>text/x-java-source</mime_type>
+        <extension>.java</extension>
+      </XmlFileInfo>
+    </XmlFileContent>
+    <XmlFileContent>
+      <path>main\java\com\example\gymmanagement\services\UserService.java</path>
+      <content>package com.example.gymmanagement.services;&#xd;
+&#xd;
+import com.example.gymmanagement.entities.User;&#xd;
+import com.example.gymmanagement.repositories.UserRepository;&#xd;
+import org.springframework.stereotype.Service;&#xd;
+import java.util.List;&#xd;
+import java.util.Optional;&#xd;
+&#xd;
+@Service&#xd;
+public class UserService {&#xd;
+    private final UserRepository userRepo;&#xd;
+&#xd;
+    public UserService(UserRepository userRepo) {&#xd;
+        this.userRepo = userRepo;&#xd;
+    }&#xd;
+&#xd;
+    public List&lt;User> getAllMembers() {&#xd;
+        return userRepo.findByRole("MEMBER");&#xd;
+    }&#xd;
+&#xd;
+    public List&lt;User> getActiveMembers() {&#xd;
+        return userRepo.findByRoleAndIsActiveTrue("MEMBER");&#xd;
+    }&#xd;
+&#xd;
+    public List&lt;User> getAllTrainers() {&#xd;
+        return userRepo.findByRole("TRAINER");&#xd;
+    }&#xd;
+&#xd;
+    public User createUser(User user) {&#xd;
+        return userRepo.save(user);&#xd;
+    }&#xd;
+&#xd;
+    public Optional&lt;User> getUserById(Long id) {&#xd;
+        return userRepo.findById(id);&#xd;
+    }&#xd;
+&#xd;
+    public void deleteUser(Long id) {&#xd;
+        userRepo.deleteById(id);&#xd;
+    }&#xd;
+}&#xd;
+</content>
+      <XmlFileInfo>
+        <size>1019</size>
+        <modified></modified>
+        <mime_type>text/x-java-source</mime_type>
+        <extension>.java</extension>
+      </XmlFileInfo>
+    </XmlFileContent>
+    <XmlFileContent>
+      <path>main\java\com\example\gymmanagement\servlets\CreateUserServlet.java</path>
+      <content>package com.example.gymmanagement.servlets;&#xd;
+&#xd;
+import com.example.gymmanagement.entities.User;&#xd;
+import com.fasterxml.jackson.databind.ObjectMapper;&#xd;
+import jakarta.persistence.EntityManager;&#xd;
+import jakarta.persistence.PersistenceContext;&#xd;
+import jakarta.servlet.annotation.WebServlet;&#xd;
+import jakarta.servlet.http.*;&#xd;
+import java.io.IOException;&#xd;
+import java.util.HashMap;&#xd;
+import java.util.Map;&#xd;
+import java.util.logging.Level;&#xd;
+import java.util.logging.Logger;&#xd;
+&#xd;
+@WebServlet("/createUser")&#xd;
+public class CreateUserServlet extends HttpServlet {&#xd;
+&#xd;
+    private static final Logger logger = Logger.getLogger(CreateUserServlet.class.getName());&#xd;
+&#xd;
+    @PersistenceContext(unitName = "GymPU-JTA")&#xd;
+    private EntityManager em;&#xd;
+&#xd;
+    @Override&#xd;
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException {&#xd;
+        response.setContentType("application/json");&#xd;
+        response.setCharacterEncoding("UTF-8");&#xd;
+&#xd;
+        Map&lt;String, Object> jsonResponse = new HashMap&lt;>();&#xd;
+&#xd;
+        try {&#xd;
+            // Παίρνουμε τα δεδομένα από τα request parameters&#xd;
+            String username  = request.getParameter("username");&#xd;
+            String password  = request.getParameter("password");&#xd;
+            String email     = request.getParameter("email");&#xd;
+            String role      = request.getParameter("role");&#xd;
+            String firstName = request.getParameter("firstName");&#xd;
+            String lastName  = request.getParameter("lastName");&#xd;
+            String phone     = request.getParameter("phone");&#xd;
+&#xd;
+            // Δημιουργούμε νέο User entity&#xd;
+            User user = new User();&#xd;
+            user.setUsername(username);&#xd;
+            user.setPassword(password);&#xd;
+            user.setEmail(email);&#xd;
+            user.setRole(role);&#xd;
+            user.setFirstName(firstName);&#xd;
+            user.setLastName(lastName);&#xd;
+            user.setPhone(phone);&#xd;
+&#xd;
+            // Persist μέσω container-managed EntityManager&#xd;
+            em.persist(user);&#xd;
+&#xd;
+            jsonResponse.put("status", "success");&#xd;
+            jsonResponse.put("message", "User created successfully");&#xd;
+            logger.log(Level.INFO, "User created successfully: {0}", username);&#xd;
+&#xd;
+        } catch (Exception e) {&#xd;
+            jsonResponse.put("status", "error");&#xd;
+            jsonResponse.put("message", e.getMessage());&#xd;
+            logger.log(Level.SEVERE, "Error creating user: {0}", e.getMessage());&#xd;
+        }&#xd;
+&#xd;
+        // Επιστρέφουμε JSON response&#xd;
+        ObjectMapper mapper = new ObjectMapper();&#xd;
+        String json = mapper.writeValueAsString(jsonResponse);&#xd;
+        response.getWriter().write(json);&#xd;
+    }&#xd;
+}&#xd;
+</content>
+      <XmlFileInfo>
+        <size>2705</size>
+        <modified></modified>
+        <mime_type>text/x-java-source</mime_type>
+        <extension>.java</extension>
+      </XmlFileInfo>
+    </XmlFileContent>
+    <XmlFileContent>
+      <path>main\java\com\example\gymmanagement\servlets\TestServlet.java</path>
+      <content>package com.example.gymmanagement.servlets;&#xd;
+&#xd;
+import jakarta.servlet.ServletException;&#xd;
+import jakarta.servlet.annotation.WebServlet;&#xd;
+import jakarta.servlet.http.HttpServlet;&#xd;
+import jakarta.servlet.http.HttpServletRequest;&#xd;
+import jakarta.servlet.http.HttpServletResponse;&#xd;
+&#xd;
+import java.io.IOException;&#xd;
+import java.io.PrintWriter;&#xd;
+import java.util.logging.Level;&#xd;
+import java.util.logging.Logger;&#xd;
+&#xd;
+@WebServlet(urlPatterns = {"/test", "/hello"})&#xd;
+public class TestServlet extends HttpServlet {&#xd;
+&#xd;
+    private static final Logger logger = Logger.getLogger(TestServlet.class.getName());&#xd;
+&#xd;
+    @Override&#xd;
+    protected void doGet(HttpServletRequest request, HttpServletResponse response)&#xd;
+            throws ServletException {&#xd;
+&#xd;
+        response.setContentType("text/html;charset=UTF-8");&#xd;
+&#xd;
+        try (PrintWriter out = response.getWriter()) {&#xd;
+            out.println("&lt;!DOCTYPE html>");&#xd;
+            out.println("&lt;html>");&#xd;
+            out.println("&lt;head>");&#xd;
+            out.println("&lt;title>Gym Management - Test&lt;/title>");&#xd;
+            out.println("&lt;/head>");&#xd;
+            out.println("&lt;body>");&#xd;
+            out.println("&lt;h1>🏋️ Gym Management System&lt;/h1>");&#xd;
+            out.println("&lt;h2>✅ Server is working!&lt;/h2>");&#xd;
+            out.println("&lt;p>Database connection will be tested next...&lt;/p>");&#xd;
+            out.println("&lt;/body>");&#xd;
+            out.println("&lt;/html>");&#xd;
+        } catch (IOException e) {&#xd;
+            // Handle IOException thrown by getWriter()&#xd;
+            logger.log(Level.SEVERE, "Failed to write response", e);&#xd;
+            throw new ServletException("Unable to generate HTML response", e);&#xd;
+        }&#xd;
+    }&#xd;
+}&#xd;
+</content>
+      <XmlFileInfo>
+        <size>1655</size>
+        <modified></modified>
+        <mime_type>text/html</mime_type>
+        <extension>.java</extension>
+      </XmlFileInfo>
+    </XmlFileContent>
+    <XmlFileContent>
+      <path>main\java\com\example\gymmanagement\utils\HibernateUtil.java</path>
+      <content>package com.example.gymmanagement.utils;&#xd;
+&#xd;
+import org.hibernate.SessionFactory;&#xd;
+import org.hibernate.cfg.Configuration;&#xd;
+&#xd;
+public class HibernateUtil {&#xd;
+&#xd;
+    private static final SessionFactory sessionFactory;&#xd;
+&#xd;
+    static {&#xd;
+        try {&#xd;
+&#xd;
+            sessionFactory = new Configuration().configure().buildSessionFactory();&#xd;
+        } catch (Throwable ex) {&#xd;
+            System.err.println("Απέτυχε η αρχικοποίηση του SessionFactory: " + ex);&#xd;
+            throw new ExceptionInInitializerError(ex);&#xd;
+        }&#xd;
+    }&#xd;
+&#xd;
+    public static SessionFactory getSessionFactory() {&#xd;
+        return sessionFactory;&#xd;
+    }&#xd;
+&#xd;
+    public static void shutdown() {&#xd;
+        getSessionFactory().close();&#xd;
+    }&#xd;
+}&#xd;
+</content>
+      <XmlFileInfo>
+        <size>732</size>
+        <modified></modified>
+        <mime_type>text/x-java-source</mime_type>
+        <extension>.java</extension>
+      </XmlFileInfo>
+    </XmlFileContent>
+    <XmlFileContent>
+      <path>main\java\com\example\gymmanagement\utils\JwtUtil.java</path>
+      <content>package com.example.gymmanagement.utils;&#xd;
+&#xd;
+import io.jsonwebtoken.Jwts;&#xd;
+import io.jsonwebtoken.security.Keys;&#xd;
+import java.security.Key;&#xd;
+import java.util.Date;&#xd;
+&#xd;
+public class JwtUtil {&#xd;
+    private static final String SECRET_KEY = "mySuperSecretKeyThatIsAtLeast32Chars";&#xd;
+    private static final long EXPIRATION_TIME = 86400000;&#xd;
+&#xd;
+    private static Key getSigningKey() {&#xd;
+        return Keys.hmacShaKeyFor(SECRET_KEY.getBytes());&#xd;
+    }&#xd;
+&#xd;
+    public static String generateToken(String username, String role) {&#xd;
+        return Jwts.builder()&#xd;
+                .claims()&#xd;
+                .add("sub", username)&#xd;
+                .add("role", role)&#xd;
+                .issuedAt(new Date())&#xd;
+                .expiration(new Date(System.currentTimeMillis() + EXPIRATION_TIME))&#xd;
+                .and()&#xd;
+                .signWith(getSigningKey())&#xd;
+                .compact();&#xd;
+    }&#xd;
+}&#xd;
+</content>
+      <XmlFileInfo>
+        <size>883</size>
+        <modified></modified>
+        <mime_type>text/x-java-source</mime_type>
+        <extension>.java</extension>
+      </XmlFileInfo>
+    </XmlFileContent>
+    <XmlFileContent>
+      <path>main\resources\application.properties</path>
+      <content># Database Configuration&#xd;
+spring.datasource.url=jdbc:postgresql://localhost:5432/gymdb&#xd;
+spring.datasource.username=postgres&#xd;
+spring.datasource.password=mamouzellos1993&#xd;
+&#xd;
+# Driver&#xd;
+spring.datasource.driver-class-name=org.postgresql.Driver&#xd;
+&#xd;
+# JPA/Hibernate&#xd;
+spring.jpa.hibernate.ddl-auto=update&#xd;
+spring.jpa.show-sql=true&#xd;
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect&#xd;
+&#xd;
+# Server Port&#xd;
+server.port=8080</content>
+      <XmlFileInfo>
+        <size>437</size>
+        <modified></modified>
+        <mime_type>text/x-java-properties</mime_type>
+        <extension>.properties</extension>
+      </XmlFileInfo>
+    </XmlFileContent>
+    <XmlFileContent>
+      <path>main\resources\META-INF\persistence.xml</path>
+      <content>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;persistence xmlns="https://jakarta.ee/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="https://jakarta.ee/xml/ns/persistence
+                                 https://jakarta.ee/xml/ns/persistence/persistence_3_0.xsd"
+             version="3.0">
+
+
+    &lt;persistence-unit name="GymPU-JTA" transaction-type="JTA">
+
+        &lt;jta-data-source>java:jboss/datasources/GymDS&lt;/jta-data-source>
+
+
+        &lt;class>com.example.gymmanagement.entities.User&lt;/class>
+
+        &lt;properties>
+
+            &lt;property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQLDialect"/>
+
+
+            &lt;property name="hibernate.hbm2ddl.auto" value="none"/>
+
+
+            &lt;property name="hibernate.show_sql" value="true"/>
+            &lt;property name="hibernate.format_sql" value="true"/>
+        &lt;/properties>
+    &lt;/persistence-unit>
+
+&lt;/persistence>
+</content>
+      <XmlFileInfo>
+        <size>940</size>
+        <modified></modified>
+        <mime_type>application/xml</mime_type>
+        <extension>.xml</extension>
+      </XmlFileInfo>
+    </XmlFileContent>
+    <XmlFileContent>
+      <path>main\webapp\index.html</path>
+      <content>&lt;!DOCTYPE html>&#xd;
+&lt;html lang="el">&#xd;
+&lt;head>&#xd;
+    &lt;meta charset="UTF-8">&#xd;
+    &lt;title>Gym Management&lt;/title>&#xd;
+    &lt;style>&#xd;
+        body {&#xd;
+            font-family: Arial, sans-serif;&#xd;
+            background-color: #f2f2f2;&#xd;
+            margin: 0;&#xd;
+            padding: 0;&#xd;
+            text-align: center;&#xd;
+        }&#xd;
+        h2 {&#xd;
+            color: #333;&#xd;
+            margin-top: 50px;&#xd;
+        }&#xd;
+        a {&#xd;
+            display: inline-block;&#xd;
+            margin-top: 20px;&#xd;
+            padding: 10px 20px;&#xd;
+            background-color: #007bff;&#xd;
+            color: white;&#xd;
+            text-decoration: none;&#xd;
+            border-radius: 5px;&#xd;
+            transition: background-color 0.3s ease;&#xd;
+        }&#xd;
+        a:hover {&#xd;
+            background-color: #0056b3;&#xd;
+        }&#xd;
+    &lt;/style>&#xd;
+&lt;/head>&#xd;
+&lt;body>&#xd;
+&lt;h2>Καλώς ήρθες στην εφαρμογή!&lt;/h2>&#xd;
+&lt;a href="api/hello">Έλεγχος Hello Endpoint&lt;/a>&#xd;
+&lt;/body>&#xd;
+&lt;/html>&#xd;
+</content>
+      <XmlFileInfo>
+        <size>941</size>
+        <modified></modified>
+        <mime_type>text/html</mime_type>
+        <extension>.html</extension>
+      </XmlFileInfo>
+    </XmlFileContent>
+    <XmlFileContent>
+      <path>main\webapp\index.jsp</path>
+      <content>&lt;%@ page contentType="text/html;charset=UTF-8" %>
+&lt;!DOCTYPE html>
+&lt;html lang="el">
+&lt;head>
+    &lt;meta charset="UTF-8">
+    &lt;title>Gym App&lt;/title>
+    &lt;style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f8;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background: white;
+            padding: 30px 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        h2 {
+            color: #2c3e50;
+        }
+        a {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: background-color 0.3s ease;
+        }
+        a:hover {
+            background-color: #2980b9;
+        }
+    &lt;/style>
+&lt;/head>
+&lt;body>
+&lt;div class="container">
+    &lt;h2>Καλώς ήρθες στην εφαρμογή Gym App!&lt;/h2>
+    &lt;a href="api/hello">Δοκιμή Hello Endpoint&lt;/a>
+&lt;/div>
+&lt;/body>
+&lt;/html>
+
+</content>
+      <XmlFileInfo>
+        <size>1294</size>
+        <modified></modified>
+        <mime_type>text/x-jsp</mime_type>
+        <extension>.jsp</extension>
+      </XmlFileInfo>
+    </XmlFileContent>
+    <XmlFileContent>
+      <path>main\webapp\WEB-INF\beans.xml</path>
+      <content>&lt;beans xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+                           http://xmlns.jcp.org/xml/ns/javaee/beans_2_0.xsd"
+       version="2.0"
+       bean-discovery-mode="all">
+&lt;/beans>
+</content>
+      <XmlFileInfo>
+        <size>314</size>
+        <modified></modified>
+        <mime_type>application/xml</mime_type>
+        <extension>.xml</extension>
+      </XmlFileInfo>
+    </XmlFileContent>
+    <XmlFileContent>
+      <path>main\webapp\WEB-INF\jboss-web.xml</path>
+      <content>&lt;?xml version="1.0" encoding="UTF-8"?>&#xd;
+&lt;jboss-web>&#xd;
+    &lt;resource-ref>&#xd;
+        &lt;res-ref-name>DefaultDataSource&lt;/res-ref-name>&#xd;
+        &lt;jndi-name>java:jboss/datasources/GymDS&lt;/jndi-name>&#xd;
+    &lt;/resource-ref>&#xd;
+&lt;/jboss-web></content>
+      <XmlFileInfo>
+        <size>223</size>
+        <modified></modified>
+        <mime_type>application/xml</mime_type>
+        <extension>.xml</extension>
+      </XmlFileInfo>
+    </XmlFileContent>
+    <XmlFileContent>
+      <path>main\webapp\WEB-INF\web.xml</path>
+      <content>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee
+                             https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd"
+         version="6.0">
+
+    &lt;display-name>Gym Management System&lt;/display-name>
+
+
+    &lt;filter>
+        &lt;filter-name>CorsFilter&lt;/filter-name>
+        &lt;filter-class>com.example.gymmanagement.filters.CorsFilter&lt;/filter-class>
+    &lt;/filter>
+
+    &lt;filter-mapping>
+        &lt;filter-name>CorsFilter&lt;/filter-name>
+        &lt;url-pattern>/*&lt;/url-pattern>
+    &lt;/filter-mapping>
+
+
+    &lt;resource-ref>
+        &lt;res-ref-name>DefaultDataSource&lt;/res-ref-name>
+        &lt;res-type>javax.sql.DataSource&lt;/res-type>
+        &lt;res-auth>Container&lt;/res-auth>
+    &lt;/resource-ref>
+
+&lt;/web-app></content>
+      <XmlFileInfo>
+        <size>863</size>
+        <modified></modified>
+        <mime_type>application/xml</mime_type>
+        <extension>.xml</extension>
+      </XmlFileInfo>
+    </XmlFileContent>
+  </XmlFiles>
+</XmlStructure>

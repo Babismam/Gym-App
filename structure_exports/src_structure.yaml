@@ -1,0 +1,1336 @@
+project_info:
+  name: "src"
+  path: "C:\\Users\\Babis\\Desktop\\Java Lessons\\IntelliJ_Projects\\gym-management-backend\\\
+    src"
+  generatedAt: "2025-11-04T20:53:31.8638519"
+  totalFiles: 34
+  totalSize: 57039
+structure:
+  "main":
+    type: null
+    info: null
+    children:
+      "java":
+        type: null
+        info: null
+        children:
+          "com":
+            type: null
+            info: null
+            children:
+              "example":
+                type: null
+                info: null
+                children:
+                  "gymmanagement":
+                    type: null
+                    info: null
+                    children:
+                      "api":
+                        type: null
+                        info: null
+                        children:
+                          "ApplicationConfig.java":
+                            type: "file"
+                            info:
+                              "size": "204"
+                              "last_modified": "2025-11-04T20:53:31.4172376"
+                              "mime_type": "text/x-java-source"
+                              "extension": ".java"
+                            children: null
+                          "LoginResource.java":
+                            type: "file"
+                            info:
+                              "size": "1478"
+                              "last_modified": "2025-11-04T20:53:31.4305657"
+                              "mime_type": "text/x-java-source"
+                              "extension": ".java"
+                            children: null
+                          "MessageResponse.java":
+                            type: "file"
+                            info:
+                              "size": "385"
+                              "last_modified": "2025-11-04T20:53:31.4411142"
+                              "mime_type": "text/x-java-source"
+                              "extension": ".java"
+                            children: null
+                          "UserResource.java":
+                            type: "file"
+                            info:
+                              "size": "5213"
+                              "last_modified": "2025-11-04T20:53:31.4411142"
+                              "mime_type": "text/x-java-source"
+                              "extension": ".java"
+                            children: null
+                      "config":
+                        type: null
+                        info: null
+                        children: {}
+                      "controllers":
+                        type: null
+                        info: null
+                        children:
+                          "UserController.java":
+                            type: "file"
+                            info:
+                              "size": "1187"
+                              "last_modified": "2025-11-04T20:53:31.4729191"
+                              "mime_type": "text/x-java-source"
+                              "extension": ".java"
+                            children: null
+                      "dao":
+                        type: null
+                        info: null
+                        children:
+                          "AppUserDAO.java":
+                            type: "file"
+                            info:
+                              "size": "1752"
+                              "last_modified": "2025-11-04T20:53:31.4886428"
+                              "mime_type": "text/x-java-source"
+                              "extension": ".java"
+                            children: null
+                      "dto":
+                        type: null
+                        info: null
+                        children:
+                          "CreateUserDTO.java":
+                            type: "file"
+                            info:
+                              "size": "1146"
+                              "last_modified": "2025-11-04T20:53:31.504659"
+                              "mime_type": "text/x-java-source"
+                              "extension": ".java"
+                            children: null
+                          "LoginDTO.java":
+                            type: "file"
+                            info:
+                              "size": "558"
+                              "last_modified": "2025-11-04T20:53:31.504659"
+                              "mime_type": "text/x-java-source"
+                              "extension": ".java"
+                            children: null
+                      "entities":
+                        type: null
+                        info: null
+                        children:
+                          "Attendance.java":
+                            type: "file"
+                            info:
+                              "size": "2341"
+                              "last_modified": "2025-11-04T20:53:31.5205328"
+                              "mime_type": "text/x-java-source"
+                              "extension": ".java"
+                            children: null
+                          "MemberFullInfo.java":
+                            type: "file"
+                            info:
+                              "size": "2204"
+                              "last_modified": "2025-11-04T20:53:31.5363629"
+                              "mime_type": "text/x-java-source"
+                              "extension": ".java"
+                            children: null
+                          "MemberProgram.java":
+                            type: "file"
+                            info:
+                              "size": "2180"
+                              "last_modified": "2025-11-04T20:53:31.5363629"
+                              "mime_type": "text/x-java-source"
+                              "extension": ".java"
+                            children: null
+                          "Program.java":
+                            type: "file"
+                            info:
+                              "size": "2590"
+                              "last_modified": "2025-11-04T20:53:31.5520543"
+                              "mime_type": "text/x-java-source"
+                              "extension": ".java"
+                            children: null
+                          "RolePermission.java":
+                            type: "file"
+                            info:
+                              "size": "1498"
+                              "last_modified": "2025-11-04T20:53:31.5520543"
+                              "mime_type": "text/x-java-source"
+                              "extension": ".java"
+                            children: null
+                          "Schedule.java":
+                            type: "file"
+                            info:
+                              "size": "3402"
+                              "last_modified": "2025-11-04T20:53:31.5717844"
+                              "mime_type": "text/x-java-source"
+                              "extension": ".java"
+                            children: null
+                          "TrainerSchedule.java":
+                            type: "file"
+                            info:
+                              "size": "2016"
+                              "last_modified": "2025-11-04T20:53:31.5717844"
+                              "mime_type": "text/x-java-source"
+                              "extension": ".java"
+                            children: null
+                          "User.java":
+                            type: "file"
+                            info:
+                              "size": "8745"
+                              "last_modified": "2025-11-04T20:53:31.5836796"
+                              "mime_type": "text/x-java-source"
+                              "extension": ".java"
+                            children: null
+                          "UserPermission.java":
+                            type: "file"
+                            info:
+                              "size": "1534"
+                              "last_modified": "2025-11-04T20:53:31.5836796"
+                              "mime_type": "text/x-java-source"
+                              "extension": ".java"
+                            children: null
+                      "exceptions":
+                        type: null
+                        info: null
+                        children:
+                          "ResponseWriteException.java":
+                            type: "file"
+                            info:
+                              "size": "218"
+                              "last_modified": "2025-11-04T20:53:31.5994474"
+                              "mime_type": "text/x-java-source"
+                              "extension": ".java"
+                            children: null
+                      "filters":
+                        type: null
+                        info: null
+                        children:
+                          "CorsFilter.java":
+                            type: "file"
+                            info:
+                              "size": "1694"
+                              "last_modified": "2025-11-04T20:53:31.6154161"
+                              "mime_type": "text/x-java-source"
+                              "extension": ".java"
+                            children: null
+                      "HelloServlet.java":
+                        type: "file"
+                        info:
+                          "size": "2305"
+                          "last_modified": "2025-11-04T20:53:31.6326872"
+                          "mime_type": "text/html"
+                          "extension": ".java"
+                        children: null
+                      "model":
+                        type: null
+                        info: null
+                        children:
+                          "AppUser.java":
+                            type: "file"
+                            info:
+                              "size": "1891"
+                              "last_modified": "2025-11-04T20:53:31.6463837"
+                              "mime_type": "text/x-java-source"
+                              "extension": ".java"
+                            children: null
+                      "repositories":
+                        type: null
+                        info: null
+                        children:
+                          "UserRepository.java":
+                            type: "file"
+                            info:
+                              "size": "492"
+                              "last_modified": "2025-11-04T20:53:31.662151"
+                              "mime_type": "text/x-java-source"
+                              "extension": ".java"
+                            children: null
+                      "rest":
+                        type: null
+                        info: null
+                        children: {}
+                      "services":
+                        type: null
+                        info: null
+                        children:
+                          "UserService.java":
+                            type: "file"
+                            info:
+                              "size": "1019"
+                              "last_modified": "2025-11-04T20:53:31.6780142"
+                              "mime_type": "text/x-java-source"
+                              "extension": ".java"
+                            children: null
+                      "servlets":
+                        type: null
+                        info: null
+                        children:
+                          "CreateUserServlet.java":
+                            type: "file"
+                            info:
+                              "size": "2705"
+                              "last_modified": "2025-11-04T20:53:31.6937751"
+                              "mime_type": "text/x-java-source"
+                              "extension": ".java"
+                            children: null
+                          "TestServlet.java":
+                            type: "file"
+                            info:
+                              "size": "1655"
+                              "last_modified": "2025-11-04T20:53:31.6937751"
+                              "mime_type": "text/html"
+                              "extension": ".java"
+                            children: null
+                      "utils":
+                        type: null
+                        info: null
+                        children:
+                          "HibernateUtil.java":
+                            type: "file"
+                            info:
+                              "size": "732"
+                              "last_modified": "2025-11-04T20:53:31.7096796"
+                              "mime_type": "text/x-java-source"
+                              "extension": ".java"
+                            children: null
+                          "JwtUtil.java":
+                            type: "file"
+                            info:
+                              "size": "883"
+                              "last_modified": "2025-11-04T20:53:31.7096796"
+                              "mime_type": "text/x-java-source"
+                              "extension": ".java"
+                            children: null
+      "resources":
+        type: null
+        info: null
+        children:
+          "application.properties":
+            type: "file"
+            info:
+              "size": "437"
+              "last_modified": "2025-11-04T20:53:31.7570724"
+              "mime_type": "text/x-java-properties"
+              "extension": ".properties"
+            children: null
+          "META-INF":
+            type: null
+            info: null
+            children:
+              "persistence.xml":
+                type: "file"
+                info:
+                  "size": "940"
+                  "last_modified": "2025-11-04T20:53:31.7788343"
+                  "mime_type": "application/xml"
+                  "extension": ".xml"
+                children: null
+      "webapp":
+        type: null
+        info: null
+        children:
+          "index.html":
+            type: "file"
+            info:
+              "size": "941"
+              "last_modified": "2025-11-04T20:53:31.8007667"
+              "mime_type": "text/html"
+              "extension": ".html"
+            children: null
+          "index.jsp":
+            type: "file"
+            info:
+              "size": "1294"
+              "last_modified": "2025-11-04T20:53:31.8007667"
+              "mime_type": "text/x-jsp"
+              "extension": ".jsp"
+            children: null
+          "WEB-INF":
+            type: null
+            info: null
+            children:
+              "beans.xml":
+                type: "file"
+                info:
+                  "size": "314"
+                  "last_modified": "2025-11-04T20:53:31.8166054"
+                  "mime_type": "application/xml"
+                  "extension": ".xml"
+                children: null
+              "jboss-web.xml":
+                type: "file"
+                info:
+                  "size": "223"
+                  "last_modified": "2025-11-04T20:53:31.8166054"
+                  "mime_type": "application/xml"
+                  "extension": ".xml"
+                children: null
+              "web.xml":
+                type: "file"
+                info:
+                  "size": "863"
+                  "last_modified": "2025-11-04T20:53:31.8323927"
+                  "mime_type": "application/xml"
+                  "extension": ".xml"
+                children: null
+  "test":
+    type: null
+    info: null
+    children:
+      "java":
+        type: null
+        info: null
+        children: {}
+      "resources":
+        type: null
+        info: null
+        children: {}
+files:
+- path: "main\\java\\com\\example\\gymmanagement\\api\\ApplicationConfig.java"
+  content: "package com.example.gymmanagement.api;\r\n\r\nimport jakarta.ws.rs.ApplicationPath;\r\
+    \nimport jakarta.ws.rs.core.Application;\r\n\r\n@ApplicationPath(\"/api\")\r\n\
+    public class ApplicationConfig extends Application {\r\n}"
+  info:
+    "size": "204"
+    "last_modified": "2025-11-04T20:53:31.4172376"
+    "mime_type": "text/x-java-source"
+    "extension": ".java"
+- path: "main\\java\\com\\example\\gymmanagement\\api\\LoginResource.java"
+  content: "package com.example.gymmanagement.api;\r\n\r\nimport com.example.gymmanagement.repositories.AppUserDAO;\r\
+    \nimport com.example.gymmanagement.dto.LoginDTO;\r\nimport com.example.gymmanagement.entities.User;\r\
+    \nimport com.example.gymmanagement.utils.JwtUtil;\r\nimport jakarta.inject.Inject;\r\
+    \nimport jakarta.transaction.Transactional;\r\nimport jakarta.ws.rs.*;\r\nimport\
+    \ jakarta.ws.rs.core.MediaType;\r\nimport jakarta.ws.rs.core.Response;\r\n\r\n\
+    import java.util.HashMap;\r\nimport java.util.Map;\r\n\r\n@Path(\"/login\")\r\n\
+    @Produces(MediaType.APPLICATION_JSON)\r\n@Consumes(MediaType.APPLICATION_JSON)\r\
+    \n@Transactional\r\npublic class LoginResource {\r\n\r\n    @Inject\r\n    private\
+    \ AppUserDAO userDAO; // CDI-managed DAO με JTA EntityManager\r\n\r\n    public\
+    \ LoginResource() {}\r\n\r\n    @POST\r\n    public Response login(LoginDTO request)\
+    \ {\r\n        User user = userDAO.findByUsername(request.getUsername());\r\n\r\
+    \n        if (user == null || !user.verifyPassword(request.getPassword())) {\r\
+    \n            return Response.status(Response.Status.UNAUTHORIZED)\r\n       \
+    \             .entity(Map.of(\"error\", \"Invalid credentials\"))\r\n        \
+    \            .build();\r\n        }\r\n\r\n        // Δημιουργία JWT token\r\n\
+    \        String token = JwtUtil.generateToken(user.getUsername(), user.getRole());\r\
+    \n        Map<String, Object> resp = new HashMap<>();\r\n        resp.put(\"token\"\
+    , token);\r\n        resp.put(\"username\", user.getUsername());\r\n        resp.put(\"\
+    role\", user.getRole());\r\n\r\n        return Response.ok(resp).build();\r\n\
+    \    }\r\n}\r\n"
+  info:
+    "size": "1478"
+    "last_modified": "2025-11-04T20:53:31.4305657"
+    "mime_type": "text/x-java-source"
+    "extension": ".java"
+- path: "main\\java\\com\\example\\gymmanagement\\api\\MessageResponse.java"
+  content: "package com.example.gymmanagement.api;\r\n\r\npublic class MessageResponse\
+    \ {\r\n    private String message;\r\n\r\n    public MessageResponse() {}\r\n\r\
+    \n    public MessageResponse(String message) {\r\n        this.message = message;\r\
+    \n    }\r\n\r\n    public String getMessage() {\r\n        return message;\r\n\
+    \    }\r\n\r\n    public void setMessage(String message) {\r\n        this.message\
+    \ = message;\r\n    }\r\n}\r\n"
+  info:
+    "size": "385"
+    "last_modified": "2025-11-04T20:53:31.4411142"
+    "mime_type": "text/x-java-source"
+    "extension": ".java"
+- path: "main\\java\\com\\example\\gymmanagement\\api\\UserResource.java"
+  content: "package com.example.gymmanagement.api;\r\n\r\nimport com.example.gymmanagement.repositories.AppUserDAO;\r\
+    \nimport com.example.gymmanagement.dto.CreateUserDTO;\r\nimport com.example.gymmanagement.dto.LoginDTO;\r\
+    \nimport com.example.gymmanagement.entities.User;\r\nimport com.example.gymmanagement.utils.JwtUtil;\r\
+    \nimport jakarta.inject.Inject;\r\nimport jakarta.transaction.Transactional;\r\
+    \nimport jakarta.ws.rs.*;\r\nimport jakarta.ws.rs.core.MediaType;\r\nimport jakarta.ws.rs.core.Response;\r\
+    \n\r\nimport java.util.HashMap;\r\nimport java.util.List;\r\nimport java.util.Map;\r\
+    \n\r\n@Path(\"/users\")\r\n@Produces(MediaType.APPLICATION_JSON)\r\n@Consumes(MediaType.APPLICATION_JSON)\r\
+    \n@Transactional\r\npublic class UserResource {\r\n\r\n    @Inject\r\n    private\
+    \ AppUserDAO userDAO;\r\n\r\n    public UserResource() {}\r\n\r\n    @POST\r\n\
+    \    @Path(\"/login\")\r\n    public Response login(LoginDTO loginDTO) {\r\n \
+    \       User user = userDAO.findByUsername(loginDTO.getUsername());\r\n      \
+    \  if (user == null || !user.verifyPassword(loginDTO.getPassword())) {\r\n   \
+    \         return Response.status(Response.Status.UNAUTHORIZED).entity(\"Invalid\
+    \ credentials\").build();\r\n        }\r\n        return buildAuthResponse(user);\r\
+    \n    }\r\n\r\n    @POST\r\n    @Path(\"/register\")\r\n    public Response register(CreateUserDTO\
+    \ dto) {\r\n        if (userDAO.usernameExists(dto.getUsername()) || userDAO.emailExists(dto.getEmail()))\
+    \ {\r\n            return Response.status(Response.Status.CONFLICT).entity(\"\
+    User already exists\").build();\r\n        }\r\n        User newUser = new User();\r\
+    \n        newUser.setUsername(dto.getUsername());\r\n        newUser.setPassword(dto.getPassword());\r\
+    \n        newUser.setEmail(dto.getEmail());\r\n        newUser.setFirstName(dto.getFirstName());\r\
+    \n        newUser.setLastName(dto.getLastName());\r\n        newUser.setPhone(dto.getPhone());\r\
+    \n        newUser.setRole(dto.getRole());\r\n        userDAO.saveUser(newUser);\r\
+    \n        return buildAuthResponse(newUser);\r\n    }\r\n\r\n    @GET\r\n    public\
+    \ List<User> getAllUsers() {\r\n        return userDAO.getAllUsers();\r\n    }\r\
+    \n\r\n    @GET\r\n    @Path(\"/{id}\")\r\n    public User getUserById(@PathParam(\"\
+    id\") Long id) {\r\n        return userDAO.getUserById(id);\r\n    }\r\n\r\n \
+    \   @PUT\r\n    @Path(\"/{id}\")\r\n    public Response updateUser(@PathParam(\"\
+    id\") Long id, CreateUserDTO dto) {\r\n        User existing = userDAO.getUserById(id);\r\
+    \n        if (existing == null) return Response.status(Response.Status.NOT_FOUND).build();\r\
+    \n\r\n        existing.setUsername(dto.getUsername());\r\n        existing.setPassword(dto.getPassword());\r\
+    \n        existing.setEmail(dto.getEmail());\r\n        existing.setRole(dto.getRole());\r\
+    \n        userDAO.saveUser(existing);\r\n\r\n        return Response.ok(existing).build();\r\
+    \n    }\r\n\r\n    @DELETE\r\n    @Path(\"/{id}\")\r\n    public Response deleteUser(@PathParam(\"\
+    id\") Long id) {\r\n        userDAO.deleteUser(id);\r\n        return Response.noContent().build();\r\
+    \n    }\r\n\r\n    // === MEMBER/TRAINER ENDPOINTS ===\r\n    @GET\r\n    @Path(\"\
+    /members\")\r\n    public Response getAllMembers() {\r\n        List<User> members\
+    \ = userDAO.getAllUsers().stream()\r\n                .filter(User::isMember)\r\
+    \n                .toList();\r\n        return Response.ok(members).build();\r\
+    \n    }\r\n\r\n    @GET\r\n    @Path(\"/members/active\")\r\n    public Response\
+    \ getActiveMembers() {\r\n        List<User> activeMembers = userDAO.getAllUsers().stream()\r\
+    \n                .filter(User::isMember)\r\n                .filter(User::isMembershipActive)\r\
+    \n                .toList();\r\n        return Response.ok(activeMembers).build();\r\
+    \n    }\r\n\r\n    @GET\r\n    @Path(\"/members/expiring\")\r\n    public Response\
+    \ getExpiringMembers() {\r\n        List<User> expiringMembers = userDAO.getAllUsers().stream()\r\
+    \n                .filter(User::isMember)\r\n                .filter(User::isMembershipExpiring)\r\
+    \n                .toList();\r\n        return Response.ok(expiringMembers).build();\r\
+    \n    }\r\n\r\n    @GET\r\n    @Path(\"/trainers\")\r\n    public Response getAllTrainers()\
+    \ {\r\n        List<User> trainers = userDAO.getAllUsers().stream()\r\n      \
+    \          .filter(User::isTrainer)\r\n                .toList();\r\n        return\
+    \ Response.ok(trainers).build();\r\n    }\r\n\r\n    @PATCH\r\n    @Path(\"/{id}/deactivate\"\
+    )\r\n    public Response deactivateUser(@PathParam(\"id\") Long id) {\r\n    \
+    \    User user = userDAO.getUserById(id);\r\n        if (user == null) return\
+    \ Response.status(Response.Status.NOT_FOUND).build();\r\n\r\n        user.setIsActive(false);\r\
+    \n        userDAO.saveUser(user);\r\n        return Response.ok(user).build();\r\
+    \n    }\r\n\r\n    @PATCH\r\n    @Path(\"/{id}/activate\")\r\n    public Response\
+    \ activateUser(@PathParam(\"id\") Long id) {\r\n        User user = userDAO.getUserById(id);\r\
+    \n        if (user == null) return Response.status(Response.Status.NOT_FOUND).build();\r\
+    \n\r\n        user.setIsActive(true);\r\n        userDAO.saveUser(user);\r\n \
+    \       return Response.ok(user).build();\r\n    }\r\n\r\n    // === JWT Utility\
+    \ ===\r\n    private Response buildAuthResponse(User user) {\r\n        String\
+    \ token = JwtUtil.generateToken(user.getUsername(), user.getRole());\r\n     \
+    \   Map<String, Object> response = new HashMap<>();\r\n        response.put(\"\
+    token\", token);\r\n        response.put(\"username\", user.getUsername());\r\n\
+    \        response.put(\"role\", user.getRole());\r\n        return Response.ok(response).build();\r\
+    \n    }\r\n}\r\n"
+  info:
+    "size": "5213"
+    "last_modified": "2025-11-04T20:53:31.4411142"
+    "mime_type": "text/x-java-source"
+    "extension": ".java"
+- path: "main\\java\\com\\example\\gymmanagement\\controllers\\UserController.java"
+  content: "package com.example.gymmanagement.controllers;\r\n\r\nimport com.example.gymmanagement.entities.User;\r\
+    \nimport com.example.gymmanagement.services.UserService;\r\nimport org.springframework.web.bind.annotation.*;\r\
+    \n\r\nimport java.util.List;\r\n\r\n@RestController\r\n@RequestMapping(\"/api/users\"\
+    )\r\n@CrossOrigin(origins = \"http://localhost:3000\") // React frontend\r\npublic\
+    \ class UserController {\r\n    private final UserService userService;\r\n\r\n\
+    \    public UserController(UserService userService) {\r\n        this.userService\
+    \ = userService;\r\n    }\r\n\r\n    @GetMapping(\"/members\")\r\n    public List<User>\
+    \ getAllMembers() {\r\n        return userService.getAllMembers();\r\n    }\r\n\
+    \r\n    @GetMapping(\"/members/active\")\r\n    public List<User> getActiveMembers()\
+    \ {\r\n        return userService.getActiveMembers();\r\n    }\r\n\r\n    @GetMapping(\"\
+    /trainers\")\r\n    public List<User> getAllTrainers() {\r\n        return userService.getAllTrainers();\r\
+    \n    }\r\n\r\n    @PostMapping(\"/register\")\r\n    public User createUser(@RequestBody\
+    \ User user) {\r\n        return userService.createUser(user);\r\n    }\r\n\r\n\
+    \    @DeleteMapping(\"/{id}\")\r\n    public void deleteUser(@PathVariable Long\
+    \ id) {\r\n        userService.deleteUser(id);\r\n    }\r\n}\r\n"
+  info:
+    "size": "1187"
+    "last_modified": "2025-11-04T20:53:31.4729191"
+    "mime_type": "text/x-java-source"
+    "extension": ".java"
+- path: "main\\java\\com\\example\\gymmanagement\\dao\\AppUserDAO.java"
+  content: "package com.example.gymmanagement.dao;\r\n\r\nimport com.example.gymmanagement.entities.User;\r\
+    \nimport jakarta.enterprise.context.ApplicationScoped;\r\nimport jakarta.persistence.EntityManager;\r\
+    \nimport jakarta.persistence.PersistenceContext;\r\nimport java.util.List;\r\n\
+    \r\n@ApplicationScoped\r\npublic class AppUserDAO {\r\n\r\n    @PersistenceContext(unitName\
+    \ = \"GymPU-JTA\")\r\n    private EntityManager em;\r\n\r\n    public User findByUsername(String\
+    \ username) {\r\n        return em.createQuery(\"SELECT u FROM User u WHERE u.username\
+    \ = :username\", User.class)\r\n                .setParameter(\"username\", username)\r\
+    \n                .getResultStream()\r\n                .findFirst()\r\n     \
+    \           .orElse(null);\r\n    }\r\n\r\n    public boolean usernameExists(String\
+    \ username) {\r\n        Long count = em.createQuery(\"SELECT COUNT(u) FROM User\
+    \ u WHERE u.username = :username\", Long.class)\r\n                .setParameter(\"\
+    username\", username)\r\n                .getSingleResult();\r\n        return\
+    \ count > 0;\r\n    }\r\n\r\n    public boolean emailExists(String email) {\r\n\
+    \        Long count = em.createQuery(\"SELECT COUNT(u) FROM User u WHERE u.email\
+    \ = :email\", Long.class)\r\n                .setParameter(\"email\", email)\r\
+    \n                .getSingleResult();\r\n        return count > 0;\r\n    }\r\n\
+    \r\n    public void saveUser(User user) {\r\n        if (user.getId() == null)\
+    \ em.persist(user);\r\n        else em.merge(user);\r\n    }\r\n\r\n    public\
+    \ List<User> getAllUsers() {\r\n        return em.createQuery(\"SELECT u FROM\
+    \ User u\", User.class).getResultList();\r\n    }\r\n\r\n    public User getUserById(Long\
+    \ id) {\r\n        return em.find(User.class, id);\r\n    }\r\n\r\n    public\
+    \ void deleteUser(Long id) {\r\n        User user = em.find(User.class, id);\r\
+    \n        if (user != null) em.remove(user);\r\n    }\r\n}\r\n"
+  info:
+    "size": "1752"
+    "last_modified": "2025-11-04T20:53:31.4886428"
+    "mime_type": "text/x-java-source"
+    "extension": ".java"
+- path: "main\\java\\com\\example\\gymmanagement\\dto\\CreateUserDTO.java"
+  content: "package com.example.gymmanagement.dto;\r\n\r\npublic class CreateUserDTO\
+    \ {\r\n    private String username;\r\n    private String password;\r\n    private\
+    \ String email;\r\n    private String role;\r\n    private String firstName;\r\
+    \n    private String lastName;\r\n    private String phone;\r\n\r\n    public\
+    \ String getUsername() { return username; }\r\n    public void setUsername(String\
+    \ username) { this.username = username; }\r\n\r\n    public String getPassword()\
+    \ { return password; }\r\n    public void setPassword(String password) { this.password\
+    \ = password; }\r\n\r\n    public String getEmail() { return email; }\r\n    public\
+    \ void setEmail(String email) { this.email = email; }\r\n\r\n    public String\
+    \ getRole() { return role; }\r\n    public void setRole(String role) { this.role\
+    \ = role; }\r\n\r\n    public String getFirstName() { return firstName; }\r\n\
+    \    public void setFirstName(String firstName) { this.firstName = firstName;\
+    \ }\r\n\r\n    public String getLastName() { return lastName; }\r\n    public\
+    \ void setLastName(String lastName) { this.lastName = lastName; }\r\n\r\n    public\
+    \ String getPhone() { return phone; }\r\n    public void setPhone(String phone)\
+    \ { this.phone = phone; }\r\n}\r\n"
+  info:
+    "size": "1146"
+    "last_modified": "2025-11-04T20:53:31.504659"
+    "mime_type": "text/x-java-source"
+    "extension": ".java"
+- path: "main\\java\\com\\example\\gymmanagement\\dto\\LoginDTO.java"
+  content: "package com.example.gymmanagement.dto;\r\n\r\npublic class LoginDTO {\r\
+    \n    private String username;\r\n    private String password;\r\n\r\n    public\
+    \ LoginDTO() {}\r\n\r\n    public LoginDTO(String username, String password) {\r\
+    \n        this.username = username;\r\n        this.password = password;\r\n \
+    \   }\r\n\r\n    public String getUsername() { return username; }\r\n    public\
+    \ void setUsername(String username) { this.username = username; }\r\n\r\n    public\
+    \ String getPassword() { return password; }\r\n    public void setPassword(String\
+    \ password) { this.password = password; }\r\n}\r\n"
+  info:
+    "size": "558"
+    "last_modified": "2025-11-04T20:53:31.504659"
+    "mime_type": "text/x-java-source"
+    "extension": ".java"
+- path: "main\\java\\com\\example\\gymmanagement\\entities\\Attendance.java"
+  content: "package com.example.gymmanagement.entities;\r\n\r\nimport com.example.gymmanagement.entities.AppUser;\r\
+    \nimport jakarta.persistence.*;\r\nimport jakarta.validation.constraints.NotNull;\r\
+    \nimport jakarta.validation.constraints.Size;\r\nimport org.hibernate.annotations.ColumnDefault;\r\
+    \nimport org.hibernate.annotations.OnDelete;\r\nimport org.hibernate.annotations.OnDeleteAction;\r\
+    \n\r\nimport java.time.Instant;\r\n\r\n@Entity\r\n@Table(name = \"attendance\"\
+    )\r\npublic class Attendance {\r\n    @Id\r\n    @GeneratedValue(strategy = GenerationType.IDENTITY)\r\
+    \n    @Column(name = \"id\", nullable = false)\r\n    private Integer id;\r\n\r\
+    \n    @NotNull\r\n    @ManyToOne(fetch = FetchType.LAZY, optional = false)\r\n\
+    \    @OnDelete(action = OnDeleteAction.CASCADE)\r\n    @JoinColumn(name = \"member_id\"\
+    , nullable = false)\r\n    private AppUser member;\r\n\r\n    @NotNull\r\n   \
+    \ @ManyToOne(fetch = FetchType.LAZY, optional = false)\r\n    @OnDelete(action\
+    \ = OnDeleteAction.CASCADE)\r\n    @JoinColumn(name = \"program_id\", nullable\
+    \ = false)\r\n    private Program program;\r\n\r\n    @ManyToOne(fetch = FetchType.LAZY)\r\
+    \n    @OnDelete(action = OnDeleteAction.SET_NULL)\r\n    @JoinColumn(name = \"\
+    schedule_id\")\r\n    private Schedule schedule;\r\n\r\n    @ColumnDefault(\"\
+    CURRENT_TIMESTAMP\")\r\n    @Column(name = \"attended_on\")\r\n    private Instant\
+    \ attendedOn;\r\n\r\n    @Size(max = 20)\r\n    @ColumnDefault(\"'present'\")\r\
+    \n    @Column(name = \"status\", length = 20)\r\n    private String status;\r\n\
+    \r\n    public Integer getId() {\r\n        return id;\r\n    }\r\n\r\n    public\
+    \ void setId(Integer id) {\r\n        this.id = id;\r\n    }\r\n\r\n    public\
+    \ AppUser getMember() {\r\n        return member;\r\n    }\r\n\r\n    public void\
+    \ setMember(AppUser member) {\r\n        this.member = member;\r\n    }\r\n\r\n\
+    \    public Program getProgram() {\r\n        return program;\r\n    }\r\n\r\n\
+    \    public void setProgram(Program program) {\r\n        this.program = program;\r\
+    \n    }\r\n\r\n    public Schedule getSchedule() {\r\n        return schedule;\r\
+    \n    }\r\n\r\n    public void setSchedule(Schedule schedule) {\r\n        this.schedule\
+    \ = schedule;\r\n    }\r\n\r\n    public Instant getAttendedOn() {\r\n       \
+    \ return attendedOn;\r\n    }\r\n\r\n    public void setAttendedOn(Instant attendedOn)\
+    \ {\r\n        this.attendedOn = attendedOn;\r\n    }\r\n\r\n    public String\
+    \ getStatus() {\r\n        return status;\r\n    }\r\n\r\n    public void setStatus(String\
+    \ status) {\r\n        this.status = status;\r\n    }\r\n\r\n}"
+  info:
+    "size": "2341"
+    "last_modified": "2025-11-04T20:53:31.5205328"
+    "mime_type": "text/x-java-source"
+    "extension": ".java"
+- path: "main\\java\\com\\example\\gymmanagement\\entities\\MemberFullInfo.java"
+  content: "package com.example.gymmanagement.entities;\r\n\r\nimport jakarta.persistence.*;\r\
+    \nimport jakarta.validation.constraints.Size;\r\nimport org.hibernate.annotations.Immutable;\r\
+    \n\r\nimport java.math.BigDecimal;\r\n\r\n/**\r\n * Mapping for DB view\r\n */\r\
+    \n@Entity\r\n@Immutable\r\n@Table(name = \"member_full_info\")\r\npublic class\
+    \ MemberFullInfo {\r\n    @Id\r\n    @GeneratedValue(strategy = GenerationType.IDENTITY)\r\
+    \n    @Column(name = \"user_id\")\r\n    private Integer userId;\r\n\r\n    @Size(max\
+    \ = 100)\r\n    @Column(name = \"first_name\", length = 100)\r\n    private String\
+    \ firstName;\r\n\r\n    @Size(max = 100)\r\n    @Column(name = \"last_name\",\
+    \ length = 100)\r\n    private String lastName;\r\n\r\n    @Size(max = 100)\r\n\
+    \    @Column(name = \"email\", length = 100)\r\n    private String email;\r\n\r\
+    \n    @Size(max = 20)\r\n    @Column(name = \"phone\", length = 20)\r\n    private\
+    \ String phone;\r\n\r\n    @Size(max = 50)\r\n    @Column(name = \"username\"\
+    , length = 50)\r\n    private String username;\r\n\r\n    @Size(max = 20)\r\n\
+    \    @Column(name = \"role\", length = 20)\r\n    private String role;\r\n\r\n\
+    \    @Column(name = \"enrolled_programs\")\r\n    private Long enrolledPrograms;\r\
+    \n\r\n    @Column(name = \"total_sessions\")\r\n    private Long totalSessions;\r\
+    \n\r\n    @Column(name = \"present_sessions\")\r\n    private Long presentSessions;\r\
+    \n\r\n    @Column(name = \"attendance_percentage\")\r\n    private BigDecimal\
+    \ attendancePercentage;\r\n\r\n    public Integer getUserId() {\r\n        return\
+    \ userId;\r\n    }\r\n\r\n    public String getFirstName() {\r\n        return\
+    \ firstName;\r\n    }\r\n\r\n    public String getLastName() {\r\n        return\
+    \ lastName;\r\n    }\r\n\r\n    public String getEmail() {\r\n        return email;\r\
+    \n    }\r\n\r\n    public String getPhone() {\r\n        return phone;\r\n   \
+    \ }\r\n\r\n    public String getUsername() {\r\n        return username;\r\n \
+    \   }\r\n\r\n    public String getRole() {\r\n        return role;\r\n    }\r\n\
+    \r\n    public Long getEnrolledPrograms() {\r\n        return enrolledPrograms;\r\
+    \n    }\r\n\r\n    public Long getTotalSessions() {\r\n        return totalSessions;\r\
+    \n    }\r\n\r\n    public Long getPresentSessions() {\r\n        return presentSessions;\r\
+    \n    }\r\n\r\n    public BigDecimal getAttendancePercentage() {\r\n        return\
+    \ attendancePercentage;\r\n    }\r\n\r\n    protected MemberFullInfo() {\r\n \
+    \   }\r\n}"
+  info:
+    "size": "2204"
+    "last_modified": "2025-11-04T20:53:31.5363629"
+    "mime_type": "text/x-java-source"
+    "extension": ".java"
+- path: "main\\java\\com\\example\\gymmanagement\\entities\\MemberProgram.java"
+  content: "package com.example.gymmanagement.entities;\r\n\r\nimport com.example.gymmanagement.entities.AppUser;\r\
+    \nimport jakarta.persistence.*;\r\nimport jakarta.validation.constraints.NotNull;\r\
+    \nimport jakarta.validation.constraints.Size;\r\nimport org.hibernate.annotations.ColumnDefault;\r\
+    \nimport org.hibernate.annotations.OnDelete;\r\nimport org.hibernate.annotations.OnDeleteAction;\r\
+    \n\r\nimport java.time.LocalDate;\r\n\r\n@Entity\r\n@Table(name = \"member_program\"\
+    , uniqueConstraints = {\r\n        @UniqueConstraint(name = \"member_program_user_id_program_id_key\"\
+    , columnNames = {\"user_id\", \"program_id\"})\r\n})\r\npublic class MemberProgram\
+    \ {\r\n    @Id\r\n    @GeneratedValue(strategy = GenerationType.IDENTITY)\r\n\
+    \    @Column(name = \"id\", nullable = false)\r\n    private Integer id;\r\n\r\
+    \n    @NotNull\r\n    @ManyToOne(fetch = FetchType.LAZY, optional = false)\r\n\
+    \    @OnDelete(action = OnDeleteAction.CASCADE)\r\n    @JoinColumn(name = \"user_id\"\
+    , nullable = false)\r\n    private AppUser user;\r\n\r\n    @NotNull\r\n    @ManyToOne(fetch\
+    \ = FetchType.LAZY, optional = false)\r\n    @OnDelete(action = OnDeleteAction.CASCADE)\r\
+    \n    @JoinColumn(name = \"program_id\", nullable = false)\r\n    private Program\
+    \ program;\r\n\r\n    @ColumnDefault(\"CURRENT_DATE\")\r\n    @Column(name = \"\
+    enrollment_date\")\r\n    private LocalDate enrollmentDate;\r\n\r\n    @Size(max\
+    \ = 20)\r\n    @ColumnDefault(\"'active'\")\r\n    @Column(name = \"status\",\
+    \ length = 20)\r\n    private String status;\r\n\r\n    public Integer getId()\
+    \ {\r\n        return id;\r\n    }\r\n\r\n    public void setId(Integer id) {\r\
+    \n        this.id = id;\r\n    }\r\n\r\n    public AppUser getUser() {\r\n   \
+    \     return user;\r\n    }\r\n\r\n    public void setUser(AppUser user) {\r\n\
+    \        this.user = user;\r\n    }\r\n\r\n    public Program getProgram() {\r\
+    \n        return program;\r\n    }\r\n\r\n    public void setProgram(Program program)\
+    \ {\r\n        this.program = program;\r\n    }\r\n\r\n    public LocalDate getEnrollmentDate()\
+    \ {\r\n        return enrollmentDate;\r\n    }\r\n\r\n    public void setEnrollmentDate(LocalDate\
+    \ enrollmentDate) {\r\n        this.enrollmentDate = enrollmentDate;\r\n    }\r\
+    \n\r\n    public String getStatus() {\r\n        return status;\r\n    }\r\n\r\
+    \n    public void setStatus(String status) {\r\n        this.status = status;\r\
+    \n    }\r\n\r\n}"
+  info:
+    "size": "2180"
+    "last_modified": "2025-11-04T20:53:31.5363629"
+    "mime_type": "text/x-java-source"
+    "extension": ".java"
+- path: "main\\java\\com\\example\\gymmanagement\\entities\\Program.java"
+  content: "package com.example.gymmanagement.entities;\r\n\r\nimport jakarta.persistence.*;\r\
+    \nimport jakarta.validation.constraints.NotNull;\r\nimport jakarta.validation.constraints.Size;\r\
+    \n\r\nimport java.util.LinkedHashSet;\r\nimport java.util.Set;\r\n\r\n@Entity\r\
+    \n@Table(name = \"program\")\r\npublic class Program {\r\n    @Id\r\n    @GeneratedValue(strategy\
+    \ = GenerationType.IDENTITY)\r\n    @Column(name = \"id\", nullable = false)\r\
+    \n    private Integer id;\r\n\r\n    @Size(max = 100)\r\n    @NotNull\r\n    @Column(name\
+    \ = \"name\", nullable = false, length = 100)\r\n    private String name;\r\n\r\
+    \n    @Column(name = \"description\", length = Integer.MAX_VALUE)\r\n    private\
+    \ String description;\r\n\r\n    @Column(name = \"duration_minutes\")\r\n    private\
+    \ Integer durationMinutes;\r\n\r\n    @Column(name = \"max_participants\")\r\n\
+    \    private Integer maxParticipants;\r\n\r\n    @OneToMany(mappedBy = \"program\"\
+    )\r\n    private Set<Attendance> attendances = new LinkedHashSet<>();\r\n\r\n\
+    \    @OneToMany(mappedBy = \"program\")\r\n    private Set<MemberProgram> memberPrograms\
+    \ = new LinkedHashSet<>();\r\n\r\n    @OneToMany(mappedBy = \"program\")\r\n \
+    \   private Set<Schedule> schedules = new LinkedHashSet<>();\r\n\r\n    public\
+    \ Integer getId() {\r\n        return id;\r\n    }\r\n\r\n    public void setId(Integer\
+    \ id) {\r\n        this.id = id;\r\n    }\r\n\r\n    public String getName() {\r\
+    \n        return name;\r\n    }\r\n\r\n    public void setName(String name) {\r\
+    \n        this.name = name;\r\n    }\r\n\r\n    public String getDescription()\
+    \ {\r\n        return description;\r\n    }\r\n\r\n    public void setDescription(String\
+    \ description) {\r\n        this.description = description;\r\n    }\r\n\r\n \
+    \   public Integer getDurationMinutes() {\r\n        return durationMinutes;\r\
+    \n    }\r\n\r\n    public void setDurationMinutes(Integer durationMinutes) {\r\
+    \n        this.durationMinutes = durationMinutes;\r\n    }\r\n\r\n    public Integer\
+    \ getMaxParticipants() {\r\n        return maxParticipants;\r\n    }\r\n\r\n \
+    \   public void setMaxParticipants(Integer maxParticipants) {\r\n        this.maxParticipants\
+    \ = maxParticipants;\r\n    }\r\n\r\n    public Set<Attendance> getAttendances()\
+    \ {\r\n        return attendances;\r\n    }\r\n\r\n    public void setAttendances(Set<Attendance>\
+    \ attendances) {\r\n        this.attendances = attendances;\r\n    }\r\n\r\n \
+    \   public Set<MemberProgram> getMemberPrograms() {\r\n        return memberPrograms;\r\
+    \n    }\r\n\r\n    public void setMemberPrograms(Set<MemberProgram> memberPrograms)\
+    \ {\r\n        this.memberPrograms = memberPrograms;\r\n    }\r\n\r\n    public\
+    \ Set<Schedule> getSchedules() {\r\n        return schedules;\r\n    }\r\n\r\n\
+    \    public void setSchedules(Set<Schedule> schedules) {\r\n        this.schedules\
+    \ = schedules;\r\n    }\r\n\r\n}"
+  info:
+    "size": "2590"
+    "last_modified": "2025-11-04T20:53:31.5520543"
+    "mime_type": "text/x-java-source"
+    "extension": ".java"
+- path: "main\\java\\com\\example\\gymmanagement\\entities\\RolePermission.java"
+  content: "package com.example.gymmanagement.entities;\r\n\r\nimport jakarta.persistence.*;\r\
+    \nimport jakarta.validation.constraints.NotNull;\r\nimport jakarta.validation.constraints.Size;\r\
+    \n\r\n@Entity\r\n@Table(name = \"role_permissions\", uniqueConstraints = {\r\n\
+    \        @UniqueConstraint(name = \"role_permissions_role_permission_key\", columnNames\
+    \ = {\"role\", \"permission\"})\r\n})\r\npublic class RolePermission {\r\n   \
+    \ @Id\r\n    @GeneratedValue(strategy = GenerationType.IDENTITY)\r\n    @Column(name\
+    \ = \"id\", nullable = false)\r\n    private Integer id;\r\n\r\n    @Size(max\
+    \ = 20)\r\n    @NotNull\r\n    @Column(name = \"role\", nullable = false, length\
+    \ = 20)\r\n    private String role;\r\n\r\n    @Size(max = 50)\r\n    @NotNull\r\
+    \n    @Column(name = \"permission\", nullable = false, length = 50)\r\n    private\
+    \ String permission;\r\n\r\n    @Column(name = \"description\", length = Integer.MAX_VALUE)\r\
+    \n    private String description;\r\n\r\n    public Integer getId() {\r\n    \
+    \    return id;\r\n    }\r\n\r\n    public void setId(Integer id) {\r\n      \
+    \  this.id = id;\r\n    }\r\n\r\n    public String getRole() {\r\n        return\
+    \ role;\r\n    }\r\n\r\n    public void setRole(String role) {\r\n        this.role\
+    \ = role;\r\n    }\r\n\r\n    public String getPermission() {\r\n        return\
+    \ permission;\r\n    }\r\n\r\n    public void setPermission(String permission)\
+    \ {\r\n        this.permission = permission;\r\n    }\r\n\r\n    public String\
+    \ getDescription() {\r\n        return description;\r\n    }\r\n\r\n    public\
+    \ void setDescription(String description) {\r\n        this.description = description;\r\
+    \n    }\r\n\r\n}"
+  info:
+    "size": "1498"
+    "last_modified": "2025-11-04T20:53:31.5520543"
+    "mime_type": "text/x-java-source"
+    "extension": ".java"
+- path: "main\\java\\com\\example\\gymmanagement\\entities\\Schedule.java"
+  content: "package com.example.gymmanagement.entities;\r\n\r\nimport com.example.gymmanagement.entities.AppUser;\r\
+    \nimport jakarta.persistence.*;\r\nimport jakarta.validation.constraints.NotNull;\r\
+    \nimport jakarta.validation.constraints.Size;\r\nimport org.hibernate.annotations.ColumnDefault;\r\
+    \nimport org.hibernate.annotations.OnDelete;\r\nimport org.hibernate.annotations.OnDeleteAction;\r\
+    \n\r\nimport java.time.LocalTime;\r\nimport java.util.LinkedHashSet;\r\nimport\
+    \ java.util.Set;\r\n\r\n@Entity\r\n@Table(name = \"schedule\")\r\npublic class\
+    \ Schedule {\r\n    @Id\r\n    @GeneratedValue(strategy = GenerationType.IDENTITY)\r\
+    \n    @Column(name = \"id\", nullable = false)\r\n    private Integer id;\r\n\r\
+    \n    @NotNull\r\n    @ManyToOne(fetch = FetchType.LAZY, optional = false)\r\n\
+    \    @OnDelete(action = OnDeleteAction.CASCADE)\r\n    @JoinColumn(name = \"program_id\"\
+    , nullable = false)\r\n    private Program program;\r\n\r\n    @Size(max = 20)\r\
+    \n    @NotNull\r\n    @Column(name = \"day_of_week\", nullable = false, length\
+    \ = 20)\r\n    private String dayOfWeek;\r\n\r\n    @NotNull\r\n    @Column(name\
+    \ = \"start_time\", nullable = false)\r\n    private LocalTime startTime;\r\n\r\
+    \n    @NotNull\r\n    @Column(name = \"end_time\", nullable = false)\r\n    private\
+    \ LocalTime endTime;\r\n\r\n    @Size(max = 100)\r\n    @Column(name = \"trainer_name\"\
+    , length = 100)\r\n    private String trainerName;\r\n\r\n    @Size(max = 50)\r\
+    \n    @Column(name = \"room\", length = 50)\r\n    private String room;\r\n\r\n\
+    \    @ColumnDefault(\"true\")\r\n    @Column(name = \"is_active\")\r\n    private\
+    \ Boolean isActive;\r\n\r\n    @ManyToOne(fetch = FetchType.LAZY)\r\n    @OnDelete(action\
+    \ = OnDeleteAction.SET_NULL)\r\n    @JoinColumn(name = \"instructor_id\")\r\n\
+    \    private AppUser instructor;\r\n\r\n    @OneToMany(mappedBy = \"schedule\"\
+    )\r\n    private Set<Attendance> attendances = new LinkedHashSet<>();\r\n\r\n\
+    \    public Integer getId() {\r\n        return id;\r\n    }\r\n\r\n    public\
+    \ void setId(Integer id) {\r\n        this.id = id;\r\n    }\r\n\r\n    public\
+    \ Program getProgram() {\r\n        return program;\r\n    }\r\n\r\n    public\
+    \ void setProgram(Program program) {\r\n        this.program = program;\r\n  \
+    \  }\r\n\r\n    public String getDayOfWeek() {\r\n        return dayOfWeek;\r\n\
+    \    }\r\n\r\n    public void setDayOfWeek(String dayOfWeek) {\r\n        this.dayOfWeek\
+    \ = dayOfWeek;\r\n    }\r\n\r\n    public LocalTime getStartTime() {\r\n     \
+    \   return startTime;\r\n    }\r\n\r\n    public void setStartTime(LocalTime startTime)\
+    \ {\r\n        this.startTime = startTime;\r\n    }\r\n\r\n    public LocalTime\
+    \ getEndTime() {\r\n        return endTime;\r\n    }\r\n\r\n    public void setEndTime(LocalTime\
+    \ endTime) {\r\n        this.endTime = endTime;\r\n    }\r\n\r\n    public String\
+    \ getTrainerName() {\r\n        return trainerName;\r\n    }\r\n\r\n    public\
+    \ void setTrainerName(String trainerName) {\r\n        this.trainerName = trainerName;\r\
+    \n    }\r\n\r\n    public String getRoom() {\r\n        return room;\r\n    }\r\
+    \n\r\n    public void setRoom(String room) {\r\n        this.room = room;\r\n\
+    \    }\r\n\r\n    public Boolean getIsActive() {\r\n        return isActive;\r\
+    \n    }\r\n\r\n    public void setIsActive(Boolean isActive) {\r\n        this.isActive\
+    \ = isActive;\r\n    }\r\n\r\n    public AppUser getInstructor() {\r\n       \
+    \ return instructor;\r\n    }\r\n\r\n    public void setInstructor(AppUser instructor)\
+    \ {\r\n        this.instructor = instructor;\r\n    }\r\n\r\n    public Set<Attendance>\
+    \ getAttendances() {\r\n        return attendances;\r\n    }\r\n\r\n    public\
+    \ void setAttendances(Set<Attendance> attendances) {\r\n        this.attendances\
+    \ = attendances;\r\n    }\r\n\r\n}"
+  info:
+    "size": "3402"
+    "last_modified": "2025-11-04T20:53:31.5717844"
+    "mime_type": "text/x-java-source"
+    "extension": ".java"
+- path: "main\\java\\com\\example\\gymmanagement\\entities\\TrainerSchedule.java"
+  content: "package com.example.gymmanagement.entities;\r\n\r\nimport jakarta.persistence.*;\r\
+    \nimport jakarta.validation.constraints.Size;\r\nimport org.hibernate.annotations.Immutable;\r\
+    \n\r\nimport java.time.LocalTime;\r\n\r\n/**\r\n * Mapping for DB view\r\n */\r\
+    \n@Entity\r\n@Immutable\r\n@Table(name = \"trainer_schedule\")\r\npublic class\
+    \ TrainerSchedule {\r\n    @Id\r\n    @GeneratedValue(strategy = GenerationType.IDENTITY)\r\
+    \n    @Column(name = \"trainer_id\")\r\n    private Integer trainerId;\r\n\r\n\
+    \    @Column(name = \"trainer_name\", length = Integer.MAX_VALUE)\r\n    private\
+    \ String trainerName;\r\n\r\n    @Size(max = 100)\r\n    @Column(name = \"email\"\
+    , length = 100)\r\n    private String email;\r\n\r\n    @Size(max = 20)\r\n  \
+    \  @Column(name = \"phone\", length = 20)\r\n    private String phone;\r\n\r\n\
+    \    @Size(max = 100)\r\n    @Column(name = \"program_name\", length = 100)\r\n\
+    \    private String programName;\r\n\r\n    @Size(max = 20)\r\n    @Column(name\
+    \ = \"day_of_week\", length = 20)\r\n    private String dayOfWeek;\r\n\r\n   \
+    \ @Column(name = \"start_time\")\r\n    private LocalTime startTime;\r\n\r\n \
+    \   @Column(name = \"end_time\")\r\n    private LocalTime endTime;\r\n\r\n   \
+    \ @Size(max = 50)\r\n    @Column(name = \"room\", length = 50)\r\n    private\
+    \ String room;\r\n\r\n    @Column(name = \"enrolled_students\")\r\n    private\
+    \ Long enrolledStudents;\r\n\r\n    public Integer getTrainerId() {\r\n      \
+    \  return trainerId;\r\n    }\r\n\r\n    public String getTrainerName() {\r\n\
+    \        return trainerName;\r\n    }\r\n\r\n    public String getEmail() {\r\n\
+    \        return email;\r\n    }\r\n\r\n    public String getPhone() {\r\n    \
+    \    return phone;\r\n    }\r\n\r\n    public String getProgramName() {\r\n  \
+    \      return programName;\r\n    }\r\n\r\n    public String getDayOfWeek() {\r\
+    \n        return dayOfWeek;\r\n    }\r\n\r\n    public LocalTime getStartTime()\
+    \ {\r\n        return startTime;\r\n    }\r\n\r\n    public LocalTime getEndTime()\
+    \ {\r\n        return endTime;\r\n    }\r\n\r\n    public String getRoom() {\r\
+    \n        return room;\r\n    }\r\n\r\n    public Long getEnrolledStudents() {\r\
+    \n        return enrolledStudents;\r\n    }\r\n\r\n    protected TrainerSchedule()\
+    \ {\r\n    }\r\n}"
+  info:
+    "size": "2016"
+    "last_modified": "2025-11-04T20:53:31.5717844"
+    "mime_type": "text/x-java-source"
+    "extension": ".java"
+- path: "main\\java\\com\\example\\gymmanagement\\entities\\User.java"
+  content: "package com.example.gymmanagement.entities;\r\n\r\nimport jakarta.persistence.*;\r\
+    \nimport jakarta.validation.constraints.Email;\r\nimport jakarta.validation.constraints.NotBlank;\r\
+    \nimport jakarta.validation.constraints.Size;\r\nimport com.fasterxml.jackson.annotation.JsonIgnore;\r\
+    \nimport com.fasterxml.jackson.annotation.JsonFormat;\r\nimport java.time.LocalDate;\r\
+    \n\r\n@Entity\r\n@Table(name = \"app_user\")\r\npublic class User {\r\n\r\n  \
+    \  @Id\r\n    @GeneratedValue(strategy = GenerationType.IDENTITY)\r\n    @Column(name\
+    \ = \"id\")\r\n    private Long id;\r\n\r\n    @NotBlank(message = \"Το όνομα\
+    \ είναι υποχρεωτικό\")\r\n    @Size(min = 2, max = 50, message = \"Το όνομα πρ\
+    έπει να έχει 2-50 χαρακτήρες\")\r\n    @Column(name = \"first_name\", nullable\
+    \ = false)\r\n    private String firstName;\r\n\r\n    @NotBlank(message = \"Τ\
+    ο επώνυμο είναι υποχρεωτικό\")\r\n    @Size(min = 2, max = 50, message = \"Το\
+    \ επώνυμο πρέπει να έχει 2-50 χαρακτήρες\")\r\n    @Column(name = \"last_name\"\
+    , nullable = false)\r\n    private String lastName;\r\n\r\n    @Email(message\
+    \ = \"Παρακαλώ εισάγετε έγκυρο email\")\r\n    @NotBlank(message = \"Το email\
+    \ είναι υποχρεωτικό\")\r\n    @Column(name = \"email\", unique = true, nullable\
+    \ = false)\r\n    private String email;\r\n\r\n    @Column(name = \"phone\", length\
+    \ = 15)\r\n    private String phone;\r\n\r\n    @JsonIgnore\r\n    @NotBlank(message\
+    \ = \"Ο κωδικός είναι υποχρεωτικός\")\r\n    @Size(min = 8, message = \"Ο κωδι\
+    κός πρέπει να έχει τουλάχιστον 8 χαρακτήρες\")\r\n    @Column(name = \"password\"\
+    , nullable = false)\r\n    private String password;\r\n\r\n    @NotBlank(message\
+    \ = \"Το username είναι υποχρεωτικό\")\r\n    @Size(min = 3, max = 30, message\
+    \ = \"Το username πρέπει να έχει 3-30 χαρακτήρες\")\r\n    @Column(name = \"username\"\
+    , unique = true, nullable = false)\r\n    private String username;\r\n\r\n   \
+    \ @NotBlank(message = \"Ο ρόλος είναι υποχρεωτικός\")\r\n    @Column(name = \"\
+    role\", nullable = false)\r\n    private String role; // ADMIN, TRAINER, MEMBER\r\
+    \n\r\n    // === MEMBERSHIP FIELDS (για MEMBER role) ===\r\n\r\n    @JsonFormat(pattern\
+    \ = \"yyyy-MM-dd\")\r\n    @Column(name = \"date_of_birth\")\r\n    private LocalDate\
+    \ dateOfBirth;\r\n\r\n    @Column(name = \"membership_type\")\r\n    private String\
+    \ membershipType; // BASIC, PREMIUM, VIP\r\n\r\n    @JsonFormat(pattern = \"yyyy-MM-dd\"\
+    )\r\n    @Column(name = \"membership_start_date\")\r\n    private LocalDate membershipStartDate;\r\
+    \n\r\n    @JsonFormat(pattern = \"yyyy-MM-dd\")\r\n    @Column(name = \"membership_end_date\"\
+    )\r\n    private LocalDate membershipEndDate;\r\n\r\n    @Column(name = \"is_active\"\
+    )\r\n    private Boolean isActive = true;\r\n\r\n    @Column(name = \"notes\"\
+    , length = 500)\r\n    private String notes;\r\n\r\n    @JsonFormat(pattern =\
+    \ \"yyyy-MM-dd HH:mm:ss\")\r\n    @Column(name = \"created_at\", updatable = false)\r\
+    \n    private LocalDate createdAt;\r\n\r\n    @JsonFormat(pattern = \"yyyy-MM-dd\
+    \ HH:mm:ss\")\r\n    @Column(name = \"updated_at\")\r\n    private LocalDate updatedAt;\r\
+    \n\r\n    // Constructors\r\n    public User() { }\r\n\r\n    public User(String\
+    \ firstName, String lastName, String email,\r\n                String phone, String\
+    \ password, String username, String role) {\r\n        this.firstName = firstName;\r\
+    \n        this.lastName  = lastName;\r\n        this.email     = email;\r\n  \
+    \      this.phone     = phone;\r\n        setPassword(password);\r\n        this.username\
+    \  = username;\r\n        this.role      = role;\r\n        this.isActive  = true;\r\
+    \n        this.createdAt = LocalDate.now();\r\n    }\r\n\r\n    @PrePersist\r\n\
+    \    protected void onCreate() {\r\n        createdAt = LocalDate.now();\r\n \
+    \       updatedAt = LocalDate.now();\r\n        if (isActive == null) {\r\n  \
+    \          isActive = true;\r\n        }\r\n    }\r\n\r\n    @PreUpdate\r\n  \
+    \  protected void onUpdate() {\r\n        updatedAt = LocalDate.now();\r\n   \
+    \ }\r\n\r\n    // Basic Getters and Setters\r\n    public Long getId() { return\
+    \ id; }\r\n    public void setId(Long id) { this.id = id; }\r\n\r\n    public\
+    \ String getFirstName() { return firstName; }\r\n    public void setFirstName(String\
+    \ firstName) { this.firstName = firstName; }\r\n\r\n    public String getLastName()\
+    \ { return lastName; }\r\n    public void setLastName(String lastName) { this.lastName\
+    \ = lastName; }\r\n\r\n    public String getEmail() { return email; }\r\n    public\
+    \ void setEmail(String email) { this.email = email; }\r\n\r\n    public String\
+    \ getPhone() { return phone; }\r\n    public void setPhone(String phone) { this.phone\
+    \ = phone; }\r\n\r\n    public String getUsername() { return username; }\r\n \
+    \   public void setUsername(String username) { this.username = username; }\r\n\
+    \r\n    public String getRole() { return role; }\r\n    public void setRole(String\
+    \ role) { this.role = role; }\r\n\r\n    public String getPassword() { return\
+    \ password; }\r\n\r\n    public void setPassword(String rawPassword) {\r\n   \
+    \     if (rawPassword != null && !rawPassword.trim().isEmpty()) {\r\n        \
+    \    this.password = hashPassword(rawPassword);\r\n        }\r\n    }\r\n\r\n\
+    \    // Membership Getters and Setters\r\n    public LocalDate getDateOfBirth()\
+    \ { return dateOfBirth; }\r\n    public void setDateOfBirth(LocalDate dateOfBirth)\
+    \ { this.dateOfBirth = dateOfBirth; }\r\n\r\n    public String getMembershipType()\
+    \ { return membershipType; }\r\n    public void setMembershipType(String membershipType)\
+    \ { this.membershipType = membershipType; }\r\n\r\n    public LocalDate getMembershipStartDate()\
+    \ { return membershipStartDate; }\r\n    public void setMembershipStartDate(LocalDate\
+    \ membershipStartDate) {\r\n        this.membershipStartDate = membershipStartDate;\r\
+    \n    }\r\n\r\n    public LocalDate getMembershipEndDate() { return membershipEndDate;\
+    \ }\r\n    public void setMembershipEndDate(LocalDate membershipEndDate) {\r\n\
+    \        this.membershipEndDate = membershipEndDate;\r\n    }\r\n\r\n    public\
+    \ Boolean getIsActive() { return isActive; }\r\n    public void setIsActive(Boolean\
+    \ isActive) { this.isActive = isActive; }\r\n\r\n    public String getNotes()\
+    \ { return notes; }\r\n    public void setNotes(String notes) { this.notes = notes;\
+    \ }\r\n\r\n    public LocalDate getCreatedAt() { return createdAt; }\r\n    public\
+    \ void setCreatedAt(LocalDate createdAt) { this.createdAt = createdAt; }\r\n\r\
+    \n    public LocalDate getUpdatedAt() { return updatedAt; }\r\n    public void\
+    \ setUpdatedAt(LocalDate updatedAt) { this.updatedAt = updatedAt; }\r\n\r\n  \
+    \  // Password methods\r\n    public boolean verifyPassword(String rawPassword)\
+    \ {\r\n        if (rawPassword == null || password == null) return false;\r\n\
+    \        return org.mindrot.jbcrypt.BCrypt.checkpw(rawPassword, password);\r\n\
+    \    }\r\n\r\n    private String hashPassword(String rawPassword) {\r\n      \
+    \  return org.mindrot.jbcrypt.BCrypt.hashpw(\r\n                rawPassword,\r\
+    \n                org.mindrot.jbcrypt.BCrypt.gensalt(12)\r\n        );\r\n   \
+    \ }\r\n\r\n    // Helper methods\r\n    public String getFullName() {\r\n    \
+    \    return firstName + \" \" + lastName;\r\n    }\r\n\r\n    public boolean isTrainer()\
+    \ { return \"TRAINER\".equalsIgnoreCase(role); }\r\n    public boolean isAdmin()\
+    \   { return \"ADMIN\".equalsIgnoreCase(role); }\r\n    public boolean isMember()\
+    \  { return \"MEMBER\".equalsIgnoreCase(role); }\r\n\r\n    public boolean isMembershipActive()\
+    \ {\r\n        if (!isActive) return false;\r\n        if (!isMember()) return\
+    \ true; // Admins and Trainers are always \"active\"\r\n        if (membershipEndDate\
+    \ == null) return true;\r\n        return !LocalDate.now().isAfter(membershipEndDate);\r\
+    \n    }\r\n\r\n    public long getDaysUntilMembershipExpiry() {\r\n        if\
+    \ (membershipEndDate == null) return -1;\r\n        return java.time.temporal.ChronoUnit.DAYS.between(LocalDate.now(),\
+    \ membershipEndDate);\r\n    }\r\n\r\n    public boolean isMembershipExpiring()\
+    \ {\r\n        // Check if membership expires in less than 7 days\r\n        long\
+    \ daysLeft = getDaysUntilMembershipExpiry();\r\n        return daysLeft >= 0 &&\
+    \ daysLeft <= 7;\r\n    }\r\n\r\n    @Override\r\n    public String toString()\
+    \ {\r\n        return \"User{\" +\r\n                \"id=\" + id +\r\n      \
+    \          \", firstName='\" + firstName + '\\'' +\r\n                \", lastName='\"\
+    \ + lastName + '\\'' +\r\n                \", email='\" + email + '\\'' +\r\n\
+    \                \", phone='\" + phone + '\\'' +\r\n                \", username='\"\
+    \ + username + '\\'' +\r\n                \", role='\" + role + '\\'' +\r\n  \
+    \              \", membershipType='\" + membershipType + '\\'' +\r\n         \
+    \       \", isActive=\" + isActive +\r\n                '}';\r\n    }\r\n\r\n\
+    \    @Override\r\n    public boolean equals(Object o) {\r\n        if (this ==\
+    \ o) return true;\r\n        if (o == null || getClass() != o.getClass()) return\
+    \ false;\r\n        User user = (User) o;\r\n        return id != null && id.equals(user.id);\r\
+    \n    }\r\n\r\n    @Override\r\n    public int hashCode() {\r\n        return\
+    \ id != null ? id.hashCode() : 0;\r\n    }\r\n}"
+  info:
+    "size": "8745"
+    "last_modified": "2025-11-04T20:53:31.5836796"
+    "mime_type": "text/x-java-source"
+    "extension": ".java"
+- path: "main\\java\\com\\example\\gymmanagement\\entities\\UserPermission.java"
+  content: "package com.example.gymmanagement.entities;\r\n\r\nimport jakarta.persistence.*;\r\
+    \nimport jakarta.validation.constraints.Size;\r\nimport org.hibernate.annotations.Immutable;\r\
+    \n\r\n/**\r\n * Mapping for DB view\r\n */\r\n@Entity\r\n@Immutable\r\n@Table(name\
+    \ = \"user_permissions\")\r\npublic class UserPermission {\r\n    @Id\r\n    @GeneratedValue(strategy\
+    \ = GenerationType.IDENTITY)\r\n    @Column(name = \"user_id\")\r\n    private\
+    \ Integer userId;\r\n\r\n    @Size(max = 100)\r\n    @Column(name = \"first_name\"\
+    , length = 100)\r\n    private String firstName;\r\n\r\n    @Size(max = 100)\r\
+    \n    @Column(name = \"last_name\", length = 100)\r\n    private String lastName;\r\
+    \n\r\n    @Size(max = 100)\r\n    @Column(name = \"email\", length = 100)\r\n\
+    \    private String email;\r\n\r\n    @Size(max = 20)\r\n    @Column(name = \"\
+    role\", length = 20)\r\n    private String role;\r\n\r\n    @Size(max = 50)\r\n\
+    \    @Column(name = \"permission\", length = 50)\r\n    private String permission;\r\
+    \n\r\n    @Column(name = \"description\", length = Integer.MAX_VALUE)\r\n    private\
+    \ String description;\r\n\r\n    public Integer getUserId() {\r\n        return\
+    \ userId;\r\n    }\r\n\r\n    public String getFirstName() {\r\n        return\
+    \ firstName;\r\n    }\r\n\r\n    public String getLastName() {\r\n        return\
+    \ lastName;\r\n    }\r\n\r\n    public String getEmail() {\r\n        return email;\r\
+    \n    }\r\n\r\n    public String getRole() {\r\n        return role;\r\n    }\r\
+    \n\r\n    public String getPermission() {\r\n        return permission;\r\n  \
+    \  }\r\n\r\n    public String getDescription() {\r\n        return description;\r\
+    \n    }\r\n\r\n    protected UserPermission() {\r\n    }\r\n}"
+  info:
+    "size": "1534"
+    "last_modified": "2025-11-04T20:53:31.5836796"
+    "mime_type": "text/x-java-source"
+    "extension": ".java"
+- path: "main\\java\\com\\example\\gymmanagement\\exceptions\\ResponseWriteException.java"
+  content: "package com.example.gymmanagement.exceptions;\r\n\r\npublic class ResponseWriteException\
+    \ extends Exception {\r\n    public ResponseWriteException(String message, Throwable\
+    \ cause) {\r\n        super(message, cause);\r\n    }\r\n}\r\n"
+  info:
+    "size": "218"
+    "last_modified": "2025-11-04T20:53:31.5994474"
+    "mime_type": "text/x-java-source"
+    "extension": ".java"
+- path: "main\\java\\com\\example\\gymmanagement\\filters\\CorsFilter.java"
+  content: "package com.example.gymmanagement.filters;\r\n\r\nimport jakarta.servlet.*;\r\
+    \nimport jakarta.servlet.annotation.WebFilter;\r\nimport jakarta.servlet.http.HttpServletRequest;\r\
+    \nimport jakarta.servlet.http.HttpServletResponse;\r\nimport java.io.IOException;\r\
+    \n\r\n@WebFilter(urlPatterns = \"/*\")\r\npublic class CorsFilter implements Filter\
+    \ {\r\n\r\n    @Override\r\n    public void init(FilterConfig filterConfig) throws\
+    \ ServletException {\r\n        System.out.println(\"✅ CORS Filter initialized\"\
+    );\r\n    }\r\n\r\n    @Override\r\n    public void doFilter(ServletRequest request,\
+    \ ServletResponse response, FilterChain chain)\r\n            throws IOException,\
+    \ ServletException {\r\n\r\n        HttpServletRequest httpRequest = (HttpServletRequest)\
+    \ request;\r\n        HttpServletResponse httpResponse = (HttpServletResponse)\
+    \ response;\r\n\r\n        httpResponse.setHeader(\"Access-Control-Allow-Origin\"\
+    , \"http://localhost:3000\");\r\n        httpResponse.setHeader(\"Access-Control-Allow-Methods\"\
+    , \"GET, POST, PUT, DELETE, OPTIONS, PATCH\");\r\n        httpResponse.setHeader(\"\
+    Access-Control-Allow-Headers\",\r\n                \"Content-Type, Authorization,\
+    \ X-Requested-With, Accept\");\r\n        httpResponse.setHeader(\"Access-Control-Allow-Credentials\"\
+    , \"true\");\r\n        httpResponse.setHeader(\"Access-Control-Max-Age\", \"\
+    3600\");\r\n        httpResponse.setHeader(\"Access-Control-Expose-Headers\",\
+    \ \"Authorization\");\r\n\r\n        if (\"OPTIONS\".equalsIgnoreCase(httpRequest.getMethod()))\
+    \ {\r\n            httpResponse.setStatus(HttpServletResponse.SC_OK);\r\n    \
+    \        return;\r\n        }\r\n\r\n        chain.doFilter(request, response);\r\
+    \n    }\r\n\r\n    @Override\r\n    public void destroy() {\r\n        System.out.println(\"\
+    ❌ CORS Filter destroyed\");\r\n    }\r\n}"
+  info:
+    "size": "1694"
+    "last_modified": "2025-11-04T20:53:31.6154161"
+    "mime_type": "text/x-java-source"
+    "extension": ".java"
+- path: "main\\java\\com\\example\\gymmanagement\\HelloServlet.java"
+  content: "package com.example.gymmanagement;\n\nimport com.example.gymmanagement.exceptions.ResponseWriteException;\n\
+    import jakarta.servlet.annotation.WebServlet;\nimport jakarta.servlet.http.HttpServlet;\n\
+    import jakarta.servlet.http.HttpServletRequest;\nimport jakarta.servlet.http.HttpServletResponse;\n\
+    \nimport java.io.IOException;\nimport java.io.PrintWriter;\n\n@WebServlet(name\
+    \ = \"helloServlet\", value = \"/hello-servlet\")\npublic class HelloServlet extends\
+    \ HttpServlet {\n    private String message;\n\n    @Override\n    public void\
+    \ init() {\n        message = \"Το όνομά μου είναι Μπάμπης!\";\n    }\n\n    @Override\n\
+    \    public void doGet(HttpServletRequest request, HttpServletResponse response)\
+    \ {\n        response.setContentType(\"text/html; charset=UTF-8\");\n\n      \
+    \  try {\n            writeResponse(response);\n        } catch (ResponseWriteException\
+    \ e) {\n            log(\"Σφάλμα κατά την εγγραφή της απόκρισης:\", e);\n    \
+    \        // ✅ Κλήση της μεθόδου που υπάρχει στην ίδια κλάση\n            sendJsonErrorResponse(response,\
+    \ e.getMessage());\n        }\n    }\n\n    private void writeResponse(HttpServletResponse\
+    \ response) throws ResponseWriteException {\n        try (PrintWriter out = response.getWriter())\
+    \ {\n            out.println(\"<html><body>\");\n            out.printf(\"<h1>%s</h1>%n\"\
+    , message);\n            out.println(\"</body></html>\");\n        } catch (IOException\
+    \ e) {\n            throw new ResponseWriteException(\"Αποτυχία εγγραφής στην\
+    \ απόκριση.\", e);\n        }\n    }\n\n    // ✅ Η μέθοδος υπάρχει εδώ μέσα στ\
+    ην κλάση\n    private void sendJsonErrorResponse(HttpServletResponse response,\
+    \ String errorMessage) {\n        response.setContentType(\"application/json;\
+    \ charset=UTF-8\");\n        response.setStatus(HttpServletResponse.SC_INTERNAL_SERVER_ERROR);\n\
+    \n        try (PrintWriter out = response.getWriter()) {\n            out.printf(\"\
+    {\\\"error\\\": \\\"%s\\\"}\", errorMessage.replace(\"\\\"\", \"\\\\\\\"\"));\n\
+    \        } catch (IOException ioException) {\n            log(\"Αποτυχία αποστ\
+    ολής JSON απόκρισης.\", ioException);\n        }\n    }\n\n    @Override\n   \
+    \ public void destroy() {\n        // Δεν απαιτείται καθαρισμός πόρων\n    }\n\
+    }\n"
+  info:
+    "size": "2305"
+    "last_modified": "2025-11-04T20:53:31.6326872"
+    "mime_type": "text/html"
+    "extension": ".java"
+- path: "main\\java\\com\\example\\gymmanagement\\model\\AppUser.java"
+  content: "package com.example.gymmanagement.model;\r\n\r\nimport jakarta.persistence.*;\r\
+    \n\r\n@Entity\r\n@Table(name = \"app_user\")\r\npublic class AppUser {\r\n\r\n\
+    \    @Id\r\n    @GeneratedValue(strategy = GenerationType.IDENTITY)\r\n    private\
+    \ Long id;\r\n\r\n    @Column(nullable = false, unique = true)\r\n    private\
+    \ String username;\r\n\r\n    @Column(nullable = false)\r\n    private String\
+    \ password;\r\n\r\n    private String email;\r\n    private String role;\r\n \
+    \   private String firstName;\r\n    private String lastName;\r\n    private String\
+    \ phone;\r\n\r\n    public AppUser() {}\r\n\r\n    public AppUser(String username,\
+    \ String password, String email, String role,\r\n                   String firstName,\
+    \ String lastName, String phone) {\r\n        this.username = username;\r\n  \
+    \      this.password = password;\r\n        this.email = email;\r\n        this.role\
+    \ = role;\r\n        this.firstName = firstName;\r\n        this.lastName = lastName;\r\
+    \n        this.phone = phone;\r\n    }\r\n\r\n    public Long getId() { return\
+    \ id; }\r\n    public void setId(Long id) { this.id = id; }\r\n\r\n    public\
+    \ String getUsername() { return username; }\r\n    public void setUsername(String\
+    \ username) { this.username = username; }\r\n\r\n    public String getPassword()\
+    \ { return password; }\r\n    public void setPassword(String password) { this.password\
+    \ = password; }\r\n\r\n    public String getEmail() { return email; }\r\n    public\
+    \ void setEmail(String email) { this.email = email; }\r\n\r\n    public String\
+    \ getRole() { return role; }\r\n    public void setRole(String role) { this.role\
+    \ = role; }\r\n\r\n    public String getFirstName() { return firstName; }\r\n\
+    \    public void setFirstName(String firstName) { this.firstName = firstName;\
+    \ }\r\n\r\n    public String getLastName() { return lastName; }\r\n    public\
+    \ void setLastName(String lastName) { this.lastName = lastName; }\r\n\r\n    public\
+    \ String getPhone() { return phone; }\r\n    public void setPhone(String phone)\
+    \ { this.phone = phone; }\r\n}\r\n"
+  info:
+    "size": "1891"
+    "last_modified": "2025-11-04T20:53:31.6463837"
+    "mime_type": "text/x-java-source"
+    "extension": ".java"
+- path: "main\\java\\com\\example\\gymmanagement\\repositories\\UserRepository.java"
+  content: "package com.example.gymmanagement.repositories;\r\n\r\nimport com.example.gymmanagement.entities.User;\r\
+    \nimport org.springframework.data.jpa.repository.JpaRepository;\r\nimport java.util.List;\r\
+    \nimport java.util.Optional;\r\n\r\npublic interface UserRepository extends JpaRepository<User,\
+    \ Long> {\r\n    Optional<User> findByUsername(String username);\r\n    List<User>\
+    \ findByRole(String role); // για MEMBERS, TRAINERS\r\n    List<User> findByRoleAndIsActiveTrue(String\
+    \ role); // ενεργά μέλη\r\n}\r\n"
+  info:
+    "size": "492"
+    "last_modified": "2025-11-04T20:53:31.662151"
+    "mime_type": "text/x-java-source"
+    "extension": ".java"
+- path: "main\\java\\com\\example\\gymmanagement\\services\\UserService.java"
+  content: "package com.example.gymmanagement.services;\r\n\r\nimport com.example.gymmanagement.entities.User;\r\
+    \nimport com.example.gymmanagement.repositories.UserRepository;\r\nimport org.springframework.stereotype.Service;\r\
+    \nimport java.util.List;\r\nimport java.util.Optional;\r\n\r\n@Service\r\npublic\
+    \ class UserService {\r\n    private final UserRepository userRepo;\r\n\r\n  \
+    \  public UserService(UserRepository userRepo) {\r\n        this.userRepo = userRepo;\r\
+    \n    }\r\n\r\n    public List<User> getAllMembers() {\r\n        return userRepo.findByRole(\"\
+    MEMBER\");\r\n    }\r\n\r\n    public List<User> getActiveMembers() {\r\n    \
+    \    return userRepo.findByRoleAndIsActiveTrue(\"MEMBER\");\r\n    }\r\n\r\n \
+    \   public List<User> getAllTrainers() {\r\n        return userRepo.findByRole(\"\
+    TRAINER\");\r\n    }\r\n\r\n    public User createUser(User user) {\r\n      \
+    \  return userRepo.save(user);\r\n    }\r\n\r\n    public Optional<User> getUserById(Long\
+    \ id) {\r\n        return userRepo.findById(id);\r\n    }\r\n\r\n    public void\
+    \ deleteUser(Long id) {\r\n        userRepo.deleteById(id);\r\n    }\r\n}\r\n"
+  info:
+    "size": "1019"
+    "last_modified": "2025-11-04T20:53:31.6780142"
+    "mime_type": "text/x-java-source"
+    "extension": ".java"
+- path: "main\\java\\com\\example\\gymmanagement\\servlets\\CreateUserServlet.java"
+  content: "package com.example.gymmanagement.servlets;\r\n\r\nimport com.example.gymmanagement.entities.User;\r\
+    \nimport com.fasterxml.jackson.databind.ObjectMapper;\r\nimport jakarta.persistence.EntityManager;\r\
+    \nimport jakarta.persistence.PersistenceContext;\r\nimport jakarta.servlet.annotation.WebServlet;\r\
+    \nimport jakarta.servlet.http.*;\r\nimport java.io.IOException;\r\nimport java.util.HashMap;\r\
+    \nimport java.util.Map;\r\nimport java.util.logging.Level;\r\nimport java.util.logging.Logger;\r\
+    \n\r\n@WebServlet(\"/createUser\")\r\npublic class CreateUserServlet extends HttpServlet\
+    \ {\r\n\r\n    private static final Logger logger = Logger.getLogger(CreateUserServlet.class.getName());\r\
+    \n\r\n    @PersistenceContext(unitName = \"GymPU-JTA\")\r\n    private EntityManager\
+    \ em;\r\n\r\n    @Override\r\n    protected void doPost(HttpServletRequest request,\
+    \ HttpServletResponse response) throws IOException {\r\n        response.setContentType(\"\
+    application/json\");\r\n        response.setCharacterEncoding(\"UTF-8\");\r\n\r\
+    \n        Map<String, Object> jsonResponse = new HashMap<>();\r\n\r\n        try\
+    \ {\r\n            // Παίρνουμε τα δεδομένα από τα request parameters\r\n    \
+    \        String username  = request.getParameter(\"username\");\r\n          \
+    \  String password  = request.getParameter(\"password\");\r\n            String\
+    \ email     = request.getParameter(\"email\");\r\n            String role    \
+    \  = request.getParameter(\"role\");\r\n            String firstName = request.getParameter(\"\
+    firstName\");\r\n            String lastName  = request.getParameter(\"lastName\"\
+    );\r\n            String phone     = request.getParameter(\"phone\");\r\n\r\n\
+    \            // Δημιουργούμε νέο User entity\r\n            User user = new User();\r\
+    \n            user.setUsername(username);\r\n            user.setPassword(password);\r\
+    \n            user.setEmail(email);\r\n            user.setRole(role);\r\n   \
+    \         user.setFirstName(firstName);\r\n            user.setLastName(lastName);\r\
+    \n            user.setPhone(phone);\r\n\r\n            // Persist μέσω container-managed\
+    \ EntityManager\r\n            em.persist(user);\r\n\r\n            jsonResponse.put(\"\
+    status\", \"success\");\r\n            jsonResponse.put(\"message\", \"User created\
+    \ successfully\");\r\n            logger.log(Level.INFO, \"User created successfully:\
+    \ {0}\", username);\r\n\r\n        } catch (Exception e) {\r\n            jsonResponse.put(\"\
+    status\", \"error\");\r\n            jsonResponse.put(\"message\", e.getMessage());\r\
+    \n            logger.log(Level.SEVERE, \"Error creating user: {0}\", e.getMessage());\r\
+    \n        }\r\n\r\n        // Επιστρέφουμε JSON response\r\n        ObjectMapper\
+    \ mapper = new ObjectMapper();\r\n        String json = mapper.writeValueAsString(jsonResponse);\r\
+    \n        response.getWriter().write(json);\r\n    }\r\n}\r\n"
+  info:
+    "size": "2705"
+    "last_modified": "2025-11-04T20:53:31.6937751"
+    "mime_type": "text/x-java-source"
+    "extension": ".java"
+- path: "main\\java\\com\\example\\gymmanagement\\servlets\\TestServlet.java"
+  content: "package com.example.gymmanagement.servlets;\r\n\r\nimport jakarta.servlet.ServletException;\r\
+    \nimport jakarta.servlet.annotation.WebServlet;\r\nimport jakarta.servlet.http.HttpServlet;\r\
+    \nimport jakarta.servlet.http.HttpServletRequest;\r\nimport jakarta.servlet.http.HttpServletResponse;\r\
+    \n\r\nimport java.io.IOException;\r\nimport java.io.PrintWriter;\r\nimport java.util.logging.Level;\r\
+    \nimport java.util.logging.Logger;\r\n\r\n@WebServlet(urlPatterns = {\"/test\"\
+    , \"/hello\"})\r\npublic class TestServlet extends HttpServlet {\r\n\r\n    private\
+    \ static final Logger logger = Logger.getLogger(TestServlet.class.getName());\r\
+    \n\r\n    @Override\r\n    protected void doGet(HttpServletRequest request, HttpServletResponse\
+    \ response)\r\n            throws ServletException {\r\n\r\n        response.setContentType(\"\
+    text/html;charset=UTF-8\");\r\n\r\n        try (PrintWriter out = response.getWriter())\
+    \ {\r\n            out.println(\"<!DOCTYPE html>\");\r\n            out.println(\"\
+    <html>\");\r\n            out.println(\"<head>\");\r\n            out.println(\"\
+    <title>Gym Management - Test</title>\");\r\n            out.println(\"</head>\"\
+    );\r\n            out.println(\"<body>\");\r\n            out.println(\"<h1>🏋\
+    ️ Gym Management System</h1>\");\r\n            out.println(\"<h2>✅ Server is\
+    \ working!</h2>\");\r\n            out.println(\"<p>Database connection will be\
+    \ tested next...</p>\");\r\n            out.println(\"</body>\");\r\n        \
+    \    out.println(\"</html>\");\r\n        } catch (IOException e) {\r\n      \
+    \      // Handle IOException thrown by getWriter()\r\n            logger.log(Level.SEVERE,\
+    \ \"Failed to write response\", e);\r\n            throw new ServletException(\"\
+    Unable to generate HTML response\", e);\r\n        }\r\n    }\r\n}\r\n"
+  info:
+    "size": "1655"
+    "last_modified": "2025-11-04T20:53:31.6937751"
+    "mime_type": "text/html"
+    "extension": ".java"
+- path: "main\\java\\com\\example\\gymmanagement\\utils\\HibernateUtil.java"
+  content: "package com.example.gymmanagement.utils;\r\n\r\nimport org.hibernate.SessionFactory;\r\
+    \nimport org.hibernate.cfg.Configuration;\r\n\r\npublic class HibernateUtil {\r\
+    \n\r\n    private static final SessionFactory sessionFactory;\r\n\r\n    static\
+    \ {\r\n        try {\r\n\r\n            sessionFactory = new Configuration().configure().buildSessionFactory();\r\
+    \n        } catch (Throwable ex) {\r\n            System.err.println(\"Απέτυχε\
+    \ η αρχικοποίηση του SessionFactory: \" + ex);\r\n            throw new ExceptionInInitializerError(ex);\r\
+    \n        }\r\n    }\r\n\r\n    public static SessionFactory getSessionFactory()\
+    \ {\r\n        return sessionFactory;\r\n    }\r\n\r\n    public static void shutdown()\
+    \ {\r\n        getSessionFactory().close();\r\n    }\r\n}\r\n"
+  info:
+    "size": "732"
+    "last_modified": "2025-11-04T20:53:31.7096796"
+    "mime_type": "text/x-java-source"
+    "extension": ".java"
+- path: "main\\java\\com\\example\\gymmanagement\\utils\\JwtUtil.java"
+  content: "package com.example.gymmanagement.utils;\r\n\r\nimport io.jsonwebtoken.Jwts;\r\
+    \nimport io.jsonwebtoken.security.Keys;\r\nimport java.security.Key;\r\nimport\
+    \ java.util.Date;\r\n\r\npublic class JwtUtil {\r\n    private static final String\
+    \ SECRET_KEY = \"mySuperSecretKeyThatIsAtLeast32Chars\";\r\n    private static\
+    \ final long EXPIRATION_TIME = 86400000;\r\n\r\n    private static Key getSigningKey()\
+    \ {\r\n        return Keys.hmacShaKeyFor(SECRET_KEY.getBytes());\r\n    }\r\n\r\
+    \n    public static String generateToken(String username, String role) {\r\n \
+    \       return Jwts.builder()\r\n                .claims()\r\n               \
+    \ .add(\"sub\", username)\r\n                .add(\"role\", role)\r\n        \
+    \        .issuedAt(new Date())\r\n                .expiration(new Date(System.currentTimeMillis()\
+    \ + EXPIRATION_TIME))\r\n                .and()\r\n                .signWith(getSigningKey())\r\
+    \n                .compact();\r\n    }\r\n}\r\n"
+  info:
+    "size": "883"
+    "last_modified": "2025-11-04T20:53:31.7096796"
+    "mime_type": "text/x-java-source"
+    "extension": ".java"
+- path: "main\\resources\\application.properties"
+  content: "# Database Configuration\r\nspring.datasource.url=jdbc:postgresql://localhost:5432/gymdb\r\
+    \nspring.datasource.username=postgres\r\nspring.datasource.password=mamouzellos1993\r\
+    \n\r\n# Driver\r\nspring.datasource.driver-class-name=org.postgresql.Driver\r\n\
+    \r\n# JPA/Hibernate\r\nspring.jpa.hibernate.ddl-auto=update\r\nspring.jpa.show-sql=true\r\
+    \nspring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect\r\
+    \n\r\n# Server Port\r\nserver.port=8080"
+  info:
+    "size": "437"
+    "last_modified": "2025-11-04T20:53:31.7570724"
+    "mime_type": "text/x-java-properties"
+    "extension": ".properties"
+- path: "main\\resources\\META-INF\\persistence.xml"
+  content: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<persistence xmlns=\"https://jakarta.ee/xml/ns/persistence\"\
+    \n             xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n     \
+    \        xsi:schemaLocation=\"https://jakarta.ee/xml/ns/persistence\n        \
+    \                         https://jakarta.ee/xml/ns/persistence/persistence_3_0.xsd\"\
+    \n             version=\"3.0\">\n\n\n    <persistence-unit name=\"GymPU-JTA\"\
+    \ transaction-type=\"JTA\">\n\n        <jta-data-source>java:jboss/datasources/GymDS</jta-data-source>\n\
+    \n\n        <class>com.example.gymmanagement.entities.User</class>\n\n       \
+    \ <properties>\n\n            <property name=\"hibernate.dialect\" value=\"org.hibernate.dialect.PostgreSQLDialect\"\
+    />\n\n\n            <property name=\"hibernate.hbm2ddl.auto\" value=\"none\"/>\n\
+    \n\n            <property name=\"hibernate.show_sql\" value=\"true\"/>\n     \
+    \       <property name=\"hibernate.format_sql\" value=\"true\"/>\n        </properties>\n\
+    \    </persistence-unit>\n\n</persistence>\n"
+  info:
+    "size": "940"
+    "last_modified": "2025-11-04T20:53:31.7788343"
+    "mime_type": "application/xml"
+    "extension": ".xml"
+- path: "main\\webapp\\index.html"
+  content: "<!DOCTYPE html>\r\n<html lang=\"el\">\r\n<head>\r\n    <meta charset=\"\
+    UTF-8\">\r\n    <title>Gym Management</title>\r\n    <style>\r\n        body {\r\
+    \n            font-family: Arial, sans-serif;\r\n            background-color:\
+    \ #f2f2f2;\r\n            margin: 0;\r\n            padding: 0;\r\n          \
+    \  text-align: center;\r\n        }\r\n        h2 {\r\n            color: #333;\r\
+    \n            margin-top: 50px;\r\n        }\r\n        a {\r\n            display:\
+    \ inline-block;\r\n            margin-top: 20px;\r\n            padding: 10px\
+    \ 20px;\r\n            background-color: #007bff;\r\n            color: white;\r\
+    \n            text-decoration: none;\r\n            border-radius: 5px;\r\n  \
+    \          transition: background-color 0.3s ease;\r\n        }\r\n        a:hover\
+    \ {\r\n            background-color: #0056b3;\r\n        }\r\n    </style>\r\n\
+    </head>\r\n<body>\r\n<h2>Καλώς ήρθες στην εφαρμογή!</h2>\r\n<a href=\"api/hello\"\
+    >Έλεγχος Hello Endpoint</a>\r\n</body>\r\n</html>\r\n"
+  info:
+    "size": "941"
+    "last_modified": "2025-11-04T20:53:31.8007667"
+    "mime_type": "text/html"
+    "extension": ".html"
+- path: "main\\webapp\\index.jsp"
+  content: "<%@ page contentType=\"text/html;charset=UTF-8\" %>\n<!DOCTYPE html>\n\
+    <html lang=\"el\">\n<head>\n    <meta charset=\"UTF-8\">\n    <title>Gym App</title>\n\
+    \    <style>\n        body {\n            font-family: Arial, sans-serif;\n  \
+    \          background-color: #f4f6f8;\n            color: #333;\n            margin:\
+    \ 0;\n            padding: 0;\n            display: flex;\n            justify-content:\
+    \ center;\n            align-items: center;\n            height: 100vh;\n    \
+    \    }\n        .container {\n            background: white;\n            padding:\
+    \ 30px 40px;\n            border-radius: 12px;\n            box-shadow: 0 4px\
+    \ 15px rgba(0,0,0,0.1);\n            text-align: center;\n        }\n        h2\
+    \ {\n            color: #2c3e50;\n        }\n        a {\n            display:\
+    \ inline-block;\n            margin-top: 15px;\n            padding: 10px 20px;\n\
+    \            background-color: #3498db;\n            color: white;\n         \
+    \   text-decoration: none;\n            border-radius: 8px;\n            transition:\
+    \ background-color 0.3s ease;\n        }\n        a:hover {\n            background-color:\
+    \ #2980b9;\n        }\n    </style>\n</head>\n<body>\n<div class=\"container\"\
+    >\n    <h2>Καλώς ήρθες στην εφαρμογή Gym App!</h2>\n    <a href=\"api/hello\"\
+    >Δοκιμή Hello Endpoint</a>\n</div>\n</body>\n</html>\n\n"
+  info:
+    "size": "1294"
+    "last_modified": "2025-11-04T20:53:31.8007667"
+    "mime_type": "text/x-jsp"
+    "extension": ".jsp"
+- path: "main\\webapp\\WEB-INF\\beans.xml"
+  content: "<beans xmlns=\"http://xmlns.jcp.org/xml/ns/javaee\"\n       xmlns:xsi=\"\
+    http://www.w3.org/2001/XMLSchema-instance\"\n       xsi:schemaLocation=\"http://xmlns.jcp.org/xml/ns/javaee\n\
+    \                           http://xmlns.jcp.org/xml/ns/javaee/beans_2_0.xsd\"\
+    \n       version=\"2.0\"\n       bean-discovery-mode=\"all\">\n</beans>\n"
+  info:
+    "size": "314"
+    "last_modified": "2025-11-04T20:53:31.8166054"
+    "mime_type": "application/xml"
+    "extension": ".xml"
+- path: "main\\webapp\\WEB-INF\\jboss-web.xml"
+  content: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<jboss-web>\r\n    <resource-ref>\r\
+    \n        <res-ref-name>DefaultDataSource</res-ref-name>\r\n        <jndi-name>java:jboss/datasources/GymDS</jndi-name>\r\
+    \n    </resource-ref>\r\n</jboss-web>"
+  info:
+    "size": "223"
+    "last_modified": "2025-11-04T20:53:31.8166054"
+    "mime_type": "application/xml"
+    "extension": ".xml"
+- path: "main\\webapp\\WEB-INF\\web.xml"
+  content: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<web-app xmlns=\"https://jakarta.ee/xml/ns/jakartaee\"\
+    \n         xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n         xsi:schemaLocation=\"\
+    https://jakarta.ee/xml/ns/jakartaee\n                             https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd\"\
+    \n         version=\"6.0\">\n\n    <display-name>Gym Management System</display-name>\n\
+    \n\n    <filter>\n        <filter-name>CorsFilter</filter-name>\n        <filter-class>com.example.gymmanagement.filters.CorsFilter</filter-class>\n\
+    \    </filter>\n\n    <filter-mapping>\n        <filter-name>CorsFilter</filter-name>\n\
+    \        <url-pattern>/*</url-pattern>\n    </filter-mapping>\n\n\n    <resource-ref>\n\
+    \        <res-ref-name>DefaultDataSource</res-ref-name>\n        <res-type>javax.sql.DataSource</res-type>\n\
+    \        <res-auth>Container</res-auth>\n    </resource-ref>\n\n</web-app>"
+  info:
+    "size": "863"
+    "last_modified": "2025-11-04T20:53:31.8323927"
+    "mime_type": "application/xml"
+    "extension": ".xml"

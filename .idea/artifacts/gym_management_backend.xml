@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="gym-management-backend">
+    <output-path>$PROJECT_DIR$/out/artifacts/gym_management_backend</output-path>
+    <root id="archive" name="gym-management-backend.war">
+      <element id="directory" name="WEB-INF">
+        <element id="module-output" name="gym-management-backend" />
+        <element id="dir-copy" path="$PROJECT_DIR$/../../gym-management/src/main/webapp/WEB-INF" />
+      </element>
+    </root>
+  </artifact>
+</component>
