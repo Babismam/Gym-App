@@ -7,8 +7,8 @@ COPY src ./src
 RUN mvn package -DskipTests
 
 # --- ΣΤΑΔΙΟ 2: Final Stage ---
-# Χρησιμοποιούμε μια επιβεβαιωμένη έκδοση από το παλιό, επίσημο αποθετήριο στο Docker Hub
-FROM jboss/wildfly:27.0.0.Final
+# Χρησιμοποιούμε την πλήρη, σωστή διεύθυνση από το αποθετήριο quay.io
+FROM quay.io/wildfly/wildfly:31.0.0.Final
 
-# Η διαδρομή αντιγραφής για την έκδοση 27
-COPY --from=build /app/target/gymmanagement.war /opt/jboss/wildfly/standalone/deployments/ROOT.war
+# Αντιγράφουμε το .war αρχείο με το αρχικό του όνομα
+COPY --from=build /app/target/gymmanagement.war /opt/wildfly/standalone/deployments/
