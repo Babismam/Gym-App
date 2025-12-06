@@ -1,14 +1,9 @@
-# --- ΣΤΑΔΙΟ 1: Build Stage ---
-FROM maven:3.8.5-openjdk-17 AS build
-WORKDIR /app
-COPY pom.xml .
-RUN mvn dependency:go-offline
-COPY src ./src
-RUN mvn package -DskipTests
+FROM quay.io/wildfly/wildfly:30.0.0.Final-jdk17
 
-# --- ΣΤΑΔΙΟ 2: Final Stage ---
-# Χρησιμοποιούμε την πλήρη, σωστή διεύθυνση από το αποθετήριο quay.io
-FROM quay.io/wildfly/wildfly:31.0.0.Final
+RUN /opt/jboss/wildfly/bin/add-user.sh admin Admin#123 --silent
 
-# Αντιγράφουμε το .war αρχείο με το αρχικό του όνομα
-COPY --from=build /app/target/gymmanagement.war /opt/wildfly/standalone/deployments/
+# Αντιγραφή του WAR (βεβαιώσου ότι έχεις κάνει mvn clean package)
+COPY target/gymmanagement.war /opt/jboss/wildfly/standalone/deployments/ROOT.war
+
+# Εδώ γίνεται η μαγεία: Περνάμε τα ENV vars του Render μέσα στο Wildfly
+CMD ["/bin/sh", "-c", "/opt/jboss/wildfly/bin/standalone.sh -b 0.0.0.0 -bmanagement 0.0.0.0 -DDB_URL=$DB_URL -DDB_USER=$DB_USER -DDB_PASSWORD=$DB_PASSWORD"]

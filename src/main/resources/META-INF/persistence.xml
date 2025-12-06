@@ -5,7 +5,10 @@
                                  https://jakarta.ee/xml/ns/persistence/persistence_3_2.xsd"
              version="3.1">
 
-    <persistence-unit name="GymPU" transaction-type="JTA">
+    <persistence-unit name="GymPU" transaction-type="RESOURCE_LOCAL">
+
+        <!-- ΔΙΟΡΘΩΣΗ: Το provider μπαίνει ΠΡΩΤΟ, πριν από τα classes -->
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
 
         <class>com.example.gymmanagement.entities.User</class>
         <class>com.example.gymmanagement.entities.Program</class>
@@ -19,14 +22,17 @@
             <property name="jakarta.persistence.schema-generation.database.action" value="update"/>
             <property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQLDialect"/>
 
-
+            <!-- JDBC Properties -->
             <property name="jakarta.persistence.jdbc.driver" value="org.postgresql.Driver"/>
-            <property name="jakarta.persistence.jdbc.url" value="${env.DB_URL}"/>
-            <property name="jakarta.persistence.jdbc.user" value="${env.DB_USER}"/>
-            <property name="jakarta.persistence.jdbc.password" value="${env.DB_PASSWORD}"/>
 
-            <property name="hibernate.show_sql" value="true"/>
-            <property name="hibernate.format_sql" value="true"/>
+            <!-- Οι μεταβλητές που θα διαβάσει από το Railway -->
+            <property name="jakarta.persistence.jdbc.url" value="${DB_URL}"/>
+            <property name="jakarta.persistence.jdbc.user" value="${DB_USER}"/>
+            <property name="jakarta.persistence.jdbc.password" value="${DB_PASSWORD}"/>
+
+            <!-- Ρυθμίσεις Hibernate -->
+            <property name="hibernate.show_sql" value="false"/>
+            <property name="hibernate.format_sql" value="false"/>
         </properties>
     </persistence-unit>
 </persistence>
