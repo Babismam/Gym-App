@@ -19,7 +19,6 @@
     </properties>
 
     <dependencies>
-        <!-- === Βιβλιοθήκες που Παρέχονται από τον Wildfly Server (Scope: provided) === -->
         <dependency>
             <groupId>jakarta.platform</groupId>
             <artifactId>jakarta.jakartaee-api</artifactId>
@@ -51,7 +50,6 @@
             <scope>provided</scope>
         </dependency>
 
-        <!-- === Βιβλιοθήκες Τρίτων που ΠΡΕΠΕΙ να πακεταριστούν στο .war === -->
         <dependency>
             <groupId>io.jsonwebtoken</groupId>
             <artifactId>jjwt-api</artifactId>
@@ -63,8 +61,6 @@
             <version>0.12.5</version>
             <scope>runtime</scope>
         </dependency>
-
-        <!-- ✅✅✅ Η ΤΕΛΙΚΗ ΔΙΟΡΘΩΣΗ ΕΙΝΑΙ ΕΔΩ ✅✅✅ -->
         <dependency>
             <groupId>io.jsonwebtoken</groupId>
             <artifactId>jjwt-jackson</artifactId>
@@ -84,7 +80,6 @@
             <version>0.4</version>
         </dependency>
 
-        <!-- === Βιβλιοθήκες για Testing === -->
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-api</artifactId>
