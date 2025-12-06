@@ -22,15 +22,9 @@ public class CorsFilter implements Filter {
         HttpServletResponse res = (HttpServletResponse) response;
 
 
-        res.setHeader("Access-Control-Allow-Origin", "https://6932ca2bb50cdeeaa0927836--exquisite-daifuku-fa4724.netlify.app");
-
-
+        res.setHeader("Access-Control-Allow-Origin", "https://gym-system-app.netlify.app");
         res.setHeader("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS");
-
-
         res.setHeader("Access-Control-Allow-Headers", "Content-Type, Authorization");
-
-
         res.setHeader("Access-Control-Allow-Credentials", "true");
 
 
