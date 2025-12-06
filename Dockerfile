@@ -27,4 +27,4 @@ CMD ["/opt/jboss/wildfly/bin/standalone.sh", "-b", "0.0.0.0", "-bmanagement", "0
 
 # ΑΝΤΙΓΡΑΦΗ του WAR από το ΣΤΑΔΙΟ 1 (build) στο Wildfly
 # Προσέχουμε να πάρουμε το σωστό όνομα αρχείου που ορίσαμε στο pom.xml
-COPY --from=build /app/target/gymmanagement.war /opt/jboss/wildfly/standalone/deployments/ROOT.war
+COPY --from=build /app/target/gymmanagement.war /opt/jboss/wildfly/standalone/deployments/gymmanagement.war
